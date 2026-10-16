@@ -1,0 +1,76 @@
+package app.hitomoji.data.db
+
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import kotlinx.coroutines.flow.Flow
+
+@Dao
+interface KanjiDao {
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertAll(items: List<KanjiEntity>)
+
+    @Query("SELECT * FROM kanji ORDER BY rank")
+    fun observeAll(): Flow<List<KanjiEntity>>
+
+    @Query("SELECT * FROM kanji WHERE rank = :rank")
+    suspend fun get(rank: Int): KanjiEntity?
+
+    @Query("SELECT * FROM kanji ORDER BY rank")
+    suspend fun all(): List<KanjiEntity>
+
+    @Query("SELECT COUNT(*) FROM kanji")
+    suspend fun count(): Int
+}
+
+@Dao
+interface ProgressDao {
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertIgnore(items: List<ProgressEntity>)
+
+    @Query("SELECT * FROM progress WHERE kanjiRank = :rank")
+    suspend fun get(rank: Int): ProgressEntity?
+
+    @Query("SELECT * FROM progress")
+    suspend fun all(): List<ProgressEntity>
+
+    @Query("SELECT * FROM progress")
+    fun observeAll(): Flow<List<ProgressEntity>>
+
+    @Query(
+        """
+        UPDATE progress
+        SET state = :state,
+            ease = :ease,
+            intervalDays = :intervalDays,
+            repetitions = :repetitions,
+            lapses = :lapses,
+            dueDate = :dueDate,
+            lastReviewedAt = :lastReviewedAt
+        WHERE kanjiRank = :rank
+        """,
+    )
+    suspend fun saveReview(
+        rank: Int,
+        state: String,
+        ease: Double,
+        intervalDays: Int,
+        repetitions: Int,
+        lapses: Int,
+        dueDate: String?,
+        lastReviewedAt: Long?,
+    )
+
+    @Query(
+        """
+        UPDATE progress
+        SET introducedOn = :day
+        WHERE kanjiRank = :rank AND introducedOn IS NULL
+        """,
+    )
+    suspend fun markIntroducedIfEmpty(rank: Int, day: String)
+
+    @Query("SELECT COUNT(*) FROM progress")
+    suspend fun count(): Int
+}

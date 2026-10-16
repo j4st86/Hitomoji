@@ -1,0 +1,18 @@
+Словарь
+
+Файлы app/src/main/assets/kanji.json и tools/kanjidic2.xml.gz основаны на KANJIDIC2 и JMdict
+проекта Electronic Dictionary Research and Development Group.
+Эти материалы распространяются по лицензии Creative Commons Attribution-ShareAlike 4.0
+(CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+
+Русские значения — перевод английских глосс KANJIDIC2, которые восходят к JMdict.
+Примеры предложений написаны для Hitomoji.
+
+Страницы проектов:
+https://www.edrdg.org/wiki/index.php/KANJIDIC_Project
+https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project
+
+Шрифт
+
+В приложение вложен Noto Sans JP Regular (Noto Sans CJK JP).
+Лицензия SIL Open Font License 1.1: third_party/noto-sans-jp/OFL.txt

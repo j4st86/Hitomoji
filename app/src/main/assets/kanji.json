@@ -1,0 +1,9752 @@
+[
+  {
+    "rank": 1,
+    "character": "日",
+    "meaningsRu": [
+      "день",
+      "солнце",
+      "Япония"
+    ],
+    "onReadings": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunReadings": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "今日はいい日です。",
+    "sentenceKana": "きょうはいいひです。",
+    "sentenceRu": "Сегодня хороший день."
+  },
+  {
+    "rank": 2,
+    "character": "一",
+    "meaningsRu": [
+      "один"
+    ],
+    "onReadings": [
+      "イチ",
+      "イツ"
+    ],
+    "kunReadings": [
+      "ひと-",
+      "ひと.つ"
+    ],
+    "strokeCount": 1,
+    "sentenceJp": "りんごを一つください。",
+    "sentenceKana": "りんごをひとつください。",
+    "sentenceRu": "Дайте, пожалуйста, одно яблоко."
+  },
+  {
+    "rank": 3,
+    "character": "国",
+    "meaningsRu": [
+      "страна"
+    ],
+    "onReadings": [
+      "コク"
+    ],
+    "kunReadings": [
+      "くに"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "この国は広いです。",
+    "sentenceKana": "このくにはひろいです。",
+    "sentenceRu": "Эта страна большая."
+  },
+  {
+    "rank": 4,
+    "character": "会",
+    "meaningsRu": [
+      "встреча",
+      "встречаться"
+    ],
+    "onReadings": [
+      "カイ",
+      "エ"
+    ],
+    "kunReadings": [
+      "あ.う",
+      "あ.わせる",
+      "あつ.まる"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "三時に会いましょう。",
+    "sentenceKana": "さんじにあいましょう。",
+    "sentenceRu": "Давайте встретимся в три."
+  },
+  {
+    "rank": 5,
+    "character": "人",
+    "meaningsRu": [
+      "человек"
+    ],
+    "onReadings": [
+      "ジン",
+      "ニン"
+    ],
+    "kunReadings": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "あの人は先生です。",
+    "sentenceKana": "あのひとはせんせいです。",
+    "sentenceRu": "Тот человек — учитель."
+  },
+  {
+    "rank": 6,
+    "character": "年",
+    "meaningsRu": [
+      "год"
+    ],
+    "onReadings": [
+      "ネン"
+    ],
+    "kunReadings": [
+      "とし"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "今年は忙しいです。",
+    "sentenceKana": "ことしはいそがしいです。",
+    "sentenceRu": "В этом году много дел."
+  },
+  {
+    "rank": 7,
+    "character": "大",
+    "meaningsRu": [
+      "большой"
+    ],
+    "onReadings": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunReadings": [
+      "おお-",
+      "おお.きい",
+      "-おお.いに"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "大きい犬がいます。",
+    "sentenceKana": "おおきいいぬがいます。",
+    "sentenceRu": "Там большая собака."
+  },
+  {
+    "rank": 8,
+    "character": "十",
+    "meaningsRu": [
+      "десять"
+    ],
+    "onReadings": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunReadings": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "十時に起きます。",
+    "sentenceKana": "じゅうじにおきます。",
+    "sentenceRu": "Я встаю в десять."
+  },
+  {
+    "rank": 9,
+    "character": "二",
+    "meaningsRu": [
+      "два"
+    ],
+    "onReadings": [
+      "ニ",
+      "ジ"
+    ],
+    "kunReadings": [
+      "ふた",
+      "ふた.つ",
+      "ふたたび"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "パンを二つ買います。",
+    "sentenceKana": "ぱんをふたつかいます。",
+    "sentenceRu": "Я куплю две булки."
+  },
+  {
+    "rank": 10,
+    "character": "本",
+    "meaningsRu": [
+      "книга",
+      "основа"
+    ],
+    "onReadings": [
+      "ホン"
+    ],
+    "kunReadings": [
+      "もと"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "本を読みます。",
+    "sentenceKana": "ほんをよみます。",
+    "sentenceRu": "Я читаю книгу."
+  },
+  {
+    "rank": 11,
+    "character": "中",
+    "meaningsRu": [
+      "внутри",
+      "середина"
+    ],
+    "onReadings": [
+      "チュウ"
+    ],
+    "kunReadings": [
+      "なか",
+      "うち",
+      "あた.る"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "箱の中にあります。",
+    "sentenceKana": "はこのなかにあります。",
+    "sentenceRu": "Это лежит в коробке."
+  },
+  {
+    "rank": 12,
+    "character": "長",
+    "meaningsRu": [
+      "длинный",
+      "старший"
+    ],
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "なが.い",
+      "おさ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "この道は長いです。",
+    "sentenceKana": "このみちはながいです。",
+    "sentenceRu": "Эта дорога длинная."
+  },
+  {
+    "rank": 13,
+    "character": "出",
+    "meaningsRu": [
+      "выходить"
+    ],
+    "onReadings": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunReadings": [
+      "で.る",
+      "-で",
+      "だ.す",
+      "-だ.す",
+      "い.でる",
+      "い.だす"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "今、家を出ます。",
+    "sentenceKana": "いま、いえをでます。",
+    "sentenceRu": "Сейчас я выхожу из дома."
+  },
+  {
+    "rank": 14,
+    "character": "三",
+    "meaningsRu": [
+      "три"
+    ],
+    "onReadings": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunReadings": [
+      "み",
+      "み.つ",
+      "みっ.つ"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "三人で食べます。",
+    "sentenceKana": "さんにんでたべます。",
+    "sentenceRu": "Мы едим втроём."
+  },
+  {
+    "rank": 15,
+    "character": "同",
+    "meaningsRu": [
+      "тот же",
+      "одинаковый"
+    ],
+    "onReadings": [
+      "ドウ"
+    ],
+    "kunReadings": [
+      "おな.じ"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "同じ店に行きます。",
+    "sentenceKana": "おなじみせにいきます。",
+    "sentenceRu": "Мы идём в тот же магазин."
+  },
+  {
+    "rank": 16,
+    "character": "時",
+    "meaningsRu": [
+      "время",
+      "час"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "とき",
+      "-どき"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "今の時間を教えてください。",
+    "sentenceKana": "いまのじかんをおしえてください。",
+    "sentenceRu": "Скажите, пожалуйста, который час."
+  },
+  {
+    "rank": 17,
+    "character": "政",
+    "meaningsRu": [
+      "политика",
+      "правительство"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "まつりごと",
+      "まん"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "政治の話は難しいです。",
+    "sentenceKana": "せいじのはなしはむずかしいです。",
+    "sentenceRu": "Говорить о политике сложно."
+  },
+  {
+    "rank": 18,
+    "character": "事",
+    "meaningsRu": [
+      "дело"
+    ],
+    "onReadings": [
+      "ジ",
+      "ズ"
+    ],
+    "kunReadings": [
+      "こと",
+      "つか.う",
+      "つか.える"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "大事な事を忘れました。",
+    "sentenceKana": "だいじなことをわすれました。",
+    "sentenceRu": "Я забыл важное дело."
+  },
+  {
+    "rank": 19,
+    "character": "自",
+    "meaningsRu": [
+      "сам"
+    ],
+    "onReadings": [
+      "ジ",
+      "シ"
+    ],
+    "kunReadings": [
+      "みずか.ら",
+      "おの.ずから",
+      "おの.ずと"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "自分で作りました。",
+    "sentenceKana": "じぶんでつくりました。",
+    "sentenceRu": "Я сделал это сам."
+  },
+  {
+    "rank": 20,
+    "character": "行",
+    "meaningsRu": [
+      "идти",
+      "выполнять"
+    ],
+    "onReadings": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunReadings": [
+      "い.く",
+      "ゆ.く",
+      "-ゆ.き",
+      "-ゆき",
+      "-い.き",
+      "-いき",
+      "おこな.う",
+      "おこ.なう"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "学校へ行きます。",
+    "sentenceKana": "がっこうへいきます。",
+    "sentenceRu": "Я иду в школу."
+  },
+  {
+    "rank": 21,
+    "character": "社",
+    "meaningsRu": [
+      "компания",
+      "святилище"
+    ],
+    "onReadings": [
+      "シャ"
+    ],
+    "kunReadings": [
+      "やしろ"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "会社は九時からです。",
+    "sentenceKana": "かいしゃはくじからです。",
+    "sentenceRu": "Компания работает с девяти."
+  },
+  {
+    "rank": 22,
+    "character": "見",
+    "meaningsRu": [
+      "смотреть",
+      "видеть"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "海を見ました。",
+    "sentenceKana": "うみをみました。",
+    "sentenceRu": "Я смотрел на море."
+  },
+  {
+    "rank": 23,
+    "character": "月",
+    "meaningsRu": [
+      "месяц",
+      "луна"
+    ],
+    "onReadings": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunReadings": [
+      "つき"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "月がきれいです。",
+    "sentenceKana": "つきがきれいです。",
+    "sentenceRu": "Луна красивая."
+  },
+  {
+    "rank": 24,
+    "character": "分",
+    "meaningsRu": [
+      "минута",
+      "часть"
+    ],
+    "onReadings": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunReadings": [
+      "わ.ける",
+      "わ.け",
+      "わ.かれる",
+      "わ.かる",
+      "わ.かつ"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "あと五分です。",
+    "sentenceKana": "あとごふんです。",
+    "sentenceRu": "Осталось пять минут."
+  },
+  {
+    "rank": 25,
+    "character": "議",
+    "meaningsRu": [
+      "совещание",
+      "обсуждение"
+    ],
+    "onReadings": [
+      "ギ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 20,
+    "sentenceJp": "会議は午後です。",
+    "sentenceKana": "かいぎはごごです。",
+    "sentenceRu": "Совещание будет днём."
+  },
+  {
+    "rank": 26,
+    "character": "後",
+    "meaningsRu": [
+      "после",
+      "сзади"
+    ],
+    "onReadings": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunReadings": [
+      "のち",
+      "うし.ろ",
+      "うしろ",
+      "あと",
+      "おく.れる"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "食事の後で歩きます。",
+    "sentenceKana": "しょくじのあとであるきます。",
+    "sentenceRu": "После еды я гуляю."
+  },
+  {
+    "rank": 27,
+    "character": "前",
+    "meaningsRu": [
+      "перед",
+      "впереди"
+    ],
+    "onReadings": [
+      "ゼン"
+    ],
+    "kunReadings": [
+      "まえ",
+      "-まえ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "駅の前で待ちます。",
+    "sentenceKana": "えきのまえでまちます。",
+    "sentenceRu": "Я жду перед вокзалом."
+  },
+  {
+    "rank": 28,
+    "character": "民",
+    "meaningsRu": [
+      "народ",
+      "жители"
+    ],
+    "onReadings": [
+      "ミン"
+    ],
+    "kunReadings": [
+      "たみ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "市民の声を聞きます。",
+    "sentenceKana": "しみんのこえをききます。",
+    "sentenceRu": "Мы слушаем голос горожан."
+  },
+  {
+    "rank": 29,
+    "character": "生",
+    "meaningsRu": [
+      "жизнь",
+      "рождение"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "い.きる",
+      "い.かす",
+      "い.ける",
+      "う.まれる",
+      "うま.れる",
+      "う.まれ",
+      "うまれ",
+      "う.む",
+      "お.う",
+      "は.える",
+      "は.やす",
+      "き",
+      "なま",
+      "なま-",
+      "な.る",
+      "な.す",
+      "む.す",
+      "-う"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "学生は図書館にいます。",
+    "sentenceKana": "がくせいはとしょかんにいます。",
+    "sentenceRu": "Студенты в библиотеке."
+  },
+  {
+    "rank": 30,
+    "character": "連",
+    "meaningsRu": [
+      "связь",
+      "соединять"
+    ],
+    "onReadings": [
+      "レン"
+    ],
+    "kunReadings": [
+      "つら.なる",
+      "つら.ねる",
+      "つ.れる",
+      "-づ.れ"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "後で連絡します。",
+    "sentenceKana": "あとでれんらくします。",
+    "sentenceRu": "Я свяжусь позже."
+  },
+  {
+    "rank": 31,
+    "character": "五",
+    "meaningsRu": [
+      "пять"
+    ],
+    "onReadings": [
+      "ゴ"
+    ],
+    "kunReadings": [
+      "いつ",
+      "いつ.つ"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "五人家族です。",
+    "sentenceKana": "ごにんかぞくです。",
+    "sentenceRu": "В семье пять человек."
+  },
+  {
+    "rank": 32,
+    "character": "発",
+    "meaningsRu": [
+      "отправление",
+      "издавать"
+    ],
+    "onReadings": [
+      "ハツ",
+      "ホツ"
+    ],
+    "kunReadings": [
+      "た.つ",
+      "あば.く",
+      "おこ.る",
+      "つか.わす",
+      "はな.つ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "電車が発車します。",
+    "sentenceKana": "でんしゃがはっしゃします。",
+    "sentenceRu": "Поезд отправляется."
+  },
+  {
+    "rank": 33,
+    "character": "間",
+    "meaningsRu": [
+      "промежуток",
+      "между"
+    ],
+    "onReadings": [
+      "カン",
+      "ケン"
+    ],
+    "kunReadings": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "少し間を置きます。",
+    "sentenceKana": "すこしまをおきます。",
+    "sentenceRu": "Я сделаю небольшую паузу."
+  },
+  {
+    "rank": 34,
+    "character": "対",
+    "meaningsRu": [
+      "против",
+      "пара"
+    ],
+    "onReadings": [
+      "タイ",
+      "ツイ"
+    ],
+    "kunReadings": [
+      "あいて",
+      "こた.える",
+      "そろ.い",
+      "つれあ.い",
+      "なら.ぶ",
+      "むか.う"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "対話をします。",
+    "sentenceKana": "たいわをします。",
+    "sentenceRu": "Мы поговорим."
+  },
+  {
+    "rank": 35,
+    "character": "上",
+    "meaningsRu": [
+      "верх",
+      "наверху"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "ショウ",
+      "シャン"
+    ],
+    "kunReadings": [
+      "うえ",
+      "-うえ",
+      "うわ-",
+      "かみ",
+      "あ.げる",
+      "-あ.げる",
+      "あ.がる",
+      "-あ.がる",
+      "あ.がり",
+      "-あ.がり",
+      "のぼ.る",
+      "のぼ.り",
+      "のぼ.せる",
+      "のぼ.す",
+      "たてまつ.る"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "机の上に置きます。",
+    "sentenceKana": "つくえのうえにおきます。",
+    "sentenceRu": "Я кладу это на стол."
+  },
+  {
+    "rank": 36,
+    "character": "部",
+    "meaningsRu": [
+      "отдел",
+      "часть"
+    ],
+    "onReadings": [
+      "ブ"
+    ],
+    "kunReadings": [
+      "-べ"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "この部分を読みます。",
+    "sentenceKana": "このぶぶんをよみます。",
+    "sentenceRu": "Я прочитаю эту часть."
+  },
+  {
+    "rank": 37,
+    "character": "東",
+    "meaningsRu": [
+      "восток"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "ひがし"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "東の空が明るいです。",
+    "sentenceKana": "ひがしのそらがあかるいです。",
+    "sentenceRu": "Восточное небо светлое."
+  },
+  {
+    "rank": 38,
+    "character": "者",
+    "meaningsRu": [
+      "человек",
+      "некто"
+    ],
+    "onReadings": [
+      "シャ"
+    ],
+    "kunReadings": [
+      "もの"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "医者に相談します。",
+    "sentenceKana": "いしゃにそうだんします。",
+    "sentenceRu": "Я посоветуюсь с врачом."
+  },
+  {
+    "rank": 39,
+    "character": "党",
+    "meaningsRu": [
+      "партия",
+      "фракция"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "なかま",
+      "むら"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "政党の話を聞きました。",
+    "sentenceKana": "せいとうのはなしをききました。",
+    "sentenceRu": "Я слушал разговор о партии."
+  },
+  {
+    "rank": 40,
+    "character": "地",
+    "meaningsRu": [
+      "земля",
+      "местность"
+    ],
+    "onReadings": [
+      "チ",
+      "ジ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 6,
+    "sentenceJp": "この土地は静かです。",
+    "sentenceKana": "このとちはしずかです。",
+    "sentenceRu": "Эта земля тихая."
+  },
+  {
+    "rank": 41,
+    "character": "合",
+    "meaningsRu": [
+      "подходить",
+      "случай"
+    ],
+    "onReadings": [
+      "ゴウ",
+      "ガッ",
+      "カッ"
+    ],
+    "kunReadings": [
+      "あ.う",
+      "-あ.う",
+      "あ.い",
+      "あい-",
+      "-あ.い",
+      "-あい",
+      "あ.わす",
+      "あ.わせる",
+      "-あ.わせる"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "都合がいいです。",
+    "sentenceKana": "つごうがいいです。",
+    "sentenceRu": "Мне удобно."
+  },
+  {
+    "rank": 42,
+    "character": "市",
+    "meaningsRu": [
+      "город"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "いち"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "市役所は近いです。",
+    "sentenceKana": "しやくしょはちかいです。",
+    "sentenceRu": "Мэрия близко."
+  },
+  {
+    "rank": 43,
+    "character": "業",
+    "meaningsRu": [
+      "дело",
+      "работа"
+    ],
+    "onReadings": [
+      "ギョウ",
+      "ゴウ"
+    ],
+    "kunReadings": [
+      "わざ"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "作業が終わりました。",
+    "sentenceKana": "さぎょうがおわりました。",
+    "sentenceRu": "Работа закончена."
+  },
+  {
+    "rank": 44,
+    "character": "内",
+    "meaningsRu": [
+      "внутри",
+      "внутренний"
+    ],
+    "onReadings": [
+      "ナイ",
+      "ダイ"
+    ],
+    "kunReadings": [
+      "うち"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "案内を見ます。",
+    "sentenceKana": "あんないをみます。",
+    "sentenceRu": "Я смотрю указатель."
+  },
+  {
+    "rank": 45,
+    "character": "相",
+    "meaningsRu": [
+      "взаимный",
+      "министр"
+    ],
+    "onReadings": [
+      "ソウ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "あい-"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "相談しましょう。",
+    "sentenceKana": "そうだんしましょう。",
+    "sentenceRu": "Давайте посоветуемся."
+  },
+  {
+    "rank": 46,
+    "character": "方",
+    "meaningsRu": [
+      "направление",
+      "человек"
+    ],
+    "onReadings": [
+      "ホウ"
+    ],
+    "kunReadings": [
+      "かた",
+      "-かた",
+      "-がた"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "この方はどなたですか。",
+    "sentenceKana": "このかたはどなたですか。",
+    "sentenceRu": "Кто этот человек?"
+  },
+  {
+    "rank": 47,
+    "character": "四",
+    "meaningsRu": [
+      "четыре"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "よ",
+      "よ.つ",
+      "よっ.つ",
+      "よん"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "四時に帰ります。",
+    "sentenceKana": "よじにかえります。",
+    "sentenceRu": "Я вернусь в четыре."
+  },
+  {
+    "rank": 48,
+    "character": "定",
+    "meaningsRu": [
+      "решать",
+      "устанавливать"
+    ],
+    "onReadings": [
+      "テイ",
+      "ジョウ"
+    ],
+    "kunReadings": [
+      "さだ.める",
+      "さだ.まる",
+      "さだ.か"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "予定を決めました。",
+    "sentenceKana": "よていをきめました。",
+    "sentenceRu": "Я составил план."
+  },
+  {
+    "rank": 49,
+    "character": "今",
+    "meaningsRu": [
+      "сейчас"
+    ],
+    "onReadings": [
+      "コン",
+      "キン"
+    ],
+    "kunReadings": [
+      "いま"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "今、家にいます。",
+    "sentenceKana": "いま、いえにいます。",
+    "sentenceRu": "Сейчас я дома."
+  },
+  {
+    "rank": 50,
+    "character": "回",
+    "meaningsRu": [
+      "раз",
+      "вращаться"
+    ],
+    "onReadings": [
+      "カイ",
+      "エ"
+    ],
+    "kunReadings": [
+      "まわ.る",
+      "-まわ.る",
+      "-まわ.り",
+      "まわ.す",
+      "-まわ.す",
+      "まわ.し-",
+      "-まわ.し",
+      "もとお.る",
+      "か.える"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "もう一回お願いします。",
+    "sentenceKana": "もういっかいおねがいします。",
+    "sentenceRu": "Пожалуйста, ещё раз."
+  },
+  {
+    "rank": 51,
+    "character": "新",
+    "meaningsRu": [
+      "новый"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "あたら.しい",
+      "あら.た",
+      "あら-",
+      "にい-"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "新しい靴を買いました。",
+    "sentenceKana": "あたらしいくつをかいました。",
+    "sentenceRu": "Я купил новые ботинки."
+  },
+  {
+    "rank": 52,
+    "character": "場",
+    "meaningsRu": [
+      "место"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "チョウ"
+    ],
+    "kunReadings": [
+      "ば"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "会場は駅の近くです。",
+    "sentenceKana": "かいじょうはえきのちかくです。",
+    "sentenceRu": "Место встречи рядом с вокзалом."
+  },
+  {
+    "rank": 53,
+    "character": "金",
+    "meaningsRu": [
+      "золото",
+      "деньги"
+    ],
+    "onReadings": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunReadings": [
+      "かね",
+      "かな-",
+      "-がね"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "お金が足りません。",
+    "sentenceKana": "おかねがたりません。",
+    "sentenceRu": "Денег не хватает."
+  },
+  {
+    "rank": 54,
+    "character": "員",
+    "meaningsRu": [
+      "сотрудник",
+      "член"
+    ],
+    "onReadings": [
+      "イン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "店員に聞きました。",
+    "sentenceKana": "てんいんにききました。",
+    "sentenceRu": "Я спросил продавца."
+  },
+  {
+    "rank": 55,
+    "character": "九",
+    "meaningsRu": [
+      "девять"
+    ],
+    "onReadings": [
+      "キュウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "ここの",
+      "ここの.つ"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "九時に寝ます。",
+    "sentenceKana": "くじにねます。",
+    "sentenceRu": "Я ложусь в девять."
+  },
+  {
+    "rank": 56,
+    "character": "入",
+    "meaningsRu": [
+      "входить",
+      "вкладывать"
+    ],
+    "onReadings": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "kunReadings": [
+      "い.る",
+      "-い.る",
+      "-い.り",
+      "い.れる",
+      "-い.れ",
+      "はい.る"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "お風呂に入ります。",
+    "sentenceKana": "おふろにはいります。",
+    "sentenceRu": "Я иду в ванну."
+  },
+  {
+    "rank": 57,
+    "character": "選",
+    "meaningsRu": [
+      "выбирать"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "えら.ぶ",
+      "え.る",
+      "よ.る"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "好きな色を選びます。",
+    "sentenceKana": "すきないろをえらびます。",
+    "sentenceRu": "Я выбираю любимый цвет."
+  },
+  {
+    "rank": 58,
+    "character": "立",
+    "meaningsRu": [
+      "стоять",
+      "учреждать"
+    ],
+    "onReadings": [
+      "リツ",
+      "リュウ",
+      "リットル"
+    ],
+    "kunReadings": [
+      "た.つ",
+      "-た.つ",
+      "た.ち-",
+      "た.てる",
+      "-た.てる",
+      "た.て-",
+      "たて-",
+      "-た.て",
+      "-だ.て",
+      "-だ.てる"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "ここに立ってください。",
+    "sentenceKana": "ここにたってください。",
+    "sentenceRu": "Пожалуйста, встаньте здесь."
+  },
+  {
+    "rank": 59,
+    "character": "開",
+    "meaningsRu": [
+      "открывать"
+    ],
+    "onReadings": [
+      "カイ"
+    ],
+    "kunReadings": [
+      "ひら.く",
+      "ひら.き",
+      "-びら.き",
+      "ひら.ける",
+      "あ.く",
+      "あ.ける"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "窓を開けます。",
+    "sentenceKana": "まどをあけます。",
+    "sentenceRu": "Я открываю окно."
+  },
+  {
+    "rank": 60,
+    "character": "手",
+    "meaningsRu": [
+      "рука"
+    ],
+    "onReadings": [
+      "シュ",
+      "ズ"
+    ],
+    "kunReadings": [
+      "て",
+      "て-",
+      "-て",
+      "た-"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "手を洗います。",
+    "sentenceKana": "てをあらいます。",
+    "sentenceRu": "Я мою руки."
+  },
+  {
+    "rank": 61,
+    "character": "米",
+    "meaningsRu": [
+      "рис",
+      "Америка"
+    ],
+    "onReadings": [
+      "ベイ",
+      "マイ",
+      "メエトル"
+    ],
+    "kunReadings": [
+      "こめ",
+      "よね"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "米を洗います。",
+    "sentenceKana": "こめをあらいます。",
+    "sentenceRu": "Я промываю рис."
+  },
+  {
+    "rank": 62,
+    "character": "力",
+    "meaningsRu": [
+      "сила"
+    ],
+    "onReadings": [
+      "リョク",
+      "リキ",
+      "リイ"
+    ],
+    "kunReadings": [
+      "ちから"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "力が欲しいです。",
+    "sentenceKana": "ちからがほしいです。",
+    "sentenceRu": "Хочется сил."
+  },
+  {
+    "rank": 63,
+    "character": "学",
+    "meaningsRu": [
+      "учёба",
+      "наука"
+    ],
+    "onReadings": [
+      "ガク"
+    ],
+    "kunReadings": [
+      "まな.ぶ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "日本語を学びます。",
+    "sentenceKana": "にほんごをまなびます。",
+    "sentenceRu": "Я учу японский язык."
+  },
+  {
+    "rank": 64,
+    "character": "問",
+    "meaningsRu": [
+      "вопрос",
+      "спрашивать"
+    ],
+    "onReadings": [
+      "モン"
+    ],
+    "kunReadings": [
+      "と.う",
+      "と.い",
+      "とん"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "質問があります。",
+    "sentenceKana": "しつもんがあります。",
+    "sentenceRu": "У меня есть вопрос."
+  },
+  {
+    "rank": 65,
+    "character": "高",
+    "meaningsRu": [
+      "высокий",
+      "дорогой"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "たか.い",
+      "たか",
+      "-だか",
+      "たか.まる",
+      "たか.める"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "この店は高いです。",
+    "sentenceKana": "このみせはたかいです。",
+    "sentenceRu": "В этом магазине дорого."
+  },
+  {
+    "rank": 66,
+    "character": "代",
+    "meaningsRu": [
+      "эпоха",
+      "замена",
+      "плата"
+    ],
+    "onReadings": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunReadings": [
+      "か.わる",
+      "かわ.る",
+      "かわ.り",
+      "か.わり",
+      "-がわ.り",
+      "-が.わり",
+      "か.える",
+      "よ",
+      "しろ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "代わりにお茶を飲みます。",
+    "sentenceKana": "かわりにおちゃをのみます。",
+    "sentenceRu": "Вместо этого я выпью чай."
+  },
+  {
+    "rank": 67,
+    "character": "明",
+    "meaningsRu": [
+      "светлый",
+      "ясный"
+    ],
+    "onReadings": [
+      "メイ",
+      "ミョウ",
+      "ミン"
+    ],
+    "kunReadings": [
+      "あ.かり",
+      "あか.るい",
+      "あか.るむ",
+      "あか.らむ",
+      "あき.らか",
+      "あ.ける",
+      "-あ.け",
+      "あ.く",
+      "あ.くる",
+      "あ.かす"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "明日は晴れです。",
+    "sentenceKana": "あしたははれです。",
+    "sentenceRu": "Завтра будет ясно."
+  },
+  {
+    "rank": 68,
+    "character": "実",
+    "meaningsRu": [
+      "правда",
+      "плод"
+    ],
+    "onReadings": [
+      "ジツ",
+      "シツ"
+    ],
+    "kunReadings": [
+      "み",
+      "みの.る",
+      "まこと",
+      "みの",
+      "みち.る"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "実は疲れました。",
+    "sentenceKana": "じつはつかれました。",
+    "sentenceRu": "Честно говоря, я устал."
+  },
+  {
+    "rank": 69,
+    "character": "円",
+    "meaningsRu": [
+      "иена",
+      "круг"
+    ],
+    "onReadings": [
+      "エン"
+    ],
+    "kunReadings": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "百円です。",
+    "sentenceKana": "ひゃくえんです。",
+    "sentenceRu": "Это сто иен."
+  },
+  {
+    "rank": 70,
+    "character": "関",
+    "meaningsRu": [
+      "отношение",
+      "застава"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "せき",
+      "-ぜき",
+      "かか.わる",
+      "からくり",
+      "かんぬき"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "関係ありません。",
+    "sentenceKana": "かんけいありません。",
+    "sentenceRu": "Это ни при чём."
+  },
+  {
+    "rank": 71,
+    "character": "決",
+    "meaningsRu": [
+      "решать"
+    ],
+    "onReadings": [
+      "ケツ"
+    ],
+    "kunReadings": [
+      "き.める",
+      "-ぎ.め",
+      "き.まる",
+      "さ.く"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "昼ごはんを決めます。",
+    "sentenceKana": "ひるごはんをきめます。",
+    "sentenceRu": "Я решу, что есть на обед."
+  },
+  {
+    "rank": 72,
+    "character": "子",
+    "meaningsRu": [
+      "ребёнок"
+    ],
+    "onReadings": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "kunReadings": [
+      "こ",
+      "-こ",
+      "ね"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "子どもが遊んでいます。",
+    "sentenceKana": "こどもがあそんでいます。",
+    "sentenceRu": "Дети играют."
+  },
+  {
+    "rank": 73,
+    "character": "動",
+    "meaningsRu": [
+      "двигаться"
+    ],
+    "onReadings": [
+      "ドウ"
+    ],
+    "kunReadings": [
+      "うご.く",
+      "うご.かす"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "電車が動きました。",
+    "sentenceKana": "でんしゃがうごきました。",
+    "sentenceRu": "Поезд тронулся."
+  },
+  {
+    "rank": 74,
+    "character": "京",
+    "meaningsRu": [
+      "столица"
+    ],
+    "onReadings": [
+      "キョウ",
+      "ケイ",
+      "キン"
+    ],
+    "kunReadings": [
+      "みやこ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "京都へ行きます。",
+    "sentenceKana": "きょうとへいきます。",
+    "sentenceRu": "Я еду в Киото."
+  },
+  {
+    "rank": 75,
+    "character": "全",
+    "meaningsRu": [
+      "весь",
+      "полностью"
+    ],
+    "onReadings": [
+      "ゼン"
+    ],
+    "kunReadings": [
+      "まった.く",
+      "すべ.て"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "全部食べました。",
+    "sentenceKana": "ぜんぶたべました。",
+    "sentenceRu": "Я всё съел."
+  },
+  {
+    "rank": 76,
+    "character": "目",
+    "meaningsRu": [
+      "глаз",
+      "пункт"
+    ],
+    "onReadings": [
+      "モク",
+      "ボク"
+    ],
+    "kunReadings": [
+      "め",
+      "-め",
+      "ま-"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "目が疲れました。",
+    "sentenceKana": "めがつかれました。",
+    "sentenceRu": "Глаза устали."
+  },
+  {
+    "rank": 77,
+    "character": "表",
+    "meaningsRu": [
+      "поверхность",
+      "таблица"
+    ],
+    "onReadings": [
+      "ヒョウ"
+    ],
+    "kunReadings": [
+      "おもて",
+      "-おもて",
+      "あらわ.す",
+      "あらわ.れる",
+      "あら.わす"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "表を見てください。",
+    "sentenceKana": "ひょうをみてください。",
+    "sentenceRu": "Посмотрите, пожалуйста, на таблицу."
+  },
+  {
+    "rank": 78,
+    "character": "戦",
+    "meaningsRu": [
+      "война",
+      "бой",
+      "матч"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "いくさ",
+      "たたか.う",
+      "おのの.く",
+      "そよ.ぐ",
+      "わなな.く"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "挑戦します。",
+    "sentenceKana": "ちょうせんします。",
+    "sentenceRu": "Я попробую взяться за это."
+  },
+  {
+    "rank": 79,
+    "character": "経",
+    "meaningsRu": [
+      "проходить",
+      "опыт"
+    ],
+    "onReadings": [
+      "ケイ",
+      "キョウ",
+      "キン"
+    ],
+    "kunReadings": [
+      "へ.る",
+      "た.つ",
+      "たていと",
+      "はか.る",
+      "のり"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "経験を話しました。",
+    "sentenceKana": "けいけんをはなしました。",
+    "sentenceRu": "Я рассказал о своём опыте."
+  },
+  {
+    "rank": 80,
+    "character": "通",
+    "meaningsRu": [
+      "проходить",
+      "связь"
+    ],
+    "onReadings": [
+      "ツウ",
+      "ツ"
+    ],
+    "kunReadings": [
+      "とお.る",
+      "とお.り",
+      "-とお.り",
+      "-どお.り",
+      "とお.す",
+      "とお.し",
+      "-どお.し",
+      "かよ.う"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "この道を通ります。",
+    "sentenceKana": "このみちをとおります。",
+    "sentenceRu": "Я пройду по этой дороге."
+  },
+  {
+    "rank": 81,
+    "character": "外",
+    "meaningsRu": [
+      "снаружи"
+    ],
+    "onReadings": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunReadings": [
+      "そと",
+      "ほか",
+      "はず.す",
+      "はず.れる",
+      "と-"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "外は寒いです。",
+    "sentenceKana": "そとはさむいです。",
+    "sentenceRu": "На улице холодно."
+  },
+  {
+    "rank": 82,
+    "character": "最",
+    "meaningsRu": [
+      "самый"
+    ],
+    "onReadings": [
+      "サイ",
+      "シュ"
+    ],
+    "kunReadings": [
+      "もっと.も",
+      "つま"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "最新のニュースです。",
+    "sentenceKana": "さいしんのにゅーすです。",
+    "sentenceRu": "Это самые свежие новости."
+  },
+  {
+    "rank": 83,
+    "character": "言",
+    "meaningsRu": [
+      "говорить",
+      "слово"
+    ],
+    "onReadings": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunReadings": [
+      "い.う",
+      "こと"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "言葉が優しいです。",
+    "sentenceKana": "ことばがやさしいです。",
+    "sentenceRu": "Слова добрые."
+  },
+  {
+    "rank": 84,
+    "character": "氏",
+    "meaningsRu": [
+      "фамилия",
+      "род"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "うじ",
+      "-うじ"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "田中氏に会いました。",
+    "sentenceKana": "たなかしにあいました。",
+    "sentenceRu": "Я встретился с господином Танакой.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 85,
+    "character": "現",
+    "meaningsRu": [
+      "нынешний",
+      "являться"
+    ],
+    "onReadings": [
+      "ゲン"
+    ],
+    "kunReadings": [
+      "あらわ.れる",
+      "あらわ.す",
+      "うつつ",
+      "うつ.つ"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "現在、家にいます。",
+    "sentenceKana": "げんざい、いえにいます。",
+    "sentenceRu": "Сейчас я дома."
+  },
+  {
+    "rank": 86,
+    "character": "理",
+    "meaningsRu": [
+      "логика",
+      "разум"
+    ],
+    "onReadings": [
+      "リ"
+    ],
+    "kunReadings": [
+      "ことわり"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "理由を聞きます。",
+    "sentenceKana": "りゆうをききます。",
+    "sentenceRu": "Я спрошу причину."
+  },
+  {
+    "rank": 87,
+    "character": "調",
+    "meaningsRu": [
+      "проверять",
+      "настраивать"
+    ],
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "しら.べる",
+      "しら.べ",
+      "ととの.う",
+      "ととの.える"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "予定を調べます。",
+    "sentenceKana": "よていをしらべます。",
+    "sentenceRu": "Я проверяю планы."
+  },
+  {
+    "rank": 88,
+    "character": "体",
+    "meaningsRu": [
+      "тело"
+    ],
+    "onReadings": [
+      "タイ",
+      "テイ"
+    ],
+    "kunReadings": [
+      "からだ",
+      "かたち"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "体がだるいです。",
+    "sentenceKana": "からだがだるいです。",
+    "sentenceRu": "Тело вялое."
+  },
+  {
+    "rank": 89,
+    "character": "化",
+    "meaningsRu": [
+      "превращаться",
+      "изменение"
+    ],
+    "onReadings": [
+      "カ",
+      "ケ"
+    ],
+    "kunReadings": [
+      "ば.ける",
+      "ば.かす",
+      "ふ.ける",
+      "け.する"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "変化に気づきました。",
+    "sentenceKana": "へんかにきづきました。",
+    "sentenceRu": "Я заметил перемену."
+  },
+  {
+    "rank": 90,
+    "character": "田",
+    "meaningsRu": [
+      "рисовое поле"
+    ],
+    "onReadings": [
+      "デン"
+    ],
+    "kunReadings": [
+      "た"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "田んぼが広いです。",
+    "sentenceKana": "たんぼがひろいです。",
+    "sentenceRu": "Рисовое поле большое."
+  },
+  {
+    "rank": 91,
+    "character": "当",
+    "meaningsRu": [
+      "попадать",
+      "этот"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "あ.たる",
+      "あ.たり",
+      "あ.てる",
+      "あ.て",
+      "まさ.に",
+      "まさ.にべし"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "本当ですか。",
+    "sentenceKana": "ほんとうですか。",
+    "sentenceRu": "Это правда?"
+  },
+  {
+    "rank": 92,
+    "character": "八",
+    "meaningsRu": [
+      "восемь"
+    ],
+    "onReadings": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunReadings": [
+      "や",
+      "や.つ",
+      "やっ.つ",
+      "よう"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "八時に出ます。",
+    "sentenceKana": "はちじにでます。",
+    "sentenceRu": "Я выйду в восемь."
+  },
+  {
+    "rank": 93,
+    "character": "六",
+    "meaningsRu": [
+      "шесть"
+    ],
+    "onReadings": [
+      "ロク",
+      "リク"
+    ],
+    "kunReadings": [
+      "む",
+      "む.つ",
+      "むっ.つ",
+      "むい"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "六人で座ります。",
+    "sentenceKana": "ろくにんですわります。",
+    "sentenceRu": "Мы сядем вшестером."
+  },
+  {
+    "rank": 94,
+    "character": "約",
+    "meaningsRu": [
+      "обещание",
+      "примерно"
+    ],
+    "onReadings": [
+      "ヤク"
+    ],
+    "kunReadings": [
+      "つづ.まる",
+      "つづ.める",
+      "つづま.やか"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "約束を守ります。",
+    "sentenceKana": "やくそくをまもります。",
+    "sentenceRu": "Я сдержу обещание."
+  },
+  {
+    "rank": 95,
+    "character": "主",
+    "meaningsRu": [
+      "главный",
+      "хозяин"
+    ],
+    "onReadings": [
+      "シュ",
+      "ス",
+      "シュウ"
+    ],
+    "kunReadings": [
+      "ぬし",
+      "おも",
+      "あるじ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "主な仕事はこれです。",
+    "sentenceKana": "おもなしごとはこれです。",
+    "sentenceRu": "Главная работа — эта."
+  },
+  {
+    "rank": 96,
+    "character": "題",
+    "meaningsRu": [
+      "тема",
+      "задача"
+    ],
+    "onReadings": [
+      "ダイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 18,
+    "sentenceJp": "問題は簡単です。",
+    "sentenceKana": "もんだいはかんたんです。",
+    "sentenceRu": "Задача простая."
+  },
+  {
+    "rank": 97,
+    "character": "下",
+    "meaningsRu": [
+      "низ",
+      "внизу"
+    ],
+    "onReadings": [
+      "カ",
+      "ゲ"
+    ],
+    "kunReadings": [
+      "した",
+      "しも",
+      "もと",
+      "さ.げる",
+      "さ.がる",
+      "くだ.る",
+      "くだ.り",
+      "くだ.す",
+      "-くだ.す",
+      "くだ.さる",
+      "お.ろす",
+      "お.りる"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "机の下にあります。",
+    "sentenceKana": "つくえのしたにあります。",
+    "sentenceRu": "Это под столом."
+  },
+  {
+    "rank": 98,
+    "character": "首",
+    "meaningsRu": [
+      "шея",
+      "глава"
+    ],
+    "onReadings": [
+      "シュ"
+    ],
+    "kunReadings": [
+      "くび"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "首が痛いです。",
+    "sentenceKana": "くびがいたいです。",
+    "sentenceRu": "Болит шея."
+  },
+  {
+    "rank": 99,
+    "character": "意",
+    "meaningsRu": [
+      "мысль",
+      "смысл"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "sentenceJp": "意味が分かります。",
+    "sentenceKana": "いみがわかります。",
+    "sentenceRu": "Я понимаю смысл."
+  },
+  {
+    "rank": 100,
+    "character": "法",
+    "meaningsRu": [
+      "закон",
+      "способ"
+    ],
+    "onReadings": [
+      "ホウ",
+      "ハッ",
+      "ホッ",
+      "フラン"
+    ],
+    "kunReadings": [
+      "のり"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "方法を教えます。",
+    "sentenceKana": "ほうほうをおしえます。",
+    "sentenceRu": "Я покажу способ."
+  },
+  {
+    "rank": 101,
+    "character": "不",
+    "meaningsRu": [
+      "не",
+      "плохо"
+    ],
+    "onReadings": [
+      "フ",
+      "ブ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 4,
+    "sentenceJp": "不便です。",
+    "sentenceKana": "ふべんです。",
+    "sentenceRu": "Неудобно."
+  },
+  {
+    "rank": 102,
+    "character": "来",
+    "meaningsRu": [
+      "приходить"
+    ],
+    "onReadings": [
+      "ライ",
+      "タイ"
+    ],
+    "kunReadings": [
+      "く.る",
+      "きた.る",
+      "きた.す",
+      "き.たす",
+      "き.たる",
+      "き",
+      "こ"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "友だちが来ます。",
+    "sentenceKana": "ともだちがきます。",
+    "sentenceRu": "Придёт друг."
+  },
+  {
+    "rank": 103,
+    "character": "作",
+    "meaningsRu": [
+      "делать",
+      "создавать"
+    ],
+    "onReadings": [
+      "サク",
+      "サ"
+    ],
+    "kunReadings": [
+      "つく.る",
+      "つく.り",
+      "-づく.り"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "夕食を作ります。",
+    "sentenceKana": "ゆうしょくをつくります。",
+    "sentenceRu": "Я готовлю ужин."
+  },
+  {
+    "rank": 104,
+    "character": "性",
+    "meaningsRu": [
+      "характер",
+      "свойство"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "さが"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "性質が穏やかです。",
+    "sentenceKana": "せいしつがおだやかです。",
+    "sentenceRu": "Характер спокойный."
+  },
+  {
+    "rank": 105,
+    "character": "的",
+    "meaningsRu": [
+      "цель",
+      "характерный"
+    ],
+    "onReadings": [
+      "テキ"
+    ],
+    "kunReadings": [
+      "まと"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "目的を決めました。",
+    "sentenceKana": "もくてきをきめました。",
+    "sentenceRu": "Я определил цель."
+  },
+  {
+    "rank": 106,
+    "character": "要",
+    "meaningsRu": [
+      "нужно",
+      "суть"
+    ],
+    "onReadings": [
+      "ヨウ"
+    ],
+    "kunReadings": [
+      "い.る",
+      "かなめ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "要るものだけ買います。",
+    "sentenceKana": "いるものだけかいます。",
+    "sentenceRu": "Куплю только то, что нужно."
+  },
+  {
+    "rank": 107,
+    "character": "用",
+    "meaningsRu": [
+      "использовать"
+    ],
+    "onReadings": [
+      "ヨウ"
+    ],
+    "kunReadings": [
+      "もち.いる"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "これを用います。",
+    "sentenceKana": "これをもちいます。",
+    "sentenceRu": "Я этим воспользуюсь."
+  },
+  {
+    "rank": 108,
+    "character": "制",
+    "meaningsRu": [
+      "система",
+      "правило"
+    ],
+    "onReadings": [
+      "セイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 8,
+    "sentenceJp": "制度が変わりました。",
+    "sentenceKana": "せいどがかわりました。",
+    "sentenceRu": "Правила изменились."
+  },
+  {
+    "rank": 109,
+    "character": "治",
+    "meaningsRu": [
+      "лечить",
+      "управлять"
+    ],
+    "onReadings": [
+      "ジ",
+      "チ"
+    ],
+    "kunReadings": [
+      "おさ.める",
+      "おさ.まる",
+      "なお.る",
+      "なお.す"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "風邪が治りました。",
+    "sentenceKana": "かぜがなおりました。",
+    "sentenceRu": "Простуда прошла."
+  },
+  {
+    "rank": 110,
+    "character": "度",
+    "meaningsRu": [
+      "раз",
+      "градус"
+    ],
+    "onReadings": [
+      "ド",
+      "ト",
+      "タク"
+    ],
+    "kunReadings": [
+      "たび",
+      "-た.い"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "もう一度お願いします。",
+    "sentenceKana": "もういちどおねがいします。",
+    "sentenceRu": "Пожалуйста, ещё один раз."
+  },
+  {
+    "rank": 111,
+    "character": "務",
+    "meaningsRu": [
+      "обязанность"
+    ],
+    "onReadings": [
+      "ム"
+    ],
+    "kunReadings": [
+      "つと.める"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "任務が終わりました。",
+    "sentenceKana": "にんむがおわりました。",
+    "sentenceRu": "Поручение выполнено."
+  },
+  {
+    "rank": 112,
+    "character": "強",
+    "meaningsRu": [
+      "сильный"
+    ],
+    "onReadings": [
+      "キョウ",
+      "ゴウ"
+    ],
+    "kunReadings": [
+      "つよ.い",
+      "つよ.まる",
+      "つよ.める",
+      "し.いる",
+      "こわ.い"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "風が強いです。",
+    "sentenceKana": "かぜがつよいです。",
+    "sentenceRu": "Ветер сильный."
+  },
+  {
+    "rank": 113,
+    "character": "気",
+    "meaningsRu": [
+      "дух",
+      "настроение"
+    ],
+    "onReadings": [
+      "キ",
+      "ケ"
+    ],
+    "kunReadings": [
+      "いき",
+      "き"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "気分がいいです。",
+    "sentenceKana": "きぶんがいいです。",
+    "sentenceRu": "Настроение хорошее."
+  },
+  {
+    "rank": 114,
+    "character": "小",
+    "meaningsRu": [
+      "маленький"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "ちい.さい",
+      "こ-",
+      "お-",
+      "さ-"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "小さい猫がいます。",
+    "sentenceKana": "ちいさいねこがいます。",
+    "sentenceRu": "Там маленький кот."
+  },
+  {
+    "rank": 115,
+    "character": "七",
+    "meaningsRu": [
+      "семь"
+    ],
+    "onReadings": [
+      "シチ"
+    ],
+    "kunReadings": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ],
+    "strokeCount": 2,
+    "sentenceJp": "七時に起きます。",
+    "sentenceKana": "しちじにおきます。",
+    "sentenceRu": "Я встаю в семь."
+  },
+  {
+    "rank": 116,
+    "character": "成",
+    "meaningsRu": [
+      "становиться",
+      "выполнять"
+    ],
+    "onReadings": [
+      "セイ",
+      "ジョウ"
+    ],
+    "kunReadings": [
+      "な.る",
+      "な.す",
+      "-な.す"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "成功しました。",
+    "sentenceKana": "せいこうしました。",
+    "sentenceRu": "Получилось."
+  },
+  {
+    "rank": 117,
+    "character": "期",
+    "meaningsRu": [
+      "срок",
+      "период"
+    ],
+    "onReadings": [
+      "キ",
+      "ゴ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 12,
+    "sentenceJp": "期限は金曜日です。",
+    "sentenceKana": "きげんはきんようびです。",
+    "sentenceRu": "Срок — пятница."
+  },
+  {
+    "rank": 118,
+    "character": "公",
+    "meaningsRu": [
+      "общественный",
+      "официальный"
+    ],
+    "onReadings": [
+      "コウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "おおやけ"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "公園で休みます。",
+    "sentenceKana": "こうえんでやすみます。",
+    "sentenceRu": "Я отдохну в парке."
+  },
+  {
+    "rank": 119,
+    "character": "持",
+    "meaningsRu": [
+      "держать",
+      "иметь"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "も.つ",
+      "-も.ち",
+      "も.てる"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "傘を持っています。",
+    "sentenceKana": "かさをもっています。",
+    "sentenceRu": "У меня с собой зонт."
+  },
+  {
+    "rank": 120,
+    "character": "野",
+    "meaningsRu": [
+      "поле"
+    ],
+    "onReadings": [
+      "ヤ",
+      "ショ"
+    ],
+    "kunReadings": [
+      "の",
+      "の-"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "野原で遊びます。",
+    "sentenceKana": "のはらであそびます。",
+    "sentenceRu": "Мы играем в поле."
+  },
+  {
+    "rank": 121,
+    "character": "協",
+    "meaningsRu": [
+      "сотрудничество"
+    ],
+    "onReadings": [
+      "キョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 8,
+    "sentenceJp": "協力をお願いします。",
+    "sentenceKana": "きょうりょくをおねがいします。",
+    "sentenceRu": "Прошу помочь вместе."
+  },
+  {
+    "rank": 122,
+    "character": "取",
+    "meaningsRu": [
+      "брать"
+    ],
+    "onReadings": [
+      "シュ"
+    ],
+    "kunReadings": [
+      "と.る",
+      "と.り",
+      "と.り-",
+      "とり",
+      "-ど.り"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "切符を取ります。",
+    "sentenceKana": "きっぷをとります。",
+    "sentenceRu": "Я возьму билет."
+  },
+  {
+    "rank": 123,
+    "character": "都",
+    "meaningsRu": [
+      "столица",
+      "мегаполис"
+    ],
+    "onReadings": [
+      "ト",
+      "ツ"
+    ],
+    "kunReadings": [
+      "みやこ"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "都心はにぎやかです。",
+    "sentenceKana": "としんはにぎやかです。",
+    "sentenceRu": "В центре города оживлённо."
+  },
+  {
+    "rank": 124,
+    "character": "和",
+    "meaningsRu": [
+      "гармония",
+      "японский"
+    ],
+    "onReadings": [
+      "ワ",
+      "オ",
+      "カ"
+    ],
+    "kunReadings": [
+      "やわ.らぐ",
+      "やわ.らげる",
+      "なご.む",
+      "なご.やか",
+      "あ.える"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "和食が好きです。",
+    "sentenceKana": "わしょくがすきです。",
+    "sentenceRu": "Мне нравится японская еда."
+  },
+  {
+    "rank": 125,
+    "character": "統",
+    "meaningsRu": [
+      "объединять",
+      "управлять"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "す.べる"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "伝統を守ります。",
+    "sentenceKana": "でんとうをまもります。",
+    "sentenceRu": "Мы бережём традицию."
+  },
+  {
+    "rank": 126,
+    "character": "以",
+    "meaningsRu": [
+      "начиная с",
+      "с точки зрения"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [
+      "もっ.て"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "以前ここに住んでいました。",
+    "sentenceKana": "いぜんここにすんでいました。",
+    "sentenceRu": "Раньше я здесь жил.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 127,
+    "character": "機",
+    "meaningsRu": [
+      "машина",
+      "случай"
+    ],
+    "onReadings": [
+      "キ"
+    ],
+    "kunReadings": [
+      "はた"
+    ],
+    "strokeCount": 16,
+    "sentenceJp": "飛行機が好きです。",
+    "sentenceKana": "ひこうきがすきです。",
+    "sentenceRu": "Мне нравятся самолёты."
+  },
+  {
+    "rank": 128,
+    "character": "平",
+    "meaningsRu": [
+      "ровный",
+      "мир"
+    ],
+    "onReadings": [
+      "ヘイ",
+      "ビョウ",
+      "ヒョウ"
+    ],
+    "kunReadings": [
+      "たい.ら",
+      "たい.らげる",
+      "ひら"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "平和が大切です。",
+    "sentenceKana": "へいわがたいせつです。",
+    "sentenceRu": "Мир важен."
+  },
+  {
+    "rank": 129,
+    "character": "総",
+    "meaningsRu": [
+      "общий",
+      "весь"
+    ],
+    "onReadings": [
+      "ソウ"
+    ],
+    "kunReadings": [
+      "す.べて",
+      "すべ.て",
+      "ふさ"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "総数は十です。",
+    "sentenceKana": "そうすうはじゅうです。",
+    "sentenceRu": "Всего десять.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 130,
+    "character": "加",
+    "meaningsRu": [
+      "добавлять"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [
+      "くわ.える",
+      "くわ.わる"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "砂糖を加えます。",
+    "sentenceKana": "さとうをくわえます。",
+    "sentenceRu": "Я добавлю сахар."
+  },
+  {
+    "rank": 131,
+    "character": "山",
+    "meaningsRu": [
+      "гора"
+    ],
+    "onReadings": [
+      "サン",
+      "セン"
+    ],
+    "kunReadings": [
+      "やま"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "山が見えます。",
+    "sentenceKana": "やまがみえます。",
+    "sentenceRu": "Видно гору."
+  },
+  {
+    "rank": 132,
+    "character": "思",
+    "meaningsRu": [
+      "думать"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "おも.う",
+      "おもえら.く",
+      "おぼ.す"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "そう思います。",
+    "sentenceKana": "そうおもいます。",
+    "sentenceRu": "Я так думаю."
+  },
+  {
+    "rank": 133,
+    "character": "家",
+    "meaningsRu": [
+      "дом",
+      "семья"
+    ],
+    "onReadings": [
+      "カ",
+      "ケ"
+    ],
+    "kunReadings": [
+      "いえ",
+      "や",
+      "うち"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "家に帰ります。",
+    "sentenceKana": "いえにかえります。",
+    "sentenceRu": "Я возвращаюсь домой."
+  },
+  {
+    "rank": 134,
+    "character": "話",
+    "meaningsRu": [
+      "разговор",
+      "говорить"
+    ],
+    "onReadings": [
+      "ワ"
+    ],
+    "kunReadings": [
+      "はな.す",
+      "はなし"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "話を聞いてください。",
+    "sentenceKana": "はなしをきいてください。",
+    "sentenceRu": "Послушайте, пожалуйста."
+  },
+  {
+    "rank": 135,
+    "character": "世",
+    "meaningsRu": [
+      "мир",
+      "поколение"
+    ],
+    "onReadings": [
+      "セイ",
+      "セ",
+      "ソウ"
+    ],
+    "kunReadings": [
+      "よ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "世界は広いです。",
+    "sentenceKana": "せかいはひろいです。",
+    "sentenceRu": "Мир большой."
+  },
+  {
+    "rank": 136,
+    "character": "受",
+    "meaningsRu": [
+      "получать",
+      "принимать"
+    ],
+    "onReadings": [
+      "ジュ"
+    ],
+    "kunReadings": [
+      "う.ける",
+      "-う.け",
+      "う.かる"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "荷物を受け取ります。",
+    "sentenceKana": "にもつをうけとります。",
+    "sentenceRu": "Я заберу посылку."
+  },
+  {
+    "rank": 137,
+    "character": "区",
+    "meaningsRu": [
+      "район"
+    ],
+    "onReadings": [
+      "ク",
+      "オウ",
+      "コウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 4,
+    "sentenceJp": "この区は静かです。",
+    "sentenceKana": "このくはしずかです。",
+    "sentenceRu": "Этот район тихий."
+  },
+  {
+    "rank": 138,
+    "character": "領",
+    "meaningsRu": [
+      "территория",
+      "владение"
+    ],
+    "onReadings": [
+      "リョウ"
+    ],
+    "kunReadings": [
+      "えり"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "領土の話です。",
+    "sentenceKana": "りょうどのはなしです。",
+    "sentenceRu": "Это разговор о территории.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 139,
+    "character": "多",
+    "meaningsRu": [
+      "много"
+    ],
+    "onReadings": [
+      "タ"
+    ],
+    "kunReadings": [
+      "おお.い",
+      "まさ.に",
+      "まさ.る"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "人が多いです。",
+    "sentenceKana": "ひとがおおいです。",
+    "sentenceRu": "Людей много."
+  },
+  {
+    "rank": 140,
+    "character": "県",
+    "meaningsRu": [
+      "префектура"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "か.ける"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "隣の県へ行きます。",
+    "sentenceKana": "となりのけんへいきます。",
+    "sentenceRu": "Я еду в соседнюю префектуру."
+  },
+  {
+    "rank": 141,
+    "character": "続",
+    "meaningsRu": [
+      "продолжаться"
+    ],
+    "onReadings": [
+      "ゾク",
+      "ショク",
+      "コウ",
+      "キョウ"
+    ],
+    "kunReadings": [
+      "つづ.く",
+      "つづ.ける",
+      "つぐ.ない"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "雨が続いています。",
+    "sentenceKana": "あめがつづいています。",
+    "sentenceRu": "Дождь всё идёт."
+  },
+  {
+    "rank": 142,
+    "character": "進",
+    "meaningsRu": [
+      "продвигаться"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "すす.む",
+      "すす.める"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "前に進みます。",
+    "sentenceKana": "まえにすすみます。",
+    "sentenceRu": "Я иду вперёд."
+  },
+  {
+    "rank": 143,
+    "character": "正",
+    "meaningsRu": [
+      "правильный"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "ただ.しい",
+      "ただ.す",
+      "まさ",
+      "まさ.に"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "正しい答えです。",
+    "sentenceKana": "ただしいこたえです。",
+    "sentenceRu": "Это правильный ответ."
+  },
+  {
+    "rank": 144,
+    "character": "安",
+    "meaningsRu": [
+      "дешёвый",
+      "спокойный"
+    ],
+    "onReadings": [
+      "アン"
+    ],
+    "kunReadings": [
+      "やす.い",
+      "やす.まる",
+      "やす",
+      "やす.らか"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "この店は安いです。",
+    "sentenceKana": "このみせはやすいです。",
+    "sentenceRu": "В этом магазине дёшево."
+  },
+  {
+    "rank": 145,
+    "character": "設",
+    "meaningsRu": [
+      "устраивать",
+      "оборудование"
+    ],
+    "onReadings": [
+      "セツ"
+    ],
+    "kunReadings": [
+      "もう.ける"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "設備が新しいです。",
+    "sentenceKana": "せつびがあたらしいです。",
+    "sentenceRu": "Оборудование новое."
+  },
+  {
+    "rank": 146,
+    "character": "保",
+    "meaningsRu": [
+      "сохранять",
+      "гарантировать"
+    ],
+    "onReadings": [
+      "ホ",
+      "ホウ"
+    ],
+    "kunReadings": [
+      "たも.つ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "保険に入りました。",
+    "sentenceKana": "ほけんにはいりました。",
+    "sentenceRu": "Я оформил страховку."
+  },
+  {
+    "rank": 147,
+    "character": "改",
+    "meaningsRu": [
+      "менять",
+      "улучшать"
+    ],
+    "onReadings": [
+      "カイ"
+    ],
+    "kunReadings": [
+      "あらた.める",
+      "あらた.まる"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "名前を改めます。",
+    "sentenceKana": "なまえをあらためます。",
+    "sentenceRu": "Я изменю имя.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 148,
+    "character": "数",
+    "meaningsRu": [
+      "число",
+      "считать"
+    ],
+    "onReadings": [
+      "スウ",
+      "ス",
+      "サク",
+      "ソク",
+      "シュ"
+    ],
+    "kunReadings": [
+      "かず",
+      "かぞ.える",
+      "しばしば",
+      "せ.める",
+      "わずらわ.しい"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "数を数えます。",
+    "sentenceKana": "かずをかぞえます。",
+    "sentenceRu": "Я считаю количество."
+  },
+  {
+    "rank": 149,
+    "character": "記",
+    "meaningsRu": [
+      "записывать"
+    ],
+    "onReadings": [
+      "キ"
+    ],
+    "kunReadings": [
+      "しる.す"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "名前を記します。",
+    "sentenceKana": "なまえをしるします。",
+    "sentenceRu": "Я запишу имя."
+  },
+  {
+    "rank": 150,
+    "character": "院",
+    "meaningsRu": [
+      "учреждение",
+      "палата"
+    ],
+    "onReadings": [
+      "イン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "病院へ行きます。",
+    "sentenceKana": "びょういんへいきます。",
+    "sentenceRu": "Я иду в больницу."
+  },
+  {
+    "rank": 151,
+    "character": "女",
+    "meaningsRu": [
+      "женщина"
+    ],
+    "onReadings": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "kunReadings": [
+      "おんな",
+      "め"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "女の人が話しています。",
+    "sentenceKana": "おんなのひとがはなしています。",
+    "sentenceRu": "Женщина говорит."
+  },
+  {
+    "rank": 152,
+    "character": "初",
+    "meaningsRu": [
+      "первый",
+      "начало"
+    ],
+    "onReadings": [
+      "ショ"
+    ],
+    "kunReadings": [
+      "はじ.め",
+      "はじ.めて",
+      "はつ",
+      "はつ-",
+      "うい-",
+      "-そ.める",
+      "-ぞ.め"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "初めて来ました。",
+    "sentenceKana": "はじめてきました。",
+    "sentenceRu": "Я пришёл сюда впервые."
+  },
+  {
+    "rank": 153,
+    "character": "北",
+    "meaningsRu": [
+      "север"
+    ],
+    "onReadings": [
+      "ホク"
+    ],
+    "kunReadings": [
+      "きた"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "北の風が冷たいです。",
+    "sentenceKana": "きたのかぜがつめたいです。",
+    "sentenceRu": "Северный ветер холодный."
+  },
+  {
+    "rank": 154,
+    "character": "午",
+    "meaningsRu": [
+      "полдень"
+    ],
+    "onReadings": [
+      "ゴ"
+    ],
+    "kunReadings": [
+      "うま"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "午前中は家にいます。",
+    "sentenceKana": "ごぜんちゅうはいえにいます。",
+    "sentenceRu": "До полудня я дома."
+  },
+  {
+    "rank": 155,
+    "character": "指",
+    "meaningsRu": [
+      "палец",
+      "указывать"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "ゆび",
+      "さ.す",
+      "-さ.し"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "指でさします。",
+    "sentenceKana": "ゆびでさします。",
+    "sentenceRu": "Я показываю пальцем."
+  },
+  {
+    "rank": 156,
+    "character": "権",
+    "meaningsRu": [
+      "право",
+      "власть"
+    ],
+    "onReadings": [
+      "ケン",
+      "ゴン"
+    ],
+    "kunReadings": [
+      "おもり",
+      "かり",
+      "はか.る"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "権利を守ります。",
+    "sentenceKana": "けんりをまもります。",
+    "sentenceRu": "Мы защищаем права."
+  },
+  {
+    "rank": 157,
+    "character": "心",
+    "meaningsRu": [
+      "сердце",
+      "дух"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "こころ",
+      "-ごころ"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "心が落ち着きました。",
+    "sentenceKana": "こころがおちつきました。",
+    "sentenceRu": "На душе стало спокойно."
+  },
+  {
+    "rank": 158,
+    "character": "界",
+    "meaningsRu": [
+      "мир",
+      "граница"
+    ],
+    "onReadings": [
+      "カイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "sentenceJp": "世界を旅します。",
+    "sentenceKana": "せかいをたびします。",
+    "sentenceRu": "Я путешествую по миру."
+  },
+  {
+    "rank": 159,
+    "character": "支",
+    "meaningsRu": [
+      "поддерживать",
+      "филиал"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "ささ.える",
+      "つか.える",
+      "か.う"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "家族を支えます。",
+    "sentenceKana": "かぞくをささえます。",
+    "sentenceRu": "Я поддерживаю семью."
+  },
+  {
+    "rank": 160,
+    "character": "第",
+    "meaningsRu": [
+      "номер",
+      "очередь"
+    ],
+    "onReadings": [
+      "ダイ",
+      "テイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 11,
+    "sentenceJp": "第一の目標です。",
+    "sentenceKana": "だいいちのもくひょうです。",
+    "sentenceRu": "Это первая цель."
+  },
+  {
+    "rank": 161,
+    "character": "産",
+    "meaningsRu": [
+      "рождать",
+      "продукция"
+    ],
+    "onReadings": [
+      "サン"
+    ],
+    "kunReadings": [
+      "う.む",
+      "う.まれる",
+      "うぶ-",
+      "む.す"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "子どもが産まれました。",
+    "sentenceKana": "こどもがうまれました。",
+    "sentenceRu": "Родился ребёнок."
+  },
+  {
+    "rank": 162,
+    "character": "結",
+    "meaningsRu": [
+      "связывать",
+      "заключать"
+    ],
+    "onReadings": [
+      "ケツ",
+      "ケチ"
+    ],
+    "kunReadings": [
+      "むす.ぶ",
+      "ゆ.う",
+      "ゆ.わえる"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "結果を見ます。",
+    "sentenceKana": "けっかをみます。",
+    "sentenceRu": "Я посмотрю результат."
+  },
+  {
+    "rank": 163,
+    "character": "百",
+    "meaningsRu": [
+      "сто"
+    ],
+    "onReadings": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunReadings": [
+      "もも"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "百円ショップです。",
+    "sentenceKana": "ひゃくえんしょっぷです。",
+    "sentenceRu": "Это магазин за сто иен."
+  },
+  {
+    "rank": 164,
+    "character": "派",
+    "meaningsRu": [
+      "группа",
+      "фракция"
+    ],
+    "onReadings": [
+      "ハ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "sentenceJp": "派が分かれました。",
+    "sentenceKana": "はがわかれました。",
+    "sentenceRu": "Группы разошлись.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 165,
+    "character": "点",
+    "meaningsRu": [
+      "точка",
+      "балл"
+    ],
+    "onReadings": [
+      "テン"
+    ],
+    "kunReadings": [
+      "つ.ける",
+      "つ.く",
+      "た.てる",
+      "さ.す",
+      "とぼ.す",
+      "とも.す",
+      "ぼち"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "点が足りません。",
+    "sentenceKana": "てんがたりません。",
+    "sentenceRu": "Баллов не хватает."
+  },
+  {
+    "rank": 166,
+    "character": "教",
+    "meaningsRu": [
+      "учить",
+      "учение"
+    ],
+    "onReadings": [
+      "キョウ"
+    ],
+    "kunReadings": [
+      "おし.える",
+      "おそ.わる"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "子どもに教えます。",
+    "sentenceKana": "こどもにおしえます。",
+    "sentenceRu": "Я учу ребёнка."
+  },
+  {
+    "rank": 167,
+    "character": "報",
+    "meaningsRu": [
+      "сообщать",
+      "новость"
+    ],
+    "onReadings": [
+      "ホウ"
+    ],
+    "kunReadings": [
+      "むく.いる"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "報告をします。",
+    "sentenceKana": "ほうこくをします。",
+    "sentenceRu": "Я сделаю доклад."
+  },
+  {
+    "rank": 168,
+    "character": "済",
+    "meaningsRu": [
+      "заканчивать",
+      "улаживать"
+    ],
+    "onReadings": [
+      "サイ",
+      "セイ"
+    ],
+    "kunReadings": [
+      "す.む",
+      "-ず.み",
+      "-ずみ",
+      "す.まない",
+      "す.ます",
+      "-す.ます",
+      "すく.う",
+      "な.す",
+      "わたし",
+      "わた.る"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "支払いは済みました。",
+    "sentenceKana": "しはらいはすみました。",
+    "sentenceRu": "Оплата уже прошла.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 169,
+    "character": "書",
+    "meaningsRu": [
+      "писать",
+      "книга"
+    ],
+    "onReadings": [
+      "ショ"
+    ],
+    "kunReadings": [
+      "か.く",
+      "-が.き",
+      "-がき"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "手紙を書きます。",
+    "sentenceKana": "てがみをかきます。",
+    "sentenceRu": "Я пишу письмо."
+  },
+  {
+    "rank": 170,
+    "character": "府",
+    "meaningsRu": [
+      "правительство",
+      "префектура"
+    ],
+    "onReadings": [
+      "フ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 8,
+    "sentenceJp": "府の庁舎は大きいです。",
+    "sentenceKana": "ふのちょうしゃはおおきいです。",
+    "sentenceRu": "Здание управы большое.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 171,
+    "character": "活",
+    "meaningsRu": [
+      "жизнь",
+      "активность"
+    ],
+    "onReadings": [
+      "カツ"
+    ],
+    "kunReadings": [
+      "い.きる",
+      "い.かす",
+      "い.ける"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "生活が変わりました。",
+    "sentenceKana": "せいかつがかわりました。",
+    "sentenceRu": "Жизнь изменилась."
+  },
+  {
+    "rank": 172,
+    "character": "原",
+    "meaningsRu": [
+      "равнина",
+      "первоначальный"
+    ],
+    "onReadings": [
+      "ゲン"
+    ],
+    "kunReadings": [
+      "はら"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "原因が分かりました。",
+    "sentenceKana": "げんいんがわかりました。",
+    "sentenceRu": "Причина стала ясна."
+  },
+  {
+    "rank": 173,
+    "character": "先",
+    "meaningsRu": [
+      "впереди",
+      "раньше"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "さき",
+      "ま.ず"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "お先に失礼します。",
+    "sentenceKana": "おさきにしつれいします。",
+    "sentenceRu": "Я пойду раньше, извините."
+  },
+  {
+    "rank": 174,
+    "character": "共",
+    "meaningsRu": [
+      "вместе",
+      "общий"
+    ],
+    "onReadings": [
+      "キョウ"
+    ],
+    "kunReadings": [
+      "とも",
+      "とも.に",
+      "-ども"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "共に行きましょう。",
+    "sentenceKana": "ともにいきましょう。",
+    "sentenceRu": "Пойдёмте вместе."
+  },
+  {
+    "rank": 175,
+    "character": "得",
+    "meaningsRu": [
+      "получать",
+      "выгода"
+    ],
+    "onReadings": [
+      "トク"
+    ],
+    "kunReadings": [
+      "え.る",
+      "う.る"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "いい考えを得ました。",
+    "sentenceKana": "いいかんがえをえました。",
+    "sentenceRu": "Мне пришла хорошая мысль."
+  },
+  {
+    "rank": 176,
+    "character": "解",
+    "meaningsRu": [
+      "понимать",
+      "решать"
+    ],
+    "onReadings": [
+      "カイ",
+      "ゲ"
+    ],
+    "kunReadings": [
+      "と.く",
+      "と.かす",
+      "と.ける",
+      "ほど.く",
+      "ほぐ.す",
+      "わか.る",
+      "さと.る"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "問題が解けました。",
+    "sentenceKana": "もんだいがとけました。",
+    "sentenceRu": "Задача решилась."
+  },
+  {
+    "rank": 177,
+    "character": "名",
+    "meaningsRu": [
+      "имя"
+    ],
+    "onReadings": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunReadings": [
+      "な",
+      "-な"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "名前を書いてください。",
+    "sentenceKana": "なまえをかいてください。",
+    "sentenceRu": "Напишите, пожалуйста, имя."
+  },
+  {
+    "rank": 178,
+    "character": "交",
+    "meaningsRu": [
+      "пересекаться",
+      "обмен"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "まじ.わる",
+      "まじ.える",
+      "ま.じる",
+      "まじ.る",
+      "ま.ざる",
+      "ま.ぜる",
+      "-か.う",
+      "か.わす",
+      "かわ.す",
+      "こもごも"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "交流が楽しいです。",
+    "sentenceKana": "こうりゅうがたのしいです。",
+    "sentenceRu": "Общение приятное."
+  },
+  {
+    "rank": 179,
+    "character": "資",
+    "meaningsRu": [
+      "средства",
+      "данные"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "sentenceJp": "資料を送ります。",
+    "sentenceKana": "しりょうをおくります。",
+    "sentenceRu": "Я отправлю материалы."
+  },
+  {
+    "rank": 180,
+    "character": "予",
+    "meaningsRu": [
+      "заранее",
+      "план"
+    ],
+    "onReadings": [
+      "ヨ",
+      "シャ"
+    ],
+    "kunReadings": [
+      "あらかじ.め"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "予定は午後です。",
+    "sentenceKana": "よていはごごです。",
+    "sentenceRu": "План на вторую половину дня."
+  },
+  {
+    "rank": 181,
+    "character": "川",
+    "meaningsRu": [
+      "река"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "かわ"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "川で散歩します。",
+    "sentenceKana": "かわでさんぽします。",
+    "sentenceRu": "Я гуляю у реки."
+  },
+  {
+    "rank": 182,
+    "character": "向",
+    "meaningsRu": [
+      "направление",
+      "обращаться"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "む.く",
+      "む.い",
+      "-む.き",
+      "む.ける",
+      "-む.け",
+      "む.かう",
+      "む.かい",
+      "む.こう",
+      "む.こう-",
+      "むこ",
+      "むか.い"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "駅へ向かいます。",
+    "sentenceKana": "えきへむかいます。",
+    "sentenceRu": "Я иду к вокзалу."
+  },
+  {
+    "rank": 183,
+    "character": "際",
+    "meaningsRu": [
+      "случай",
+      "край"
+    ],
+    "onReadings": [
+      "サイ"
+    ],
+    "kunReadings": [
+      "きわ",
+      "-ぎわ"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "その際に電話します。",
+    "sentenceKana": "そのさいにでんわします。",
+    "sentenceRu": "В тот момент я позвоню."
+  },
+  {
+    "rank": 184,
+    "character": "査",
+    "meaningsRu": [
+      "проверять"
+    ],
+    "onReadings": [
+      "サ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "sentenceJp": "調査が終わりました。",
+    "sentenceKana": "ちょうさがおわりました。",
+    "sentenceRu": "Проверка закончена.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 185,
+    "character": "勝",
+    "meaningsRu": [
+      "победа",
+      "побеждать"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "か.つ",
+      "-が.ち",
+      "まさ.る",
+      "すぐ.れる",
+      "かつ"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "試合に勝ちました。",
+    "sentenceKana": "しあいにかちました。",
+    "sentenceRu": "Мы выиграли матч."
+  },
+  {
+    "rank": 186,
+    "character": "面",
+    "meaningsRu": [
+      "лицо",
+      "поверхность"
+    ],
+    "onReadings": [
+      "メン",
+      "ベン"
+    ],
+    "kunReadings": [
+      "おも",
+      "おもて",
+      "つら"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "面白い話です。",
+    "sentenceKana": "おもしろいはなしです。",
+    "sentenceRu": "Это интересный рассказ."
+  },
+  {
+    "rank": 187,
+    "character": "委",
+    "meaningsRu": [
+      "поручать",
+      "комитет"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [
+      "ゆだ.ねる"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "委員会は午後です。",
+    "sentenceKana": "いいんかいはごごです。",
+    "sentenceRu": "Комитет собирается днём.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 188,
+    "character": "告",
+    "meaningsRu": [
+      "сообщать"
+    ],
+    "onReadings": [
+      "コク"
+    ],
+    "kunReadings": [
+      "つ.げる"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "先生に告げます。",
+    "sentenceKana": "せんせいにつげます。",
+    "sentenceRu": "Я скажу учителю."
+  },
+  {
+    "rank": 189,
+    "character": "軍",
+    "meaningsRu": [
+      "армия"
+    ],
+    "onReadings": [
+      "グン"
+    ],
+    "kunReadings": [
+      "いくさ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "軍隊の話は重いです。",
+    "sentenceKana": "ぐんたいのはなしはおもいです。",
+    "sentenceRu": "Разговор об армии тяжёлый."
+  },
+  {
+    "rank": 190,
+    "character": "文",
+    "meaningsRu": [
+      "текст",
+      "предложение"
+    ],
+    "onReadings": [
+      "ブン",
+      "モン"
+    ],
+    "kunReadings": [
+      "ふみ",
+      "あや"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "文を読みます。",
+    "sentenceKana": "ぶんをよみます。",
+    "sentenceRu": "Я читаю предложение."
+  },
+  {
+    "rank": 191,
+    "character": "反",
+    "meaningsRu": [
+      "против"
+    ],
+    "onReadings": [
+      "ハン",
+      "ホン",
+      "タン",
+      "ホ"
+    ],
+    "kunReadings": [
+      "そ.る",
+      "そ.らす",
+      "かえ.す",
+      "かえ.る",
+      "-かえ.る"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "反対です。",
+    "sentenceKana": "はんたいです。",
+    "sentenceRu": "Я против."
+  },
+  {
+    "rank": 192,
+    "character": "元",
+    "meaningsRu": [
+      "начало",
+      "прежний"
+    ],
+    "onReadings": [
+      "ゲン",
+      "ガン"
+    ],
+    "kunReadings": [
+      "もと"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "元の場所に戻します。",
+    "sentenceKana": "もとのばしょにもどします。",
+    "sentenceRu": "Я верну это на прежнее место."
+  },
+  {
+    "rank": 193,
+    "character": "重",
+    "meaningsRu": [
+      "тяжёлый",
+      "важный"
+    ],
+    "onReadings": [
+      "ジュウ",
+      "チョウ"
+    ],
+    "kunReadings": [
+      "え",
+      "おも.い",
+      "おも.り",
+      "おも.なう",
+      "かさ.ねる",
+      "かさ.なる",
+      "おも"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "この箱は重いです。",
+    "sentenceKana": "このはこはおもいです。",
+    "sentenceRu": "Эта коробка тяжёлая."
+  },
+  {
+    "rank": 194,
+    "character": "近",
+    "meaningsRu": [
+      "близкий"
+    ],
+    "onReadings": [
+      "キン",
+      "コン"
+    ],
+    "kunReadings": [
+      "ちか.い"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "駅は近いです。",
+    "sentenceKana": "えきはちかいです。",
+    "sentenceRu": "Вокзал близко."
+  },
+  {
+    "rank": 195,
+    "character": "千",
+    "meaningsRu": [
+      "тысяча"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "ち"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "千円です。",
+    "sentenceKana": "せんえんです。",
+    "sentenceRu": "Это тысяча иен."
+  },
+  {
+    "rank": 196,
+    "character": "考",
+    "meaningsRu": [
+      "думать",
+      "обдумывать"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "かんが.える",
+      "かんが.え"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "よく考えます。",
+    "sentenceKana": "よくかんがえます。",
+    "sentenceRu": "Я хорошо подумаю."
+  },
+  {
+    "rank": 197,
+    "character": "判",
+    "meaningsRu": [
+      "судить",
+      "печать"
+    ],
+    "onReadings": [
+      "ハン",
+      "バン"
+    ],
+    "kunReadings": [
+      "わか.る"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "判定を待ちます。",
+    "sentenceKana": "はんていをまちます。",
+    "sentenceRu": "Я жду решения."
+  },
+  {
+    "rank": 198,
+    "character": "認",
+    "meaningsRu": [
+      "признавать",
+      "подтверждать"
+    ],
+    "onReadings": [
+      "ニン"
+    ],
+    "kunReadings": [
+      "みと.める",
+      "したた.める"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "間違いを認めます。",
+    "sentenceKana": "まちがいをみとめます。",
+    "sentenceRu": "Я признаю ошибку."
+  },
+  {
+    "rank": 199,
+    "character": "画",
+    "meaningsRu": [
+      "картина",
+      "план"
+    ],
+    "onReadings": [
+      "ガ",
+      "カク",
+      "エ",
+      "カイ"
+    ],
+    "kunReadings": [
+      "えが.く",
+      "かく.する",
+      "かぎ.る",
+      "はかりごと",
+      "はか.る"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "画面が明るいです。",
+    "sentenceKana": "がめんがあかるいです。",
+    "sentenceRu": "Экран яркий."
+  },
+  {
+    "rank": 200,
+    "character": "海",
+    "meaningsRu": [
+      "море"
+    ],
+    "onReadings": [
+      "カイ"
+    ],
+    "kunReadings": [
+      "うみ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "海がきれいです。",
+    "sentenceKana": "うみがきれいです。",
+    "sentenceRu": "Море красивое."
+  },
+  {
+    "rank": 201,
+    "character": "参",
+    "meaningsRu": [
+      "участвовать",
+      "посещать"
+    ],
+    "onReadings": [
+      "サン",
+      "シン"
+    ],
+    "kunReadings": [
+      "まい.る",
+      "まい-",
+      "まじわる",
+      "みつ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "会議に参加します。",
+    "sentenceKana": "かいぎにさんかします。",
+    "sentenceRu": "Я участвую в совещании."
+  },
+  {
+    "rank": 202,
+    "character": "売",
+    "meaningsRu": [
+      "продавать"
+    ],
+    "onReadings": [
+      "バイ"
+    ],
+    "kunReadings": [
+      "う.る",
+      "う.れる"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "野菜を売っています。",
+    "sentenceKana": "やさいをうっています。",
+    "sentenceRu": "Здесь продают овощи."
+  },
+  {
+    "rank": 203,
+    "character": "利",
+    "meaningsRu": [
+      "польза",
+      "прибыль"
+    ],
+    "onReadings": [
+      "リ"
+    ],
+    "kunReadings": [
+      "き.く"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "利点を説明します。",
+    "sentenceKana": "りてんをせつめいします。",
+    "sentenceRu": "Я объясню плюсы."
+  },
+  {
+    "rank": 204,
+    "character": "組",
+    "meaningsRu": [
+      "группа",
+      "собирать"
+    ],
+    "onReadings": [
+      "ソ"
+    ],
+    "kunReadings": [
+      "く.む",
+      "くみ",
+      "-ぐみ"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "チームを組みます。",
+    "sentenceKana": "ちーむをくみます。",
+    "sentenceRu": "Мы соберём команду."
+  },
+  {
+    "rank": 205,
+    "character": "知",
+    "meaningsRu": [
+      "знать"
+    ],
+    "onReadings": [
+      "チ"
+    ],
+    "kunReadings": [
+      "し.る",
+      "し.らせる"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "その店を知っています。",
+    "sentenceKana": "そのみせをしっています。",
+    "sentenceRu": "Я знаю этот магазин."
+  },
+  {
+    "rank": 206,
+    "character": "案",
+    "meaningsRu": [
+      "план",
+      "идея"
+    ],
+    "onReadings": [
+      "アン"
+    ],
+    "kunReadings": [
+      "つくえ"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "いい案ですね。",
+    "sentenceKana": "いいあんですね。",
+    "sentenceRu": "Хорошая идея."
+  },
+  {
+    "rank": 207,
+    "character": "道",
+    "meaningsRu": [
+      "дорога",
+      "путь"
+    ],
+    "onReadings": [
+      "ドウ",
+      "トウ"
+    ],
+    "kunReadings": [
+      "みち",
+      "いう"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "道に迷いました。",
+    "sentenceKana": "みちにまよいました。",
+    "sentenceRu": "Я заблудился."
+  },
+  {
+    "rank": 208,
+    "character": "信",
+    "meaningsRu": [
+      "вера",
+      "доверие"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "sentenceJp": "手紙を信じます。",
+    "sentenceKana": "てがみをしんじます。",
+    "sentenceRu": "Я верю письму."
+  },
+  {
+    "rank": 209,
+    "character": "策",
+    "meaningsRu": [
+      "мера",
+      "план"
+    ],
+    "onReadings": [
+      "サク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 12,
+    "sentenceJp": "対策を考えます。",
+    "sentenceKana": "たいさくをかんがえます。",
+    "sentenceRu": "Я подумаю, что делать."
+  },
+  {
+    "rank": 210,
+    "character": "集",
+    "meaningsRu": [
+      "собирать"
+    ],
+    "onReadings": [
+      "シュウ"
+    ],
+    "kunReadings": [
+      "あつ.まる",
+      "あつ.める",
+      "つど.う"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "人が集まっています。",
+    "sentenceKana": "ひとがあつまっています。",
+    "sentenceRu": "Люди собрались."
+  },
+  {
+    "rank": 211,
+    "character": "在",
+    "meaningsRu": [
+      "находиться",
+      "быть"
+    ],
+    "onReadings": [
+      "ザイ"
+    ],
+    "kunReadings": [
+      "あ.る"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "父は在宅です。",
+    "sentenceKana": "ちちはざいたくです。",
+    "sentenceRu": "Отец дома."
+  },
+  {
+    "rank": 212,
+    "character": "件",
+    "meaningsRu": [
+      "дело",
+      "случай"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "くだん"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "この件は明日です。",
+    "sentenceKana": "このけんはあしたです。",
+    "sentenceRu": "Это дело на завтра."
+  },
+  {
+    "rank": 213,
+    "character": "団",
+    "meaningsRu": [
+      "группа"
+    ],
+    "onReadings": [
+      "ダン",
+      "トン"
+    ],
+    "kunReadings": [
+      "かたまり",
+      "まる.い"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "団地に住んでいます。",
+    "sentenceKana": "だんちにすんでいます。",
+    "sentenceRu": "Я живу в жилом комплексе."
+  },
+  {
+    "rank": 214,
+    "character": "別",
+    "meaningsRu": [
+      "другой",
+      "отдельный"
+    ],
+    "onReadings": [
+      "ベツ"
+    ],
+    "kunReadings": [
+      "わか.れる",
+      "わ.ける"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "別の道で行きます。",
+    "sentenceKana": "べつのみちでいきます。",
+    "sentenceRu": "Я пойду другой дорогой."
+  },
+  {
+    "rank": 215,
+    "character": "物",
+    "meaningsRu": [
+      "вещь"
+    ],
+    "onReadings": [
+      "ブツ",
+      "モツ"
+    ],
+    "kunReadings": [
+      "もの",
+      "もの-"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "忘れ物です。",
+    "sentenceKana": "わすれものです。",
+    "sentenceRu": "Это забытая вещь."
+  },
+  {
+    "rank": 216,
+    "character": "側",
+    "meaningsRu": [
+      "сторона"
+    ],
+    "onReadings": [
+      "ソク"
+    ],
+    "kunReadings": [
+      "かわ",
+      "がわ",
+      "そば"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "右側に座ります。",
+    "sentenceKana": "みぎがわにすわります。",
+    "sentenceRu": "Я сяду справа."
+  },
+  {
+    "rank": 217,
+    "character": "任",
+    "meaningsRu": [
+      "поручать",
+      "должность"
+    ],
+    "onReadings": [
+      "ニン"
+    ],
+    "kunReadings": [
+      "まか.せる",
+      "まか.す"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "仕事を任せます。",
+    "sentenceKana": "しごとをまかせます。",
+    "sentenceRu": "Я поручаю эту работу."
+  },
+  {
+    "rank": 218,
+    "character": "引",
+    "meaningsRu": [
+      "тянуть"
+    ],
+    "onReadings": [
+      "イン"
+    ],
+    "kunReadings": [
+      "ひ.く",
+      "ひ.ける"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "ドアを引きます。",
+    "sentenceKana": "どあをひきます。",
+    "sentenceRu": "Я тяну дверь на себя."
+  },
+  {
+    "rank": 219,
+    "character": "使",
+    "meaningsRu": [
+      "использовать"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "つか.う",
+      "つか.い",
+      "-つか.い",
+      "-づか.い"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "電車を使います。",
+    "sentenceKana": "でんしゃをつかいます。",
+    "sentenceRu": "Я поеду на электричке."
+  },
+  {
+    "rank": 220,
+    "character": "求",
+    "meaningsRu": [
+      "просить",
+      "искать"
+    ],
+    "onReadings": [
+      "キュウ",
+      "グ"
+    ],
+    "kunReadings": [
+      "もと.める"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "助けを求めます。",
+    "sentenceKana": "たすけをもとめます。",
+    "sentenceRu": "Я прошу о помощи."
+  },
+  {
+    "rank": 221,
+    "character": "所",
+    "meaningsRu": [
+      "место"
+    ],
+    "onReadings": [
+      "ショ"
+    ],
+    "kunReadings": [
+      "ところ",
+      "-ところ",
+      "どころ",
+      "とこ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "場所を教えてください。",
+    "sentenceKana": "ばしょをおしえてください。",
+    "sentenceRu": "Подскажите, пожалуйста, место."
+  },
+  {
+    "rank": 222,
+    "character": "次",
+    "meaningsRu": [
+      "следующий"
+    ],
+    "onReadings": [
+      "ジ",
+      "シ"
+    ],
+    "kunReadings": [
+      "つ.ぐ",
+      "つぎ"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "次の駅で降ります。",
+    "sentenceKana": "つぎのえきでおります。",
+    "sentenceRu": "Я выйду на следующей станции."
+  },
+  {
+    "rank": 223,
+    "character": "水",
+    "meaningsRu": [
+      "вода"
+    ],
+    "onReadings": [
+      "スイ"
+    ],
+    "kunReadings": [
+      "みず",
+      "みず-"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "水を飲みます。",
+    "sentenceKana": "みずをのみます。",
+    "sentenceRu": "Я пью воду."
+  },
+  {
+    "rank": 224,
+    "character": "半",
+    "meaningsRu": [
+      "половина"
+    ],
+    "onReadings": [
+      "ハン"
+    ],
+    "kunReadings": [
+      "なか.ば"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "半分ください。",
+    "sentenceKana": "はんぶんください。",
+    "sentenceRu": "Дайте половину."
+  },
+  {
+    "rank": 225,
+    "character": "品",
+    "meaningsRu": [
+      "товар",
+      "вещь"
+    ],
+    "onReadings": [
+      "ヒン",
+      "ホン"
+    ],
+    "kunReadings": [
+      "しな"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "品物を並べます。",
+    "sentenceKana": "しなものをならべます。",
+    "sentenceRu": "Я раскладываю товары."
+  },
+  {
+    "rank": 226,
+    "character": "昨",
+    "meaningsRu": [
+      "вчера",
+      "прошлый"
+    ],
+    "onReadings": [
+      "サク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "sentenceJp": "昨日は雨でした。",
+    "sentenceKana": "きのうはあめでした。",
+    "sentenceRu": "Вчера был дождь."
+  },
+  {
+    "rank": 227,
+    "character": "論",
+    "meaningsRu": [
+      "обсуждение",
+      "теория"
+    ],
+    "onReadings": [
+      "ロン"
+    ],
+    "kunReadings": [
+      "あげつら.う"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "結論は簡単です。",
+    "sentenceKana": "けつろんはかんたんです。",
+    "sentenceRu": "Вывод простой."
+  },
+  {
+    "rank": 228,
+    "character": "計",
+    "meaningsRu": [
+      "план",
+      "измерять"
+    ],
+    "onReadings": [
+      "ケイ"
+    ],
+    "kunReadings": [
+      "はか.る",
+      "はか.らう"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "計画を立てます。",
+    "sentenceKana": "けいかくをたてます。",
+    "sentenceRu": "Я составлю план."
+  },
+  {
+    "rank": 229,
+    "character": "死",
+    "meaningsRu": [
+      "смерть",
+      "умереть"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "し.ぬ",
+      "し.に-"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "花が死にました。",
+    "sentenceKana": "はながしにました。",
+    "sentenceRu": "Цветок завял."
+  },
+  {
+    "rank": 230,
+    "character": "官",
+    "meaningsRu": [
+      "чиновник",
+      "ведомство"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 8,
+    "sentenceJp": "官庁は古い建物です。",
+    "sentenceKana": "かんちょうはふるいたてものです。",
+    "sentenceRu": "Ведомство в старом здании.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 231,
+    "character": "増",
+    "meaningsRu": [
+      "увеличивать"
+    ],
+    "onReadings": [
+      "ゾウ"
+    ],
+    "kunReadings": [
+      "ま.す",
+      "ま.し",
+      "ふ.える",
+      "ふ.やす"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "人が増えました。",
+    "sentenceKana": "ひとがふえました。",
+    "sentenceRu": "Людей стало больше."
+  },
+  {
+    "rank": 232,
+    "character": "係",
+    "meaningsRu": [
+      "ответственный",
+      "отношение"
+    ],
+    "onReadings": [
+      "ケイ"
+    ],
+    "kunReadings": [
+      "かか.る",
+      "かかり",
+      "-がかり",
+      "かか.わる"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "係の人に聞きます。",
+    "sentenceKana": "かかりのひとにききます。",
+    "sentenceRu": "Я спрошу сотрудника."
+  },
+  {
+    "rank": 233,
+    "character": "感",
+    "meaningsRu": [
+      "чувство"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "sentenceJp": "感動しました。",
+    "sentenceKana": "かんどうしました。",
+    "sentenceRu": "Я был тронут."
+  },
+  {
+    "rank": 234,
+    "character": "特",
+    "meaningsRu": [
+      "особый"
+    ],
+    "onReadings": [
+      "トク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "特別な日です。",
+    "sentenceKana": "とくべつなひです。",
+    "sentenceRu": "Это особый день."
+  },
+  {
+    "rank": 235,
+    "character": "情",
+    "meaningsRu": [
+      "чувство",
+      "обстоятельства"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "セイ"
+    ],
+    "kunReadings": [
+      "なさ.け"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "情報が欲しいです。",
+    "sentenceKana": "じょうほうがほしいです。",
+    "sentenceRu": "Мне нужна информация."
+  },
+  {
+    "rank": 236,
+    "character": "投",
+    "meaningsRu": [
+      "бросать",
+      "вкладывать"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "な.げる",
+      "-な.げ"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "ボールを投げます。",
+    "sentenceKana": "ぼーるをなげます。",
+    "sentenceRu": "Я бросаю мяч."
+  },
+  {
+    "rank": 237,
+    "character": "示",
+    "meaningsRu": [
+      "показывать"
+    ],
+    "onReadings": [
+      "ジ",
+      "シ"
+    ],
+    "kunReadings": [
+      "しめ.す"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "道を示します。",
+    "sentenceKana": "みちをしめします。",
+    "sentenceRu": "Я покажу дорогу."
+  },
+  {
+    "rank": 238,
+    "character": "変",
+    "meaningsRu": [
+      "меняться",
+      "странный"
+    ],
+    "onReadings": [
+      "ヘン"
+    ],
+    "kunReadings": [
+      "か.わる",
+      "か.わり",
+      "か.える"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "予定が変わりました。",
+    "sentenceKana": "よていがかわりました。",
+    "sentenceRu": "План изменился."
+  },
+  {
+    "rank": 239,
+    "character": "打",
+    "meaningsRu": [
+      "бить",
+      "ударять"
+    ],
+    "onReadings": [
+      "ダ",
+      "ダース"
+    ],
+    "kunReadings": [
+      "う.つ",
+      "う.ち-",
+      "ぶ.つ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "メールを打ちます。",
+    "sentenceKana": "めーるをうちます。",
+    "sentenceRu": "Я напишу письмо."
+  },
+  {
+    "rank": 240,
+    "character": "男",
+    "meaningsRu": [
+      "мужчина"
+    ],
+    "onReadings": [
+      "ダン",
+      "ナン"
+    ],
+    "kunReadings": [
+      "おとこ",
+      "お"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "男の人が走っています。",
+    "sentenceKana": "おとこのひとがはしっています。",
+    "sentenceRu": "Мужчина бежит."
+  },
+  {
+    "rank": 241,
+    "character": "基",
+    "meaningsRu": [
+      "основа"
+    ],
+    "onReadings": [
+      "キ"
+    ],
+    "kunReadings": [
+      "もと",
+      "もとい"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "基本から学びます。",
+    "sentenceKana": "きほんからまなびます。",
+    "sentenceRu": "Я учусь с основ."
+  },
+  {
+    "rank": 242,
+    "character": "私",
+    "meaningsRu": [
+      "я",
+      "личный"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "わたくし",
+      "わたし"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "私は学生です。",
+    "sentenceKana": "わたしはがくせいです。",
+    "sentenceRu": "Я студент."
+  },
+  {
+    "rank": 243,
+    "character": "各",
+    "meaningsRu": [
+      "каждый"
+    ],
+    "onReadings": [
+      "カク"
+    ],
+    "kunReadings": [
+      "おのおの"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "各自で持ってきます。",
+    "sentenceKana": "かくじでもってきます。",
+    "sentenceRu": "Каждый принесёт своё."
+  },
+  {
+    "rank": 244,
+    "character": "始",
+    "meaningsRu": [
+      "начинать"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "はじ.める",
+      "-はじ.める",
+      "はじ.まる"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "授業が始まります。",
+    "sentenceKana": "じゅぎょうがはじまります。",
+    "sentenceRu": "Урок начинается."
+  },
+  {
+    "rank": 245,
+    "character": "島",
+    "meaningsRu": [
+      "остров"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "しま"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "島へ船で行きます。",
+    "sentenceKana": "しまへふねでいきます。",
+    "sentenceRu": "На остров мы плывём на корабле."
+  },
+  {
+    "rank": 246,
+    "character": "直",
+    "meaningsRu": [
+      "сразу",
+      "исправлять"
+    ],
+    "onReadings": [
+      "チョク",
+      "ジキ",
+      "ジカ"
+    ],
+    "kunReadings": [
+      "ただ.ちに",
+      "なお.す",
+      "-なお.す",
+      "なお.る",
+      "なお.き",
+      "す.ぐ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "すぐに直します。",
+    "sentenceKana": "すぐになおします。",
+    "sentenceRu": "Я сейчас же поправлю."
+  },
+  {
+    "rank": 247,
+    "character": "両",
+    "meaningsRu": [
+      "оба"
+    ],
+    "onReadings": [
+      "リョウ"
+    ],
+    "kunReadings": [
+      "てる",
+      "ふたつ"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "両手で持ちます。",
+    "sentenceKana": "りょうてでもちます。",
+    "sentenceRu": "Я держу обеими руками."
+  },
+  {
+    "rank": 248,
+    "character": "朝",
+    "meaningsRu": [
+      "утро"
+    ],
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "あさ"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "朝ごはんを食べます。",
+    "sentenceKana": "あさごはんをたべます。",
+    "sentenceRu": "Я завтракаю."
+  },
+  {
+    "rank": 249,
+    "character": "革",
+    "meaningsRu": [
+      "кожа",
+      "реформа"
+    ],
+    "onReadings": [
+      "カク"
+    ],
+    "kunReadings": [
+      "かわ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "革の靴です。",
+    "sentenceKana": "かわのくつです。",
+    "sentenceRu": "Это кожаные ботинки."
+  },
+  {
+    "rank": 250,
+    "character": "価",
+    "meaningsRu": [
+      "цена",
+      "ценность"
+    ],
+    "onReadings": [
+      "カ",
+      "ケ"
+    ],
+    "kunReadings": [
+      "あたい"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "価格が高いです。",
+    "sentenceKana": "かかくがたかいです。",
+    "sentenceRu": "Цена высокая."
+  },
+  {
+    "rank": 251,
+    "character": "式",
+    "meaningsRu": [
+      "церемония",
+      "форма"
+    ],
+    "onReadings": [
+      "シキ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 6,
+    "sentenceJp": "式は十時です。",
+    "sentenceKana": "しきはじゅうじです。",
+    "sentenceRu": "Церемония в десять."
+  },
+  {
+    "rank": 252,
+    "character": "確",
+    "meaningsRu": [
+      "точный",
+      "подтверждать"
+    ],
+    "onReadings": [
+      "カク",
+      "コウ"
+    ],
+    "kunReadings": [
+      "たし.か",
+      "たし.かめる"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "確かめてから出ます。",
+    "sentenceKana": "たしかめてからでます。",
+    "sentenceRu": "Я выйду, только проверив."
+  },
+  {
+    "rank": 253,
+    "character": "村",
+    "meaningsRu": [
+      "деревня"
+    ],
+    "onReadings": [
+      "ソン"
+    ],
+    "kunReadings": [
+      "むら"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "村は静かです。",
+    "sentenceKana": "むらはしずかです。",
+    "sentenceRu": "В деревне тихо."
+  },
+  {
+    "rank": 254,
+    "character": "提",
+    "meaningsRu": [
+      "предлагать"
+    ],
+    "onReadings": [
+      "テイ",
+      "チョウ",
+      "ダイ"
+    ],
+    "kunReadings": [
+      "さ.げる"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "案を提出します。",
+    "sentenceKana": "あんをていしゅつします。",
+    "sentenceRu": "Я подам предложение."
+  },
+  {
+    "rank": 255,
+    "character": "運",
+    "meaningsRu": [
+      "везти",
+      "удача"
+    ],
+    "onReadings": [
+      "ウン"
+    ],
+    "kunReadings": [
+      "はこ.ぶ"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "荷物を運びます。",
+    "sentenceKana": "にもつをはこびます。",
+    "sentenceRu": "Я отнесу багаж."
+  },
+  {
+    "rank": 256,
+    "character": "終",
+    "meaningsRu": [
+      "конец",
+      "заканчивать"
+    ],
+    "onReadings": [
+      "シュウ"
+    ],
+    "kunReadings": [
+      "お.わる",
+      "-お.わる",
+      "おわ.る",
+      "お.える",
+      "つい",
+      "つい.に"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "仕事が終わります。",
+    "sentenceKana": "しごとがおわります。",
+    "sentenceRu": "Работа заканчивается."
+  },
+  {
+    "rank": 257,
+    "character": "挙",
+    "meaningsRu": [
+      "поднимать",
+      "поведение"
+    ],
+    "onReadings": [
+      "キョ"
+    ],
+    "kunReadings": [
+      "あ.げる",
+      "あ.がる",
+      "こぞ.る"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "手を挙げてください。",
+    "sentenceKana": "てをあげてください。",
+    "sentenceRu": "Поднимите, пожалуйста, руку."
+  },
+  {
+    "rank": 258,
+    "character": "果",
+    "meaningsRu": [
+      "плод",
+      "результат"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [
+      "は.たす",
+      "はた.す",
+      "-は.たす",
+      "は.てる",
+      "-は.てる",
+      "は.て"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "果物を洗います。",
+    "sentenceKana": "くだものをあらいます。",
+    "sentenceRu": "Я мою фрукты."
+  },
+  {
+    "rank": 259,
+    "character": "西",
+    "meaningsRu": [
+      "запад"
+    ],
+    "onReadings": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "kunReadings": [
+      "にし"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "西の空が赤いです。",
+    "sentenceKana": "にしのそらがあかいです。",
+    "sentenceRu": "Западное небо красное."
+  },
+  {
+    "rank": 260,
+    "character": "勢",
+    "meaningsRu": [
+      "сила",
+      "энергия"
+    ],
+    "onReadings": [
+      "セイ",
+      "ゼイ"
+    ],
+    "kunReadings": [
+      "いきお.い",
+      "はずみ"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "勢いよく歩きます。",
+    "sentenceKana": "いきおいよくあるきます。",
+    "sentenceRu": "Я иду бодро."
+  },
+  {
+    "rank": 261,
+    "character": "減",
+    "meaningsRu": [
+      "уменьшаться"
+    ],
+    "onReadings": [
+      "ゲン"
+    ],
+    "kunReadings": [
+      "へ.る",
+      "へ.らす"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "砂糖を減らします。",
+    "sentenceKana": "さとうをへらします。",
+    "sentenceRu": "Я уменьшу сахар."
+  },
+  {
+    "rank": 262,
+    "character": "台",
+    "meaningsRu": [
+      "подставка",
+      "счётчик машин"
+    ],
+    "onReadings": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunReadings": [
+      "うてな",
+      "われ",
+      "つかさ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "台の上に置きます。",
+    "sentenceKana": "だいのうえにおきます。",
+    "sentenceRu": "Я поставлю это на подставку."
+  },
+  {
+    "rank": 263,
+    "character": "広",
+    "meaningsRu": [
+      "широкий"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "ひろ.い",
+      "ひろ.まる",
+      "ひろ.める",
+      "ひろ.がる",
+      "ひろ.げる"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "部屋が広いです。",
+    "sentenceKana": "へやがひろいです。",
+    "sentenceRu": "Комната просторная."
+  },
+  {
+    "rank": 264,
+    "character": "容",
+    "meaningsRu": [
+      "вмещать",
+      "внешность"
+    ],
+    "onReadings": [
+      "ヨウ"
+    ],
+    "kunReadings": [
+      "い.れる"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "容易ではありません。",
+    "sentenceKana": "よういではありません。",
+    "sentenceRu": "Это не просто."
+  },
+  {
+    "rank": 265,
+    "character": "必",
+    "meaningsRu": [
+      "обязательно",
+      "необходимо"
+    ],
+    "onReadings": [
+      "ヒツ"
+    ],
+    "kunReadings": [
+      "かなら.ず"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "必ず帰ります。",
+    "sentenceKana": "かならずかえります。",
+    "sentenceRu": "Я обязательно вернусь."
+  },
+  {
+    "rank": 266,
+    "character": "応",
+    "meaningsRu": [
+      "отвечать",
+      "соответствовать"
+    ],
+    "onReadings": [
+      "オウ",
+      "ヨウ",
+      "-ノウ"
+    ],
+    "kunReadings": [
+      "あた.る",
+      "まさに",
+      "こた.える"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "招待に応じます。",
+    "sentenceKana": "しょうたいにおうじます。",
+    "sentenceRu": "Я приму приглашение."
+  },
+  {
+    "rank": 267,
+    "character": "演",
+    "meaningsRu": [
+      "выступление"
+    ],
+    "onReadings": [
+      "エン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 14,
+    "sentenceJp": "演奏を聞きます。",
+    "sentenceKana": "えんそうをききます。",
+    "sentenceRu": "Я слушаю музыку."
+  },
+  {
+    "rank": 268,
+    "character": "電",
+    "meaningsRu": [
+      "электричество"
+    ],
+    "onReadings": [
+      "デン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "sentenceJp": "電気を消します。",
+    "sentenceKana": "でんきをけします。",
+    "sentenceRu": "Я выключаю свет."
+  },
+  {
+    "rank": 269,
+    "character": "歳",
+    "meaningsRu": [
+      "возраст",
+      "год"
+    ],
+    "onReadings": [
+      "サイ",
+      "セイ"
+    ],
+    "kunReadings": [
+      "とし",
+      "とせ",
+      "よわい"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "今年で三十歳です。",
+    "sentenceKana": "ことしでさんじゅっさいです。",
+    "sentenceRu": "В этом году мне тридцать."
+  },
+  {
+    "rank": 270,
+    "character": "住",
+    "meaningsRu": [
+      "жить",
+      "проживать"
+    ],
+    "onReadings": [
+      "ジュウ",
+      "ヂュウ",
+      "チュウ"
+    ],
+    "kunReadings": [
+      "す.む",
+      "す.まう",
+      "-ず.まい"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "この町に住んでいます。",
+    "sentenceKana": "このまちにすんでいます。",
+    "sentenceRu": "Я живу в этом городе."
+  },
+  {
+    "rank": 271,
+    "character": "争",
+    "meaningsRu": [
+      "спорить"
+    ],
+    "onReadings": [
+      "ソウ"
+    ],
+    "kunReadings": [
+      "あらそ.う",
+      "いか.でか"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "争いは避けます。",
+    "sentenceKana": "あらそいはさけます。",
+    "sentenceRu": "Я избегаю ссоры."
+  },
+  {
+    "rank": 272,
+    "character": "談",
+    "meaningsRu": [
+      "беседа"
+    ],
+    "onReadings": [
+      "ダン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 15,
+    "sentenceJp": "相談に乗ります。",
+    "sentenceKana": "そうだんにのります。",
+    "sentenceRu": "Я готов обсудить."
+  },
+  {
+    "rank": 273,
+    "character": "能",
+    "meaningsRu": [
+      "способность"
+    ],
+    "onReadings": [
+      "ノウ"
+    ],
+    "kunReadings": [
+      "よ.く",
+      "あた.う"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "可能性があります。",
+    "sentenceKana": "かのうせいがあります。",
+    "sentenceRu": "Это возможно."
+  },
+  {
+    "rank": 274,
+    "character": "無",
+    "meaningsRu": [
+      "нет",
+      "отсутствие"
+    ],
+    "onReadings": [
+      "ム",
+      "ブ"
+    ],
+    "kunReadings": [
+      "な.い"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "砂糖は無しでお願いします。",
+    "sentenceKana": "さとうはなしでおねがいします。",
+    "sentenceRu": "Без сахара, пожалуйста."
+  },
+  {
+    "rank": 275,
+    "character": "再",
+    "meaningsRu": [
+      "снова"
+    ],
+    "onReadings": [
+      "サイ",
+      "サ"
+    ],
+    "kunReadings": [
+      "ふたた.び"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "再度お願いします。",
+    "sentenceKana": "さいどおねがいします。",
+    "sentenceRu": "Пожалуйста, ещё раз."
+  },
+  {
+    "rank": 276,
+    "character": "位",
+    "meaningsRu": [
+      "положение",
+      "около"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [
+      "くらい",
+      "ぐらい"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "一位でした。",
+    "sentenceKana": "いちいでした。",
+    "sentenceRu": "Он был на первом месте."
+  },
+  {
+    "rank": 277,
+    "character": "置",
+    "meaningsRu": [
+      "класть",
+      "оставлять"
+    ],
+    "onReadings": [
+      "チ"
+    ],
+    "kunReadings": [
+      "お.く",
+      "-お.き"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "鍵をここに置きます。",
+    "sentenceKana": "かぎをここにおきます。",
+    "sentenceRu": "Я оставлю ключ здесь."
+  },
+  {
+    "rank": 278,
+    "character": "企",
+    "meaningsRu": [
+      "замысел",
+      "предприятие"
+    ],
+    "onReadings": [
+      "キ"
+    ],
+    "kunReadings": [
+      "くわだ.てる",
+      "たくら.む"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "企画を考えます。",
+    "sentenceKana": "きかくをかんがえます。",
+    "sentenceRu": "Я обдумаю план."
+  },
+  {
+    "rank": 279,
+    "character": "真",
+    "meaningsRu": [
+      "правда",
+      "истинный"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "ま",
+      "ま-",
+      "まこと"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "真ん中に座ります。",
+    "sentenceKana": "まんなかにすわります。",
+    "sentenceRu": "Я сяду посередине."
+  },
+  {
+    "rank": 280,
+    "character": "流",
+    "meaningsRu": [
+      "течение",
+      "течь"
+    ],
+    "onReadings": [
+      "リュウ",
+      "ル"
+    ],
+    "kunReadings": [
+      "なが.れる",
+      "なが.れ",
+      "なが.す",
+      "-なが.す"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "川が流れています。",
+    "sentenceKana": "かわがながれています。",
+    "sentenceRu": "Река течёт."
+  },
+  {
+    "rank": 281,
+    "character": "格",
+    "meaningsRu": [
+      "уровень",
+      "разряд"
+    ],
+    "onReadings": [
+      "カク",
+      "コウ",
+      "キャク",
+      "ゴウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "格が違います。",
+    "sentenceKana": "かくがちがいます。",
+    "sentenceRu": "Уровень другой.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 282,
+    "character": "有",
+    "meaningsRu": [
+      "иметься",
+      "обладать"
+    ],
+    "onReadings": [
+      "ユウ",
+      "ウ"
+    ],
+    "kunReadings": [
+      "あ.る"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "有名な店です。",
+    "sentenceKana": "ゆうめいなみせです。",
+    "sentenceRu": "Это известный магазин."
+  },
+  {
+    "rank": 283,
+    "character": "疑",
+    "meaningsRu": [
+      "сомневаться"
+    ],
+    "onReadings": [
+      "ギ"
+    ],
+    "kunReadings": [
+      "うたが.う"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "少し疑っています。",
+    "sentenceKana": "すこしうたがっています。",
+    "sentenceRu": "Я немного сомневаюсь."
+  },
+  {
+    "rank": 284,
+    "character": "口",
+    "meaningsRu": [
+      "рот"
+    ],
+    "onReadings": [
+      "コウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "くち"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "口をゆすぎます。",
+    "sentenceKana": "くちをゆすぎます。",
+    "sentenceRu": "Я полощу рот."
+  },
+  {
+    "rank": 285,
+    "character": "過",
+    "meaningsRu": [
+      "превышать",
+      "проходить"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [
+      "す.ぎる",
+      "す.ごす",
+      "あやま.ち",
+      "あやま.つ",
+      "よぎ.る",
+      "よ.ぎる"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "駅を通り過ぎました。",
+    "sentenceKana": "えきをとおりすぎました。",
+    "sentenceRu": "Я проехал станцию."
+  },
+  {
+    "rank": 286,
+    "character": "局",
+    "meaningsRu": [
+      "бюро",
+      "отделение"
+    ],
+    "onReadings": [
+      "キョク"
+    ],
+    "kunReadings": [
+      "つぼね"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "郵便局へ行きます。",
+    "sentenceKana": "ゆうびんきょくへいきます。",
+    "sentenceRu": "Я иду на почту."
+  },
+  {
+    "rank": 287,
+    "character": "少",
+    "meaningsRu": [
+      "мало",
+      "немного"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "すく.ない",
+      "すこ.し"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "少し休みます。",
+    "sentenceKana": "すこしやすみます。",
+    "sentenceRu": "Я немного отдохну."
+  },
+  {
+    "rank": 288,
+    "character": "放",
+    "meaningsRu": [
+      "отпускать",
+      "выпускать"
+    ],
+    "onReadings": [
+      "ホウ"
+    ],
+    "kunReadings": [
+      "はな.す",
+      "-っぱな.し",
+      "はな.つ",
+      "はな.れる",
+      "こ.く",
+      "ほう.る"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "鳥を放します。",
+    "sentenceKana": "とりをはなします。",
+    "sentenceRu": "Я выпускаю птицу."
+  },
+  {
+    "rank": 289,
+    "character": "税",
+    "meaningsRu": [
+      "налог"
+    ],
+    "onReadings": [
+      "ゼイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 12,
+    "sentenceJp": "税金を払います。",
+    "sentenceKana": "ぜいきんをはらいます。",
+    "sentenceRu": "Я плачу налог."
+  },
+  {
+    "rank": 290,
+    "character": "検",
+    "meaningsRu": [
+      "проверка"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "しら.べる"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "検査は明日です。",
+    "sentenceKana": "けんさはあしたです。",
+    "sentenceRu": "Проверка завтра.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 291,
+    "character": "藤",
+    "meaningsRu": [
+      "глициния"
+    ],
+    "onReadings": [
+      "トウ",
+      "ドウ"
+    ],
+    "kunReadings": [
+      "ふじ"
+    ],
+    "strokeCount": 18,
+    "sentenceJp": "庭に藤が咲いています。",
+    "sentenceKana": "にわにふじがさいています。",
+    "sentenceRu": "В саду цветёт глициния.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 292,
+    "character": "町",
+    "meaningsRu": [
+      "город",
+      "квартал"
+    ],
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "まち"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "町はにぎやかです。",
+    "sentenceKana": "まちはにぎやかです。",
+    "sentenceRu": "В городе оживлённо."
+  },
+  {
+    "rank": 293,
+    "character": "常",
+    "meaningsRu": [
+      "обычный",
+      "постоянно"
+    ],
+    "onReadings": [
+      "ジョウ"
+    ],
+    "kunReadings": [
+      "つね",
+      "とこ-"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "常に水を飲みます。",
+    "sentenceKana": "つねにみずをのみます。",
+    "sentenceRu": "Я всегда пью воду."
+  },
+  {
+    "rank": 294,
+    "character": "校",
+    "meaningsRu": [
+      "школа"
+    ],
+    "onReadings": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "学校は近いです。",
+    "sentenceKana": "がっこうはちかいです。",
+    "sentenceRu": "Школа близко."
+  },
+  {
+    "rank": 295,
+    "character": "料",
+    "meaningsRu": [
+      "плата",
+      "материал"
+    ],
+    "onReadings": [
+      "リョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "料金は五百円です。",
+    "sentenceKana": "りょうきんはごひゃくえんです。",
+    "sentenceRu": "Плата пятьсот иен."
+  },
+  {
+    "rank": 296,
+    "character": "沢",
+    "meaningsRu": [
+      "ручей",
+      "болото"
+    ],
+    "onReadings": [
+      "タク"
+    ],
+    "kunReadings": [
+      "さわ",
+      "うるお.い",
+      "うるお.す",
+      "つや"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "山の沢は冷たいです。",
+    "sentenceKana": "やまのさわはつめたいです。",
+    "sentenceRu": "Горный ручей холодный.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 297,
+    "character": "裁",
+    "meaningsRu": [
+      "судить",
+      "кроить"
+    ],
+    "onReadings": [
+      "サイ"
+    ],
+    "kunReadings": [
+      "た.つ",
+      "さば.く"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "裁判を見ました。",
+    "sentenceKana": "さいばんをみました。",
+    "sentenceRu": "Я видел суд.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 298,
+    "character": "状",
+    "meaningsRu": [
+      "состояние",
+      "письмо"
+    ],
+    "onReadings": [
+      "ジョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 7,
+    "sentenceJp": "状況は落ち着いています。",
+    "sentenceKana": "じょうきょうはおちついています。",
+    "sentenceRu": "Ситуация спокойная.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 299,
+    "character": "工",
+    "meaningsRu": [
+      "ремесло",
+      "стройка"
+    ],
+    "onReadings": [
+      "コウ",
+      "ク",
+      "グ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 3,
+    "sentenceJp": "工事が始まります。",
+    "sentenceKana": "こうじがはじまります。",
+    "sentenceRu": "Стройка начинается."
+  },
+  {
+    "rank": 300,
+    "character": "建",
+    "meaningsRu": [
+      "строить"
+    ],
+    "onReadings": [
+      "ケン",
+      "コン"
+    ],
+    "kunReadings": [
+      "た.てる",
+      "た.て",
+      "-だ.て",
+      "た.つ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "家を建てます。",
+    "sentenceKana": "いえをたてます。",
+    "sentenceRu": "Мы строим дом."
+  },
+  {
+    "rank": 301,
+    "character": "語",
+    "meaningsRu": [
+      "язык",
+      "слово"
+    ],
+    "onReadings": [
+      "ゴ"
+    ],
+    "kunReadings": [
+      "かた.る",
+      "かた.らう"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "日本語を勉強します。",
+    "sentenceKana": "にほんごをべんきょうします。",
+    "sentenceRu": "Я учу японский язык."
+  },
+  {
+    "rank": 302,
+    "character": "球",
+    "meaningsRu": [
+      "мяч",
+      "шар"
+    ],
+    "onReadings": [
+      "キュウ"
+    ],
+    "kunReadings": [
+      "たま"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "球をけります。",
+    "sentenceKana": "たまをけります。",
+    "sentenceRu": "Я бью по мячу."
+  },
+  {
+    "rank": 303,
+    "character": "営",
+    "meaningsRu": [
+      "вести дело"
+    ],
+    "onReadings": [
+      "エイ"
+    ],
+    "kunReadings": [
+      "いとな.む",
+      "いとな.み"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "店を営んでいます。",
+    "sentenceKana": "みせをいとなんでいます。",
+    "sentenceRu": "Я веду магазин."
+  },
+  {
+    "rank": 304,
+    "character": "空",
+    "meaningsRu": [
+      "небо",
+      "пустой"
+    ],
+    "onReadings": [
+      "クウ"
+    ],
+    "kunReadings": [
+      "そら",
+      "あ.く",
+      "あ.き",
+      "あ.ける",
+      "から",
+      "す.く",
+      "す.かす",
+      "むな.しい"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "空が青いです。",
+    "sentenceKana": "そらがあおいです。",
+    "sentenceRu": "Небо синее."
+  },
+  {
+    "rank": 305,
+    "character": "職",
+    "meaningsRu": [
+      "работа",
+      "должность"
+    ],
+    "onReadings": [
+      "ショク",
+      "ソク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 18,
+    "sentenceJp": "職を探しています。",
+    "sentenceKana": "しょくをさがしています。",
+    "sentenceRu": "Я ищу работу."
+  },
+  {
+    "rank": 306,
+    "character": "証",
+    "meaningsRu": [
+      "доказательство",
+      "свидетельство"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "あかし"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "証明書を出します。",
+    "sentenceKana": "しょうめいしょをだします。",
+    "sentenceRu": "Я предъявлю справку."
+  },
+  {
+    "rank": 307,
+    "character": "土",
+    "meaningsRu": [
+      "земля",
+      "почва"
+    ],
+    "onReadings": [
+      "ド",
+      "ト"
+    ],
+    "kunReadings": [
+      "つち"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "土がぬれています。",
+    "sentenceKana": "つちがぬれています。",
+    "sentenceRu": "Земля мокрая."
+  },
+  {
+    "rank": 308,
+    "character": "与",
+    "meaningsRu": [
+      "давать"
+    ],
+    "onReadings": [
+      "ヨ"
+    ],
+    "kunReadings": [
+      "あた.える",
+      "あずか.る",
+      "くみ.する",
+      "ともに"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "時間を与えます。",
+    "sentenceKana": "じかんをあたえます。",
+    "sentenceRu": "Я дам время."
+  },
+  {
+    "rank": 309,
+    "character": "急",
+    "meaningsRu": [
+      "спешить",
+      "внезапный"
+    ],
+    "onReadings": [
+      "キュウ"
+    ],
+    "kunReadings": [
+      "いそ.ぐ",
+      "いそ.ぎ",
+      "せ.く"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "急いで駅へ行きます。",
+    "sentenceKana": "いそいでえきへいきます。",
+    "sentenceRu": "Я спешу на вокзал."
+  },
+  {
+    "rank": 310,
+    "character": "止",
+    "meaningsRu": [
+      "останавливать"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "と.まる",
+      "-ど.まり",
+      "と.める",
+      "-と.める",
+      "-ど.め",
+      "とど.める",
+      "とど.め",
+      "とど.まる",
+      "や.める",
+      "や.む",
+      "-や.む",
+      "よ.す",
+      "-さ.す",
+      "-さ.し"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "ここで止めてください。",
+    "sentenceKana": "ここでとめてください。",
+    "sentenceRu": "Остановите, пожалуйста, здесь."
+  },
+  {
+    "rank": 311,
+    "character": "送",
+    "meaningsRu": [
+      "отправлять",
+      "провожать"
+    ],
+    "onReadings": [
+      "ソウ"
+    ],
+    "kunReadings": [
+      "おく.る"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "荷物を送ります。",
+    "sentenceKana": "にもつをおくります。",
+    "sentenceRu": "Я отправлю багаж."
+  },
+  {
+    "rank": 312,
+    "character": "援",
+    "meaningsRu": [
+      "помощь"
+    ],
+    "onReadings": [
+      "エン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 12,
+    "sentenceJp": "支援をお願いします。",
+    "sentenceKana": "しえんをおねがいします。",
+    "sentenceRu": "Прошу о поддержке.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 313,
+    "character": "供",
+    "meaningsRu": [
+      "предлагать",
+      "сопровождать"
+    ],
+    "onReadings": [
+      "キョウ",
+      "ク",
+      "クウ",
+      "グ"
+    ],
+    "kunReadings": [
+      "そな.える",
+      "とも",
+      "-ども"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "お茶を供します。",
+    "sentenceKana": "おちゃをきょうします。",
+    "sentenceRu": "Я подам чай.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 314,
+    "character": "可",
+    "meaningsRu": [
+      "можно",
+      "допустимо"
+    ],
+    "onReadings": [
+      "カ",
+      "コク"
+    ],
+    "kunReadings": [
+      "-べ.き",
+      "-べ.し"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "可能なら行きます。",
+    "sentenceKana": "かのうならいきます。",
+    "sentenceRu": "Если можно, я пойду.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 315,
+    "character": "役",
+    "meaningsRu": [
+      "роль",
+      "служба"
+    ],
+    "onReadings": [
+      "ヤク",
+      "エキ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 7,
+    "sentenceJp": "役に立ちます。",
+    "sentenceKana": "やくにたちます。",
+    "sentenceRu": "Это пригодится."
+  },
+  {
+    "rank": 316,
+    "character": "構",
+    "meaningsRu": [
+      "строить",
+      "иметь значение"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "かま.える",
+      "かま.う"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "構いません。",
+    "sentenceKana": "かまいません。",
+    "sentenceRu": "Ничего страшного."
+  },
+  {
+    "rank": 317,
+    "character": "木",
+    "meaningsRu": [
+      "дерево"
+    ],
+    "onReadings": [
+      "ボク",
+      "モク"
+    ],
+    "kunReadings": [
+      "き",
+      "こ-"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "木の下で休みます。",
+    "sentenceKana": "きのしたでやすみます。",
+    "sentenceRu": "Я отдохну под деревом."
+  },
+  {
+    "rank": 318,
+    "character": "割",
+    "meaningsRu": [
+      "делить",
+      "скидка"
+    ],
+    "onReadings": [
+      "カツ"
+    ],
+    "kunReadings": [
+      "わ.る",
+      "わり",
+      "わ.り",
+      "わ.れる",
+      "さ.く"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "りんごを割ります。",
+    "sentenceKana": "りんごをわります。",
+    "sentenceRu": "Я разделю яблоко."
+  },
+  {
+    "rank": 319,
+    "character": "聞",
+    "meaningsRu": [
+      "слышать",
+      "спрашивать"
+    ],
+    "onReadings": [
+      "ブン",
+      "モン"
+    ],
+    "kunReadings": [
+      "き.く",
+      "き.こえる"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "音楽を聞きます。",
+    "sentenceKana": "おんがくをききます。",
+    "sentenceRu": "Я слушаю музыку."
+  },
+  {
+    "rank": 320,
+    "character": "身",
+    "meaningsRu": [
+      "тело",
+      "сам"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "み"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "身を守ります。",
+    "sentenceKana": "みをまもります。",
+    "sentenceRu": "Я берегу себя."
+  },
+  {
+    "rank": 321,
+    "character": "費",
+    "meaningsRu": [
+      "расход",
+      "тратить"
+    ],
+    "onReadings": [
+      "ヒ"
+    ],
+    "kunReadings": [
+      "つい.やす",
+      "つい.える"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "費用は千円です。",
+    "sentenceKana": "ひようはせんえんです。",
+    "sentenceRu": "Расход — тысяча иен."
+  },
+  {
+    "rank": 322,
+    "character": "付",
+    "meaningsRu": [
+      "прикреплять",
+      "прилагать"
+    ],
+    "onReadings": [
+      "フ"
+    ],
+    "kunReadings": [
+      "つ.ける",
+      "-つ.ける",
+      "-づ.ける",
+      "つ.け",
+      "つ.け-",
+      "-つ.け",
+      "-づ.け",
+      "-づけ",
+      "つ.く",
+      "-づ.く",
+      "つ.き",
+      "-つ.き",
+      "-つき",
+      "-づ.き",
+      "-づき"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "名前を付けます。",
+    "sentenceKana": "なまえをつけます。",
+    "sentenceRu": "Я подпишу имя."
+  },
+  {
+    "rank": 323,
+    "character": "施",
+    "meaningsRu": [
+      "оказывать",
+      "проводить"
+    ],
+    "onReadings": [
+      "シ",
+      "セ"
+    ],
+    "kunReadings": [
+      "ほどこ.す"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "手当を施します。",
+    "sentenceKana": "てあてをほどこします。",
+    "sentenceRu": "Я окажу первую помощь.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 324,
+    "character": "切",
+    "meaningsRu": [
+      "резать"
+    ],
+    "onReadings": [
+      "セツ",
+      "サイ"
+    ],
+    "kunReadings": [
+      "き.る",
+      "-き.る",
+      "き.り",
+      "-き.り",
+      "-ぎ.り",
+      "き.れる",
+      "-き.れる",
+      "き.れ",
+      "-き.れ",
+      "-ぎ.れ"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "紙を切ります。",
+    "sentenceKana": "かみをきります。",
+    "sentenceRu": "Я режу бумагу."
+  },
+  {
+    "rank": 325,
+    "character": "由",
+    "meaningsRu": [
+      "причина"
+    ],
+    "onReadings": [
+      "ユ",
+      "ユウ",
+      "ユイ"
+    ],
+    "kunReadings": [
+      "よし",
+      "よ.る"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "理由を話します。",
+    "sentenceKana": "りゆうをはなします。",
+    "sentenceRu": "Я расскажу причину.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 326,
+    "character": "説",
+    "meaningsRu": [
+      "объяснять",
+      "теория"
+    ],
+    "onReadings": [
+      "セツ",
+      "ゼイ"
+    ],
+    "kunReadings": [
+      "と.く"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "もう一度説明します。",
+    "sentenceKana": "もういちどせつめいします。",
+    "sentenceRu": "Я объясню ещё раз."
+  },
+  {
+    "rank": 327,
+    "character": "転",
+    "meaningsRu": [
+      "переворачиваться",
+      "переводиться"
+    ],
+    "onReadings": [
+      "テン"
+    ],
+    "kunReadings": [
+      "ころ.がる",
+      "ころ.げる",
+      "ころ.がす",
+      "ころ.ぶ",
+      "まろ.ぶ",
+      "うたた",
+      "うつ.る",
+      "くる.めく"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "転んでしまいました。",
+    "sentenceKana": "ころんでしまいました。",
+    "sentenceRu": "Я упал."
+  },
+  {
+    "rank": 328,
+    "character": "食",
+    "meaningsRu": [
+      "есть",
+      "еда"
+    ],
+    "onReadings": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunReadings": [
+      "く.う",
+      "く.らう",
+      "た.べる",
+      "は.む"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "ご飯を食べます。",
+    "sentenceKana": "ごはんをたべます。",
+    "sentenceRu": "Я ем рис."
+  },
+  {
+    "rank": 329,
+    "character": "比",
+    "meaningsRu": [
+      "сравнивать"
+    ],
+    "onReadings": [
+      "ヒ"
+    ],
+    "kunReadings": [
+      "くら.べる"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "値段を比べます。",
+    "sentenceKana": "ねだんをくらべます。",
+    "sentenceRu": "Я сравню цены."
+  },
+  {
+    "rank": 330,
+    "character": "難",
+    "meaningsRu": [
+      "трудный"
+    ],
+    "onReadings": [
+      "ナン"
+    ],
+    "kunReadings": [
+      "かた.い",
+      "-がた.い",
+      "むずか.しい",
+      "むづか.しい",
+      "むつか.しい",
+      "-にく.い"
+    ],
+    "strokeCount": 18,
+    "sentenceJp": "この問題は難しいです。",
+    "sentenceKana": "このもんだいはむずかしいです。",
+    "sentenceRu": "Эта задача трудная."
+  },
+  {
+    "rank": 331,
+    "character": "防",
+    "meaningsRu": [
+      "предотвращать"
+    ],
+    "onReadings": [
+      "ボウ"
+    ],
+    "kunReadings": [
+      "ふせ.ぐ"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "雨を防ぎます。",
+    "sentenceKana": "あめをふせぎます。",
+    "sentenceRu": "Я укроюсь от дождя."
+  },
+  {
+    "rank": 332,
+    "character": "補",
+    "meaningsRu": [
+      "дополнять"
+    ],
+    "onReadings": [
+      "ホ"
+    ],
+    "kunReadings": [
+      "おぎな.う"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "不足を補います。",
+    "sentenceKana": "ふそくをおぎないます。",
+    "sentenceRu": "Я восполню нехватку."
+  },
+  {
+    "rank": 333,
+    "character": "車",
+    "meaningsRu": [
+      "машина"
+    ],
+    "onReadings": [
+      "シャ"
+    ],
+    "kunReadings": [
+      "くるま"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "車で行きます。",
+    "sentenceKana": "くるまでいきます。",
+    "sentenceRu": "Я поеду на машине."
+  },
+  {
+    "rank": 334,
+    "character": "優",
+    "meaningsRu": [
+      "добрый",
+      "превосходный"
+    ],
+    "onReadings": [
+      "ユウ",
+      "ウ"
+    ],
+    "kunReadings": [
+      "やさ.しい",
+      "すぐ.れる",
+      "まさ.る"
+    ],
+    "strokeCount": 17,
+    "sentenceJp": "優しい人です。",
+    "sentenceKana": "やさしいひとです。",
+    "sentenceRu": "Это добрый человек."
+  },
+  {
+    "rank": 335,
+    "character": "夫",
+    "meaningsRu": [
+      "муж"
+    ],
+    "onReadings": [
+      "フ",
+      "フウ",
+      "ブ"
+    ],
+    "kunReadings": [
+      "おっと",
+      "それ"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "夫は料理が好きです。",
+    "sentenceKana": "おっとはりょうりがすきです。",
+    "sentenceRu": "Мужу нравится готовить."
+  },
+  {
+    "rank": 336,
+    "character": "研",
+    "meaningsRu": [
+      "изучать",
+      "точить"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "と.ぐ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "言葉を研究します。",
+    "sentenceKana": "ことばをけんきゅうします。",
+    "sentenceRu": "Я изучаю язык."
+  },
+  {
+    "rank": 337,
+    "character": "収",
+    "meaningsRu": [
+      "получать",
+      "собирать"
+    ],
+    "onReadings": [
+      "シュウ"
+    ],
+    "kunReadings": [
+      "おさ.める",
+      "おさ.まる"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "料金を収めてください。",
+    "sentenceKana": "りょうきんをおさめてください。",
+    "sentenceRu": "Оплатите, пожалуйста.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 338,
+    "character": "断",
+    "meaningsRu": [
+      "отказывать",
+      "решать"
+    ],
+    "onReadings": [
+      "ダン"
+    ],
+    "kunReadings": [
+      "た.つ",
+      "ことわ.る",
+      "さだ.める"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "丁寧に断ります。",
+    "sentenceKana": "ていねいにことわります。",
+    "sentenceRu": "Я вежливо откажусь."
+  },
+  {
+    "rank": 339,
+    "character": "井",
+    "meaningsRu": [
+      "колодец"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "い"
+    ],
+    "strokeCount": 4,
+    "sentenceJp": "古い井戸があります。",
+    "sentenceKana": "ふるいいどがあります。",
+    "sentenceRu": "Там старый колодец."
+  },
+  {
+    "rank": 340,
+    "character": "何",
+    "meaningsRu": [
+      "что"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [
+      "なに",
+      "なん",
+      "なに-",
+      "なん-"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "これは何ですか。",
+    "sentenceKana": "これはなんですか。",
+    "sentenceRu": "Что это?"
+  },
+  {
+    "rank": 341,
+    "character": "南",
+    "meaningsRu": [
+      "юг"
+    ],
+    "onReadings": [
+      "ナン",
+      "ナ"
+    ],
+    "kunReadings": [
+      "みなみ"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "南の窓を開けます。",
+    "sentenceKana": "みなみのまどをあけます。",
+    "sentenceRu": "Я открою южное окно."
+  },
+  {
+    "rank": 342,
+    "character": "石",
+    "meaningsRu": [
+      "камень"
+    ],
+    "onReadings": [
+      "セキ",
+      "シャク",
+      "コク"
+    ],
+    "kunReadings": [
+      "いし"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "石につまずきました。",
+    "sentenceKana": "いしにつまずきました。",
+    "sentenceRu": "Я споткнулся о камень."
+  },
+  {
+    "rank": 343,
+    "character": "足",
+    "meaningsRu": [
+      "нога",
+      "хватать"
+    ],
+    "onReadings": [
+      "ソク"
+    ],
+    "kunReadings": [
+      "あし",
+      "た.りる",
+      "た.る",
+      "た.す"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "足が痛いです。",
+    "sentenceKana": "あしがいたいです。",
+    "sentenceRu": "Нога болит."
+  },
+  {
+    "rank": 344,
+    "character": "違",
+    "meaningsRu": [
+      "отличаться",
+      "ошибка"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [
+      "ちが.う",
+      "ちが.い",
+      "ちが.える",
+      "-ちが.える",
+      "たが.う",
+      "たが.える"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "答えが違います。",
+    "sentenceKana": "こたえがちがいます。",
+    "sentenceRu": "Ответ неверный."
+  },
+  {
+    "rank": 345,
+    "character": "消",
+    "meaningsRu": [
+      "гасить",
+      "исчезать"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "き.える",
+      "け.す"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "火を消します。",
+    "sentenceKana": "ひをけします。",
+    "sentenceRu": "Я погашу огонь."
+  },
+  {
+    "rank": 346,
+    "character": "境",
+    "meaningsRu": [
+      "граница"
+    ],
+    "onReadings": [
+      "キョウ",
+      "ケイ"
+    ],
+    "kunReadings": [
+      "さかい"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "国境を越えます。",
+    "sentenceKana": "こっきょうをこえます。",
+    "sentenceRu": "Мы пересечём границу."
+  },
+  {
+    "rank": 347,
+    "character": "神",
+    "meaningsRu": [
+      "бог",
+      "дух"
+    ],
+    "onReadings": [
+      "シン",
+      "ジン"
+    ],
+    "kunReadings": [
+      "かみ",
+      "かん-",
+      "こう-"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "神社へ行きます。",
+    "sentenceKana": "じんじゃへいきます。",
+    "sentenceRu": "Я иду в синтоистский храм."
+  },
+  {
+    "rank": 348,
+    "character": "番",
+    "meaningsRu": [
+      "номер",
+      "очередь"
+    ],
+    "onReadings": [
+      "バン"
+    ],
+    "kunReadings": [
+      "つが.い"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "番号を控えます。",
+    "sentenceKana": "ばんごうをひかえます。",
+    "sentenceRu": "Я запишу номер."
+  },
+  {
+    "rank": 349,
+    "character": "規",
+    "meaningsRu": [
+      "норма",
+      "правило"
+    ],
+    "onReadings": [
+      "キ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 11,
+    "sentenceJp": "規則を守ります。",
+    "sentenceKana": "きそくをまもります。",
+    "sentenceRu": "Я соблюдаю правила."
+  },
+  {
+    "rank": 350,
+    "character": "術",
+    "meaningsRu": [
+      "искусство",
+      "приём"
+    ],
+    "onReadings": [
+      "ジュツ"
+    ],
+    "kunReadings": [
+      "すべ"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "技術を学びます。",
+    "sentenceKana": "ぎじゅつをまなびます。",
+    "sentenceRu": "Я учусь мастерству."
+  },
+  {
+    "rank": 351,
+    "character": "護",
+    "meaningsRu": [
+      "защищать"
+    ],
+    "onReadings": [
+      "ゴ"
+    ],
+    "kunReadings": [
+      "まも.る"
+    ],
+    "strokeCount": 20,
+    "sentenceJp": "子どもを護ります。",
+    "sentenceKana": "こどもをまもります。",
+    "sentenceRu": "Я защищаю ребёнка."
+  },
+  {
+    "rank": 352,
+    "character": "展",
+    "meaningsRu": [
+      "выставка",
+      "разворачивать"
+    ],
+    "onReadings": [
+      "テン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "展覧会へ行きます。",
+    "sentenceKana": "てんらんかいへいきます。",
+    "sentenceRu": "Я иду на выставку."
+  },
+  {
+    "rank": 353,
+    "character": "態",
+    "meaningsRu": [
+      "состояние",
+      "вид"
+    ],
+    "onReadings": [
+      "タイ"
+    ],
+    "kunReadings": [
+      "わざ.と"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "態度が柔らかいです。",
+    "sentenceKana": "たいどがやわらかいです。",
+    "sentenceRu": "Манера мягкая."
+  },
+  {
+    "rank": 354,
+    "character": "導",
+    "meaningsRu": [
+      "вести",
+      "руководить"
+    ],
+    "onReadings": [
+      "ドウ"
+    ],
+    "kunReadings": [
+      "みちび.く"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "道を導きます。",
+    "sentenceKana": "みちをみちびきます。",
+    "sentenceRu": "Я проведу по дороге."
+  },
+  {
+    "rank": 355,
+    "character": "鮮",
+    "meaningsRu": [
+      "свежий",
+      "яркий"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "あざ.やか"
+    ],
+    "strokeCount": 17,
+    "sentenceJp": "魚が新鮮です。",
+    "sentenceKana": "さかながしんせんです。",
+    "sentenceRu": "Рыба свежая."
+  },
+  {
+    "rank": 356,
+    "character": "備",
+    "meaningsRu": [
+      "готовить",
+      "оснащать"
+    ],
+    "onReadings": [
+      "ビ"
+    ],
+    "kunReadings": [
+      "そな.える",
+      "そな.わる",
+      "つぶさ.に"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "傘を備えます。",
+    "sentenceKana": "かさをそなえます。",
+    "sentenceRu": "Я припас зонт."
+  },
+  {
+    "rank": 357,
+    "character": "宅",
+    "meaningsRu": [
+      "дом",
+      "жилище"
+    ],
+    "onReadings": [
+      "タク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 6,
+    "sentenceJp": "宅配が来ました。",
+    "sentenceKana": "たくはいがきました。",
+    "sentenceRu": "Приехала доставка."
+  },
+  {
+    "rank": 358,
+    "character": "害",
+    "meaningsRu": [
+      "вред"
+    ],
+    "onReadings": [
+      "ガイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "害はありません。",
+    "sentenceKana": "がいはありません。",
+    "sentenceRu": "Вреда нет."
+  },
+  {
+    "rank": 359,
+    "character": "配",
+    "meaningsRu": [
+      "раздавать",
+      "распределять"
+    ],
+    "onReadings": [
+      "ハイ"
+    ],
+    "kunReadings": [
+      "くば.る"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "資料を配ります。",
+    "sentenceKana": "しりょうをくばります。",
+    "sentenceRu": "Я раздам материалы."
+  },
+  {
+    "rank": 360,
+    "character": "副",
+    "meaningsRu": [
+      "заместитель",
+      "дополнительный"
+    ],
+    "onReadings": [
+      "フク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 11,
+    "sentenceJp": "副作用はありません。",
+    "sentenceKana": "ふくさようはありません。",
+    "sentenceRu": "Побочных действий нет.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 361,
+    "character": "算",
+    "meaningsRu": [
+      "считать"
+    ],
+    "onReadings": [
+      "サン"
+    ],
+    "kunReadings": [
+      "そろ"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "料金を計算します。",
+    "sentenceKana": "りょうきんをけいさんします。",
+    "sentenceRu": "Я посчитаю плату."
+  },
+  {
+    "rank": 362,
+    "character": "視",
+    "meaningsRu": [
+      "смотреть",
+      "рассматривать"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "み.る"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "注意して視ます。",
+    "sentenceKana": "ちゅういしてみます。",
+    "sentenceRu": "Я внимательно посмотрю.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 363,
+    "character": "条",
+    "meaningsRu": [
+      "пункт",
+      "полоса"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "チョウ",
+      "デキ"
+    ],
+    "kunReadings": [
+      "えだ",
+      "すじ"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "条件は簡単です。",
+    "sentenceKana": "じょうけんはかんたんです。",
+    "sentenceRu": "Условие простое."
+  },
+  {
+    "rank": 364,
+    "character": "幹",
+    "meaningsRu": [
+      "ствол",
+      "основа"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "みき"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "木の幹が太いです。",
+    "sentenceKana": "きのみきがふといです。",
+    "sentenceRu": "Ствол дерева толстый."
+  },
+  {
+    "rank": 365,
+    "character": "独",
+    "meaningsRu": [
+      "один",
+      "Германия"
+    ],
+    "onReadings": [
+      "ドク",
+      "トク"
+    ],
+    "kunReadings": [
+      "ひと.り"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "独りで食べます。",
+    "sentenceKana": "ひとりでたべます。",
+    "sentenceRu": "Я ем один."
+  },
+  {
+    "rank": 366,
+    "character": "警",
+    "meaningsRu": [
+      "предостерегать",
+      "полиция"
+    ],
+    "onReadings": [
+      "ケイ"
+    ],
+    "kunReadings": [
+      "いまし.める"
+    ],
+    "strokeCount": 19,
+    "sentenceJp": "警察に電話します。",
+    "sentenceKana": "けいさつにでんわします。",
+    "sentenceRu": "Я звоню в полицию."
+  },
+  {
+    "rank": 367,
+    "character": "宮",
+    "meaningsRu": [
+      "дворец",
+      "храм"
+    ],
+    "onReadings": [
+      "キュウ",
+      "グウ",
+      "ク",
+      "クウ"
+    ],
+    "kunReadings": [
+      "みや"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "宮の庭は広いです。",
+    "sentenceKana": "みやのにわはひろいです。",
+    "sentenceRu": "Дворцовый сад большой."
+  },
+  {
+    "rank": 368,
+    "character": "究",
+    "meaningsRu": [
+      "исследовать"
+    ],
+    "onReadings": [
+      "キュウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "きわ.める"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "原因を究めます。",
+    "sentenceKana": "げんいんをきわめます。",
+    "sentenceRu": "Я докопаюсь до причины.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 369,
+    "character": "育",
+    "meaningsRu": [
+      "растить",
+      "воспитывать"
+    ],
+    "onReadings": [
+      "イク"
+    ],
+    "kunReadings": [
+      "そだ.つ",
+      "そだ.ち",
+      "そだ.てる",
+      "はぐく.む"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "子どもを育てます。",
+    "sentenceKana": "こどもをそだてます。",
+    "sentenceRu": "Я ращу ребёнка."
+  },
+  {
+    "rank": 370,
+    "character": "席",
+    "meaningsRu": [
+      "место"
+    ],
+    "onReadings": [
+      "セキ"
+    ],
+    "kunReadings": [
+      "むしろ"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "席を予約します。",
+    "sentenceKana": "せきをよやくします。",
+    "sentenceRu": "Я забронирую место."
+  },
+  {
+    "rank": 371,
+    "character": "輸",
+    "meaningsRu": [
+      "перевозить"
+    ],
+    "onReadings": [
+      "ユ",
+      "シュ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 16,
+    "sentenceJp": "輸出が増えました。",
+    "sentenceKana": "ゆしゅつがふえました。",
+    "sentenceRu": "Экспорт вырос.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 372,
+    "character": "訪",
+    "meaningsRu": [
+      "посещать"
+    ],
+    "onReadings": [
+      "ホウ"
+    ],
+    "kunReadings": [
+      "おとず.れる",
+      "たず.ねる",
+      "と.う"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "友を訪ねます。",
+    "sentenceKana": "ともをたずねます。",
+    "sentenceRu": "Я навещу друга."
+  },
+  {
+    "rank": 373,
+    "character": "楽",
+    "meaningsRu": [
+      "приятный",
+      "музыка"
+    ],
+    "onReadings": [
+      "ガク",
+      "ラク",
+      "ゴウ"
+    ],
+    "kunReadings": [
+      "たの.しい",
+      "たの.しむ",
+      "この.む"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "音楽が楽しいです。",
+    "sentenceKana": "おんがくがたのしいです。",
+    "sentenceRu": "Музыка радует."
+  },
+  {
+    "rank": 374,
+    "character": "起",
+    "meaningsRu": [
+      "вставать",
+      "происходить"
+    ],
+    "onReadings": [
+      "キ"
+    ],
+    "kunReadings": [
+      "お.きる",
+      "お.こる",
+      "お.こす",
+      "おこ.す",
+      "た.つ"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "六時に起きます。",
+    "sentenceKana": "ろくじにおきます。",
+    "sentenceRu": "Я встаю в шесть."
+  },
+  {
+    "rank": 375,
+    "character": "万",
+    "meaningsRu": [
+      "десять тысяч"
+    ],
+    "onReadings": [
+      "マン",
+      "バン"
+    ],
+    "kunReadings": [
+      "よろず"
+    ],
+    "strokeCount": 3,
+    "sentenceJp": "一万円です。",
+    "sentenceKana": "いちまんえんです。",
+    "sentenceRu": "Это десять тысяч иен."
+  },
+  {
+    "rank": 376,
+    "character": "着",
+    "meaningsRu": [
+      "надевать",
+      "прибывать"
+    ],
+    "onReadings": [
+      "チャク",
+      "ジャク"
+    ],
+    "kunReadings": [
+      "き.る",
+      "き.せる",
+      "つ.く",
+      "つ.ける"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "コートを着ます。",
+    "sentenceKana": "こーとをきます。",
+    "sentenceRu": "Я надену пальто."
+  },
+  {
+    "rank": 377,
+    "character": "乗",
+    "meaningsRu": [
+      "садиться",
+      "ехать"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "の.る",
+      "-の.り",
+      "の.せる"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "バスに乗ります。",
+    "sentenceKana": "ばすにのります。",
+    "sentenceRu": "Я сяду на автобус."
+  },
+  {
+    "rank": 378,
+    "character": "店",
+    "meaningsRu": [
+      "магазин"
+    ],
+    "onReadings": [
+      "テン"
+    ],
+    "kunReadings": [
+      "みせ",
+      "たな"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "あの店は安いです。",
+    "sentenceKana": "あのみせはやすいです。",
+    "sentenceRu": "Тот магазин дешёвый."
+  },
+  {
+    "rank": 379,
+    "character": "述",
+    "meaningsRu": [
+      "излагать"
+    ],
+    "onReadings": [
+      "ジュツ"
+    ],
+    "kunReadings": [
+      "の.べる"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "気持ちを述べます。",
+    "sentenceKana": "きもちをのべます。",
+    "sentenceRu": "Я выскажу, что чувствую."
+  },
+  {
+    "rank": 380,
+    "character": "残",
+    "meaningsRu": [
+      "оставаться"
+    ],
+    "onReadings": [
+      "ザン",
+      "サン"
+    ],
+    "kunReadings": [
+      "のこ.る",
+      "のこ.す",
+      "そこな.う",
+      "のこ.り"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "ケーキが残っています。",
+    "sentenceKana": "けーきがのこっています。",
+    "sentenceRu": "Торт ещё остался."
+  },
+  {
+    "rank": 381,
+    "character": "想",
+    "meaningsRu": [
+      "мысль",
+      "представлять"
+    ],
+    "onReadings": [
+      "ソウ",
+      "ソ"
+    ],
+    "kunReadings": [
+      "おも.う"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "想像してみます。",
+    "sentenceKana": "そうぞうしてみます。",
+    "sentenceRu": "Я попробую представить."
+  },
+  {
+    "rank": 382,
+    "character": "線",
+    "meaningsRu": [
+      "линия"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "すじ"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "線を引きます。",
+    "sentenceKana": "せんをひきます。",
+    "sentenceRu": "Я проведу линию."
+  },
+  {
+    "rank": 383,
+    "character": "率",
+    "meaningsRu": [
+      "доля",
+      "коэффициент"
+    ],
+    "onReadings": [
+      "ソツ",
+      "リツ",
+      "シュツ"
+    ],
+    "kunReadings": [
+      "ひき.いる"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "成功率は高いです。",
+    "sentenceKana": "せいこうりつはたかいです。",
+    "sentenceRu": "Доля успеха высокая.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 384,
+    "character": "病",
+    "meaningsRu": [
+      "болезнь"
+    ],
+    "onReadings": [
+      "ビョウ",
+      "ヘイ"
+    ],
+    "kunReadings": [
+      "や.む",
+      "-や.み",
+      "やまい"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "病気で休みます。",
+    "sentenceKana": "びょうきでやすみます。",
+    "sentenceRu": "Я отдыхаю из-за болезни."
+  },
+  {
+    "rank": 385,
+    "character": "農",
+    "meaningsRu": [
+      "сельское хозяйство"
+    ],
+    "onReadings": [
+      "ノウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "sentenceJp": "農家を訪ねます。",
+    "sentenceKana": "のうかをたずねます。",
+    "sentenceRu": "Я навещу ферму."
+  },
+  {
+    "rank": 386,
+    "character": "州",
+    "meaningsRu": [
+      "штат",
+      "провинция"
+    ],
+    "onReadings": [
+      "シュウ",
+      "ス"
+    ],
+    "kunReadings": [
+      "す"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "この州は広いです。",
+    "sentenceKana": "このしゅうはひろいです。",
+    "sentenceRu": "Этот штат большой."
+  },
+  {
+    "rank": 387,
+    "character": "武",
+    "meaningsRu": [
+      "военный",
+      "воин"
+    ],
+    "onReadings": [
+      "ブ",
+      "ム"
+    ],
+    "kunReadings": [
+      "たけ",
+      "たけ.し"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "武器は置きません。",
+    "sentenceKana": "ぶきはおきません。",
+    "sentenceRu": "Оружие мы не оставляем."
+  },
+  {
+    "rank": 388,
+    "character": "声",
+    "meaningsRu": [
+      "голос"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "こえ",
+      "こわ-"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "声が小さいです。",
+    "sentenceKana": "こえがちいさいです。",
+    "sentenceRu": "Голос тихий."
+  },
+  {
+    "rank": 389,
+    "character": "質",
+    "meaningsRu": [
+      "качество"
+    ],
+    "onReadings": [
+      "シツ",
+      "シチ",
+      "チ"
+    ],
+    "kunReadings": [
+      "たち",
+      "ただ.す",
+      "もと",
+      "わりふ"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "質がいい紙です。",
+    "sentenceKana": "しつがいいかみです。",
+    "sentenceRu": "Это бумага хорошего качества."
+  },
+  {
+    "rank": 390,
+    "character": "念",
+    "meaningsRu": [
+      "мысль",
+      "забота"
+    ],
+    "onReadings": [
+      "ネン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 8,
+    "sentenceJp": "念のため確認します。",
+    "sentenceKana": "ねんのためかくにんします。",
+    "sentenceRu": "На всякий случай проверю."
+  },
+  {
+    "rank": 391,
+    "character": "待",
+    "meaningsRu": [
+      "ждать"
+    ],
+    "onReadings": [
+      "タイ"
+    ],
+    "kunReadings": [
+      "ま.つ",
+      "-ま.ち"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "ここで待ってください。",
+    "sentenceKana": "ここでまってください。",
+    "sentenceRu": "Подождите, пожалуйста, здесь."
+  },
+  {
+    "rank": 392,
+    "character": "試",
+    "meaningsRu": [
+      "пробовать",
+      "испытание"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "こころ.みる",
+      "ため.す"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "新しい靴を試します。",
+    "sentenceKana": "あたらしいくつをためします。",
+    "sentenceRu": "Я примерю новые ботинки."
+  },
+  {
+    "rank": 393,
+    "character": "族",
+    "meaningsRu": [
+      "семья",
+      "род"
+    ],
+    "onReadings": [
+      "ゾク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 11,
+    "sentenceJp": "家族で食事します。",
+    "sentenceKana": "かぞくでしょくじします。",
+    "sentenceRu": "Мы едим всей семьёй."
+  },
+  {
+    "rank": 394,
+    "character": "象",
+    "meaningsRu": [
+      "слон",
+      "образ"
+    ],
+    "onReadings": [
+      "ショウ",
+      "ゾウ"
+    ],
+    "kunReadings": [
+      "かたど.る"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "象の絵を見ました。",
+    "sentenceKana": "ぞうのえをみました。",
+    "sentenceRu": "Я видел рисунок слона."
+  },
+  {
+    "rank": 395,
+    "character": "銀",
+    "meaningsRu": [
+      "серебро"
+    ],
+    "onReadings": [
+      "ギン"
+    ],
+    "kunReadings": [
+      "しろがね"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "銀行は駅の前です。",
+    "sentenceKana": "ぎんこうはえきのまえです。",
+    "sentenceRu": "Банк перед вокзалом."
+  },
+  {
+    "rank": 396,
+    "character": "域",
+    "meaningsRu": [
+      "область",
+      "предел"
+    ],
+    "onReadings": [
+      "イキ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 11,
+    "sentenceJp": "地域の店です。",
+    "sentenceKana": "ちいきのみせです。",
+    "sentenceRu": "Это местный магазин."
+  },
+  {
+    "rank": 397,
+    "character": "助",
+    "meaningsRu": [
+      "помогать"
+    ],
+    "onReadings": [
+      "ジョ"
+    ],
+    "kunReadings": [
+      "たす.ける",
+      "たす.かる",
+      "す.ける",
+      "すけ"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "少し助けてください。",
+    "sentenceKana": "すこしたすけてください。",
+    "sentenceRu": "Помогите, пожалуйста, немного."
+  },
+  {
+    "rank": 398,
+    "character": "労",
+    "meaningsRu": [
+      "труд"
+    ],
+    "onReadings": [
+      "ロウ"
+    ],
+    "kunReadings": [
+      "ろう.する",
+      "いたわ.る",
+      "いた.ずき",
+      "ねぎら",
+      "つか.れる",
+      "ねぎら.う"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "ご苦労さまです。",
+    "sentenceKana": "ごくろうさまです。",
+    "sentenceRu": "Спасибо за труд."
+  },
+  {
+    "rank": 399,
+    "character": "例",
+    "meaningsRu": [
+      "пример"
+    ],
+    "onReadings": [
+      "レイ"
+    ],
+    "kunReadings": [
+      "たと.える"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "例を一つ挙げます。",
+    "sentenceKana": "れいをひとつあげます。",
+    "sentenceRu": "Приведу один пример."
+  },
+  {
+    "rank": 400,
+    "character": "衛",
+    "meaningsRu": [
+      "защита"
+    ],
+    "onReadings": [
+      "エイ",
+      "エ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 16,
+    "sentenceJp": "衛生に気をつけます。",
+    "sentenceKana": "えいせいにきをつけます。",
+    "sentenceRu": "Я слежу за чистотой."
+  },
+  {
+    "rank": 401,
+    "character": "然",
+    "meaningsRu": [
+      "так",
+      "естественный"
+    ],
+    "onReadings": [
+      "ゼン",
+      "ネン"
+    ],
+    "kunReadings": [
+      "しか",
+      "しか.り",
+      "しか.し",
+      "さ"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "自然が好きです。",
+    "sentenceKana": "しぜんがすきです。",
+    "sentenceRu": "Мне нравится природа."
+  },
+  {
+    "rank": 402,
+    "character": "早",
+    "meaningsRu": [
+      "ранний",
+      "быстрый"
+    ],
+    "onReadings": [
+      "ソウ",
+      "サッ"
+    ],
+    "kunReadings": [
+      "はや.い",
+      "はや",
+      "はや-",
+      "はや.まる",
+      "はや.める",
+      "さ-"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "早く寝ます。",
+    "sentenceKana": "はやくねます。",
+    "sentenceRu": "Я лягу рано."
+  },
+  {
+    "rank": 403,
+    "character": "張",
+    "meaningsRu": [
+      "натягивать",
+      "растягивать"
+    ],
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "は.る",
+      "-は.り",
+      "-ば.り"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "ポスターを張ります。",
+    "sentenceKana": "ぽすたーをはります。",
+    "sentenceRu": "Я повешу плакат."
+  },
+  {
+    "rank": 404,
+    "character": "映",
+    "meaningsRu": [
+      "отражаться",
+      "кино"
+    ],
+    "onReadings": [
+      "エイ"
+    ],
+    "kunReadings": [
+      "うつ.る",
+      "うつ.す",
+      "は.える",
+      "-ば.え"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "映画を見ます。",
+    "sentenceKana": "えいがをみます。",
+    "sentenceRu": "Я смотрю фильм."
+  },
+  {
+    "rank": 405,
+    "character": "限",
+    "meaningsRu": [
+      "предел",
+      "ограничивать"
+    ],
+    "onReadings": [
+      "ゲン"
+    ],
+    "kunReadings": [
+      "かぎ.る",
+      "かぎ.り",
+      "-かぎ.り"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "時間は限られています。",
+    "sentenceKana": "じかんはかぎられています。",
+    "sentenceRu": "Время ограничено."
+  },
+  {
+    "rank": 406,
+    "character": "親",
+    "meaningsRu": [
+      "родитель"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "おや",
+      "おや-",
+      "した.しい",
+      "した.しむ"
+    ],
+    "strokeCount": 16,
+    "sentenceJp": "親に電話します。",
+    "sentenceKana": "おやにでんわします。",
+    "sentenceRu": "Я позвоню родителям."
+  },
+  {
+    "rank": 407,
+    "character": "額",
+    "meaningsRu": [
+      "сумма",
+      "лоб"
+    ],
+    "onReadings": [
+      "ガク"
+    ],
+    "kunReadings": [
+      "ひたい"
+    ],
+    "strokeCount": 18,
+    "sentenceJp": "額を確認します。",
+    "sentenceKana": "がくをかくにんします。",
+    "sentenceRu": "Я проверю сумму."
+  },
+  {
+    "rank": 408,
+    "character": "監",
+    "meaningsRu": [
+      "надзирать"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 15,
+    "sentenceJp": "監督が来ました。",
+    "sentenceKana": "かんとくがきました。",
+    "sentenceRu": "Пришёл руководитель."
+  },
+  {
+    "rank": 409,
+    "character": "環",
+    "meaningsRu": [
+      "кольцо",
+      "окружение"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "わ"
+    ],
+    "strokeCount": 17,
+    "sentenceJp": "環境を守ります。",
+    "sentenceKana": "かんきょうをまもります。",
+    "sentenceRu": "Мы бережём среду."
+  },
+  {
+    "rank": 410,
+    "character": "験",
+    "meaningsRu": [
+      "опыт",
+      "проверка"
+    ],
+    "onReadings": [
+      "ケン",
+      "ゲン"
+    ],
+    "kunReadings": [
+      "あかし",
+      "しるし",
+      "ため.す",
+      "ためし"
+    ],
+    "strokeCount": 18,
+    "sentenceJp": "経験を活かします。",
+    "sentenceKana": "けいけんをいかします。",
+    "sentenceRu": "Я использую опыт."
+  },
+  {
+    "rank": 411,
+    "character": "追",
+    "meaningsRu": [
+      "преследовать",
+      "догонять"
+    ],
+    "onReadings": [
+      "ツイ"
+    ],
+    "kunReadings": [
+      "お.う"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "バスを追います。",
+    "sentenceKana": "ばすをおいます。",
+    "sentenceRu": "Я догоняю автобус."
+  },
+  {
+    "rank": 412,
+    "character": "審",
+    "meaningsRu": [
+      "разбирать",
+      "суд"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "つまび.らか",
+      "つぶさ.に"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "審査は来週です。",
+    "sentenceKana": "しんさはらいしゅうです。",
+    "sentenceRu": "Проверка на следующей неделе.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 413,
+    "character": "商",
+    "meaningsRu": [
+      "торговля"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "あきな.う"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "商品を並べます。",
+    "sentenceKana": "しょうひんをならべます。",
+    "sentenceRu": "Я раскладываю товары."
+  },
+  {
+    "rank": 414,
+    "character": "葉",
+    "meaningsRu": [
+      "лист"
+    ],
+    "onReadings": [
+      "ヨウ"
+    ],
+    "kunReadings": [
+      "は"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "葉が落ちました。",
+    "sentenceKana": "はがおちました。",
+    "sentenceRu": "Листья опали."
+  },
+  {
+    "rank": 415,
+    "character": "義",
+    "meaningsRu": [
+      "справедливость",
+      "смысл"
+    ],
+    "onReadings": [
+      "ギ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "sentenceJp": "義理を大切にします。",
+    "sentenceKana": "ぎりをたいせつにします。",
+    "sentenceRu": "Я дорожу долгом."
+  },
+  {
+    "rank": 416,
+    "character": "伝",
+    "meaningsRu": [
+      "передавать"
+    ],
+    "onReadings": [
+      "デン",
+      "テン"
+    ],
+    "kunReadings": [
+      "つた.わる",
+      "つた.える",
+      "つた.う",
+      "つだ.う",
+      "-づた.い",
+      "つて"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "話を伝えます。",
+    "sentenceKana": "はなしをつたえます。",
+    "sentenceRu": "Я передам рассказ."
+  },
+  {
+    "rank": 417,
+    "character": "働",
+    "meaningsRu": [
+      "работать"
+    ],
+    "onReadings": [
+      "ドウ"
+    ],
+    "kunReadings": [
+      "はたら.く"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "今日は働きます。",
+    "sentenceKana": "きょうははたらきます。",
+    "sentenceRu": "Сегодня я работаю."
+  },
+  {
+    "rank": 418,
+    "character": "形",
+    "meaningsRu": [
+      "форма"
+    ],
+    "onReadings": [
+      "ケイ",
+      "ギョウ"
+    ],
+    "kunReadings": [
+      "かた",
+      "-がた",
+      "かたち",
+      "なり"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "形がきれいです。",
+    "sentenceKana": "かたちがきれいです。",
+    "sentenceRu": "Форма красивая."
+  },
+  {
+    "rank": 419,
+    "character": "景",
+    "meaningsRu": [
+      "пейзаж"
+    ],
+    "onReadings": [
+      "ケイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 12,
+    "sentenceJp": "景色がいいです。",
+    "sentenceKana": "けしきがいいです。",
+    "sentenceRu": "Вид хороший."
+  },
+  {
+    "rank": 420,
+    "character": "落",
+    "meaningsRu": [
+      "падать"
+    ],
+    "onReadings": [
+      "ラク"
+    ],
+    "kunReadings": [
+      "お.ちる",
+      "お.ち",
+      "お.とす"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "財布を落としました。",
+    "sentenceKana": "さいふをおとしました。",
+    "sentenceRu": "Я уронил кошелёк."
+  },
+  {
+    "rank": 421,
+    "character": "欧",
+    "meaningsRu": [
+      "Европа"
+    ],
+    "onReadings": [
+      "オウ"
+    ],
+    "kunReadings": [
+      "うた.う",
+      "は.く"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "欧州へ行きます。",
+    "sentenceKana": "おうしゅうへいきます。",
+    "sentenceRu": "Я еду в Европу."
+  },
+  {
+    "rank": 422,
+    "character": "担",
+    "meaningsRu": [
+      "нести",
+      "брать на себя"
+    ],
+    "onReadings": [
+      "タン"
+    ],
+    "kunReadings": [
+      "かつ.ぐ",
+      "にな.う"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "荷物を担ぎます。",
+    "sentenceKana": "にもつをかつぎます。",
+    "sentenceRu": "Я понесу багаж на плече."
+  },
+  {
+    "rank": 423,
+    "character": "好",
+    "meaningsRu": [
+      "нравиться"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "この.む",
+      "す.く",
+      "よ.い",
+      "い.い"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "この歌が好きです。",
+    "sentenceKana": "このうたがすきです。",
+    "sentenceRu": "Мне нравится эта песня."
+  },
+  {
+    "rank": 424,
+    "character": "退",
+    "meaningsRu": [
+      "отступать",
+      "уходить"
+    ],
+    "onReadings": [
+      "タイ"
+    ],
+    "kunReadings": [
+      "しりぞ.く",
+      "しりぞ.ける",
+      "ひ.く",
+      "の.く",
+      "の.ける",
+      "ど.く"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "席を退きます。",
+    "sentenceKana": "せきをしりぞきます。",
+    "sentenceRu": "Я освобожу место."
+  },
+  {
+    "rank": 425,
+    "character": "準",
+    "meaningsRu": [
+      "соответствовать",
+      "уровень"
+    ],
+    "onReadings": [
+      "ジュン"
+    ],
+    "kunReadings": [
+      "じゅん.じる",
+      "じゅん.ずる",
+      "なぞら.える",
+      "のり",
+      "ひと.しい",
+      "みずもり"
+    ],
+    "strokeCount": 13,
+    "sentenceJp": "準備ができました。",
+    "sentenceKana": "じゅんびができました。",
+    "sentenceRu": "Подготовка готова."
+  },
+  {
+    "rank": 426,
+    "character": "賞",
+    "meaningsRu": [
+      "награда",
+      "хвалить"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "ほ.める"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "賞をもらいました。",
+    "sentenceKana": "しょうをもらいました。",
+    "sentenceRu": "Я получил награду."
+  },
+  {
+    "rank": 427,
+    "character": "訴",
+    "meaningsRu": [
+      "жаловаться",
+      "обращаться"
+    ],
+    "onReadings": [
+      "ソ"
+    ],
+    "kunReadings": [
+      "うった.える"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "気持ちを訴えます。",
+    "sentenceKana": "きもちをうったえます。",
+    "sentenceRu": "Я выскажу, что чувствую."
+  },
+  {
+    "rank": 428,
+    "character": "辺",
+    "meaningsRu": [
+      "окрестность"
+    ],
+    "onReadings": [
+      "ヘン"
+    ],
+    "kunReadings": [
+      "あた.り",
+      "ほと.り",
+      "-べ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "この辺に店はありますか。",
+    "sentenceKana": "このへんにみせはありますか。",
+    "sentenceRu": "Есть ли здесь поблизости магазин?"
+  },
+  {
+    "rank": 429,
+    "character": "造",
+    "meaningsRu": [
+      "создавать"
+    ],
+    "onReadings": [
+      "ゾウ"
+    ],
+    "kunReadings": [
+      "つく.る",
+      "つく.り",
+      "-づく.り"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "船を造ります。",
+    "sentenceKana": "ふねをつくります。",
+    "sentenceRu": "Мы строим лодку."
+  },
+  {
+    "rank": 430,
+    "character": "英",
+    "meaningsRu": [
+      "Англия",
+      "выдающийся"
+    ],
+    "onReadings": [
+      "エイ"
+    ],
+    "kunReadings": [
+      "はなぶさ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "英語を勉強します。",
+    "sentenceKana": "えいごをべんきょうします。",
+    "sentenceRu": "Я учу английский."
+  },
+  {
+    "rank": 431,
+    "character": "被",
+    "meaningsRu": [
+      "подвергаться",
+      "покрывать"
+    ],
+    "onReadings": [
+      "ヒ"
+    ],
+    "kunReadings": [
+      "こうむ.る",
+      "おお.う",
+      "かぶ.る",
+      "かぶ.せる"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "布団を被ります。",
+    "sentenceKana": "ふとんをかぶります。",
+    "sentenceRu": "Я укроюсь одеялом.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 432,
+    "character": "株",
+    "meaningsRu": [
+      "акции",
+      "пень"
+    ],
+    "onReadings": [
+      "シュ"
+    ],
+    "kunReadings": [
+      "かぶ"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "株の話は難しいです。",
+    "sentenceKana": "かぶのはなしはむずかしいです。",
+    "sentenceRu": "Разговор об акциях сложный."
+  },
+  {
+    "rank": 433,
+    "character": "頭",
+    "meaningsRu": [
+      "голова"
+    ],
+    "onReadings": [
+      "トウ",
+      "ズ",
+      "ト"
+    ],
+    "kunReadings": [
+      "あたま",
+      "かしら",
+      "-がしら",
+      "かぶり"
+    ],
+    "strokeCount": 16,
+    "sentenceJp": "頭が痛いです。",
+    "sentenceKana": "あたまがいたいです。",
+    "sentenceRu": "Болит голова."
+  },
+  {
+    "rank": 434,
+    "character": "技",
+    "meaningsRu": [
+      "умение",
+      "техника"
+    ],
+    "onReadings": [
+      "ギ"
+    ],
+    "kunReadings": [
+      "わざ"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "技を見せます。",
+    "sentenceKana": "わざをみせます。",
+    "sentenceRu": "Я покажу приём."
+  },
+  {
+    "rank": 435,
+    "character": "低",
+    "meaningsRu": [
+      "низкий"
+    ],
+    "onReadings": [
+      "テイ"
+    ],
+    "kunReadings": [
+      "ひく.い",
+      "ひく.める",
+      "ひく.まる"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "声が低いです。",
+    "sentenceKana": "こえがひくいです。",
+    "sentenceRu": "Голос низкий."
+  },
+  {
+    "rank": 436,
+    "character": "毎",
+    "meaningsRu": [
+      "каждый"
+    ],
+    "onReadings": [
+      "マイ"
+    ],
+    "kunReadings": [
+      "ごと",
+      "-ごと.に"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "毎日歩きます。",
+    "sentenceKana": "まいにちあるきます。",
+    "sentenceRu": "Я гуляю каждый день."
+  },
+  {
+    "rank": 437,
+    "character": "医",
+    "meaningsRu": [
+      "врач",
+      "медицина"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [
+      "い.やす",
+      "い.する",
+      "くすし"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "医者に見せます。",
+    "sentenceKana": "いしゃにみせます。",
+    "sentenceRu": "Я покажу это врачу."
+  },
+  {
+    "rank": 438,
+    "character": "復",
+    "meaningsRu": [
+      "возвращаться",
+      "восстанавливать"
+    ],
+    "onReadings": [
+      "フク"
+    ],
+    "kunReadings": [
+      "また"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "復習します。",
+    "sentenceKana": "ふくしゅうします。",
+    "sentenceRu": "Я повторю пройденное."
+  },
+  {
+    "rank": 439,
+    "character": "仕",
+    "meaningsRu": [
+      "служить",
+      "делать"
+    ],
+    "onReadings": [
+      "シ",
+      "ジ"
+    ],
+    "kunReadings": [
+      "つか.える"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "仕事が好きです。",
+    "sentenceKana": "しごとがすきです。",
+    "sentenceRu": "Мне нравится работа."
+  },
+  {
+    "rank": 440,
+    "character": "去",
+    "meaningsRu": [
+      "уходить",
+      "прошлое"
+    ],
+    "onReadings": [
+      "キョ",
+      "コ"
+    ],
+    "kunReadings": [
+      "さ.る",
+      "-さ.る"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "去年、ここに来ました。",
+    "sentenceKana": "きょねん、ここにきました。",
+    "sentenceRu": "В прошлом году я приезжал сюда."
+  },
+  {
+    "rank": 441,
+    "character": "姿",
+    "meaningsRu": [
+      "облик",
+      "фигура"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "すがた"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "姿が見えました。",
+    "sentenceKana": "すがたがみえました。",
+    "sentenceRu": "Я увидел фигуру."
+  },
+  {
+    "rank": 442,
+    "character": "味",
+    "meaningsRu": [
+      "вкус"
+    ],
+    "onReadings": [
+      "ミ"
+    ],
+    "kunReadings": [
+      "あじ",
+      "あじ.わう"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "味がいいです。",
+    "sentenceKana": "あじがいいです。",
+    "sentenceRu": "Вкус хороший."
+  },
+  {
+    "rank": 443,
+    "character": "負",
+    "meaningsRu": [
+      "проигрывать",
+      "нести"
+    ],
+    "onReadings": [
+      "フ"
+    ],
+    "kunReadings": [
+      "ま.ける",
+      "ま.かす",
+      "お.う"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "試合に負けました。",
+    "sentenceKana": "しあいにまけました。",
+    "sentenceRu": "Мы проиграли матч."
+  },
+  {
+    "rank": 444,
+    "character": "閣",
+    "meaningsRu": [
+      "кабинет",
+      "дворец"
+    ],
+    "onReadings": [
+      "カク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 14,
+    "sentenceJp": "閣議は朝です。",
+    "sentenceKana": "かくぎはあさです。",
+    "sentenceRu": "Заседание кабинета утром.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 445,
+    "character": "韓",
+    "meaningsRu": [
+      "Корея"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "から",
+      "いげた"
+    ],
+    "strokeCount": 18,
+    "sentenceJp": "韓国の料理が好きです。",
+    "sentenceKana": "かんこくのりょうりがすきです。",
+    "sentenceRu": "Мне нравится корейская еда."
+  },
+  {
+    "rank": 446,
+    "character": "渡",
+    "meaningsRu": [
+      "переправляться"
+    ],
+    "onReadings": [
+      "ト"
+    ],
+    "kunReadings": [
+      "わた.る",
+      "-わた.る",
+      "わた.す"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "橋を渡ります。",
+    "sentenceKana": "はしをわたります。",
+    "sentenceRu": "Я перейду мост."
+  },
+  {
+    "rank": 447,
+    "character": "失",
+    "meaningsRu": [
+      "терять"
+    ],
+    "onReadings": [
+      "シツ"
+    ],
+    "kunReadings": [
+      "うしな.う",
+      "う.せる"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "鍵を失いました。",
+    "sentenceKana": "かぎをうしないました。",
+    "sentenceRu": "Я потерял ключ."
+  },
+  {
+    "rank": 448,
+    "character": "移",
+    "meaningsRu": [
+      "перемещать"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [
+      "うつ.る",
+      "うつ.す"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "席を移します。",
+    "sentenceKana": "せきをうつします。",
+    "sentenceRu": "Я пересяду."
+  },
+  {
+    "rank": 449,
+    "character": "差",
+    "meaningsRu": [
+      "разница"
+    ],
+    "onReadings": [
+      "サ"
+    ],
+    "kunReadings": [
+      "さ.す",
+      "さ.し"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "差は小さいです。",
+    "sentenceKana": "さはちいさいです。",
+    "sentenceRu": "Разница небольшая."
+  },
+  {
+    "rank": 450,
+    "character": "衆",
+    "meaningsRu": [
+      "массы",
+      "множество"
+    ],
+    "onReadings": [
+      "シュウ",
+      "シュ"
+    ],
+    "kunReadings": [
+      "おお.い"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "公衆の場です。",
+    "sentenceKana": "こうしゅうのばです。",
+    "sentenceRu": "Это общественное место.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 451,
+    "character": "個",
+    "meaningsRu": [
+      "штука",
+      "отдельный"
+    ],
+    "onReadings": [
+      "コ",
+      "カ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "一個ください。",
+    "sentenceKana": "いっこください。",
+    "sentenceRu": "Дайте одну штуку."
+  },
+  {
+    "rank": 452,
+    "character": "門",
+    "meaningsRu": [
+      "ворота"
+    ],
+    "onReadings": [
+      "モン"
+    ],
+    "kunReadings": [
+      "かど",
+      "と"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "門を閉めます。",
+    "sentenceKana": "もんをしめます。",
+    "sentenceRu": "Я закрою ворота."
+  },
+  {
+    "rank": 453,
+    "character": "写",
+    "meaningsRu": [
+      "копировать",
+      "снимать"
+    ],
+    "onReadings": [
+      "シャ",
+      "ジャ"
+    ],
+    "kunReadings": [
+      "うつ.す",
+      "うつ.る",
+      "うつ-",
+      "うつ.し"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "写真を撮ります。",
+    "sentenceKana": "しゃしんをとります。",
+    "sentenceRu": "Я сделаю фотографию."
+  },
+  {
+    "rank": 454,
+    "character": "評",
+    "meaningsRu": [
+      "оценка",
+      "критика"
+    ],
+    "onReadings": [
+      "ヒョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 12,
+    "sentenceJp": "評価は高いです。",
+    "sentenceKana": "ひょうかはたかいです。",
+    "sentenceRu": "Оценка высокая."
+  },
+  {
+    "rank": 455,
+    "character": "課",
+    "meaningsRu": [
+      "урок",
+      "отдел"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 15,
+    "sentenceJp": "課題をします。",
+    "sentenceKana": "かだいをします。",
+    "sentenceRu": "Я сделаю задание."
+  },
+  {
+    "rank": 456,
+    "character": "末",
+    "meaningsRu": [
+      "конец"
+    ],
+    "onReadings": [
+      "マツ",
+      "バツ"
+    ],
+    "kunReadings": [
+      "すえ",
+      "うら",
+      "うれ"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "月末に払います。",
+    "sentenceKana": "げつまつにはらいます。",
+    "sentenceRu": "Я заплачу в конце месяца."
+  },
+  {
+    "rank": 457,
+    "character": "守",
+    "meaningsRu": [
+      "защищать",
+      "соблюдать"
+    ],
+    "onReadings": [
+      "シュ",
+      "ス"
+    ],
+    "kunReadings": [
+      "まも.る",
+      "まも.り",
+      "もり",
+      "-もり",
+      "かみ"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "約束を守ります。",
+    "sentenceKana": "やくそくをまもります。",
+    "sentenceRu": "Я сдержу обещание."
+  },
+  {
+    "rank": 458,
+    "character": "若",
+    "meaningsRu": [
+      "молодой"
+    ],
+    "onReadings": [
+      "ジャク",
+      "ニャク",
+      "ニャ"
+    ],
+    "kunReadings": [
+      "わか.い",
+      "わか-",
+      "も.しくわ",
+      "も.し",
+      "も.しくは",
+      "ごと.し"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "若い人が多いです。",
+    "sentenceKana": "わかいひとがおおいです。",
+    "sentenceRu": "Молодых людей много."
+  },
+  {
+    "rank": 459,
+    "character": "脳",
+    "meaningsRu": [
+      "мозг"
+    ],
+    "onReadings": [
+      "ノウ",
+      "ドウ"
+    ],
+    "kunReadings": [
+      "のうずる"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "脳が疲れました。",
+    "sentenceKana": "のうがつかれました。",
+    "sentenceRu": "Голова устала от мыслей."
+  },
+  {
+    "rank": 460,
+    "character": "極",
+    "meaningsRu": [
+      "крайность",
+      "полюс"
+    ],
+    "onReadings": [
+      "キョク",
+      "ゴク"
+    ],
+    "kunReadings": [
+      "きわ.める",
+      "きわ.まる",
+      "きわ.まり",
+      "きわ.み",
+      "き.める",
+      "-ぎ.め",
+      "き.まる"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "極めて静かです。",
+    "sentenceKana": "きわめてしずかです。",
+    "sentenceRu": "Здесь чрезвычайно тихо."
+  },
+  {
+    "rank": 461,
+    "character": "種",
+    "meaningsRu": [
+      "вид",
+      "семя"
+    ],
+    "onReadings": [
+      "シュ"
+    ],
+    "kunReadings": [
+      "たね",
+      "-ぐさ"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "種をまきます。",
+    "sentenceKana": "たねをまきます。",
+    "sentenceRu": "Я посею семена."
+  },
+  {
+    "rank": 462,
+    "character": "美",
+    "meaningsRu": [
+      "красота"
+    ],
+    "onReadings": [
+      "ビ",
+      "ミ"
+    ],
+    "kunReadings": [
+      "うつく.しい"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "美しい花です。",
+    "sentenceKana": "うつくしいはなです。",
+    "sentenceRu": "Это красивый цветок."
+  },
+  {
+    "rank": 463,
+    "character": "岡",
+    "meaningsRu": [
+      "холм"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "おか"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "岡の上に家があります。",
+    "sentenceKana": "おかのうえにいえがあります。",
+    "sentenceRu": "На холме стоит дом.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 464,
+    "character": "影",
+    "meaningsRu": [
+      "тень"
+    ],
+    "onReadings": [
+      "エイ"
+    ],
+    "kunReadings": [
+      "かげ"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "影が長いです。",
+    "sentenceKana": "かげがながいです。",
+    "sentenceRu": "Тень длинная."
+  },
+  {
+    "rank": 465,
+    "character": "命",
+    "meaningsRu": [
+      "жизнь",
+      "приказ"
+    ],
+    "onReadings": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunReadings": [
+      "いのち"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "命を大切にします。",
+    "sentenceKana": "いのちをたいせつにします。",
+    "sentenceRu": "Я дорожу жизнью."
+  },
+  {
+    "rank": 466,
+    "character": "含",
+    "meaningsRu": [
+      "содержать"
+    ],
+    "onReadings": [
+      "ガン"
+    ],
+    "kunReadings": [
+      "ふく.む",
+      "ふく.める"
+    ],
+    "strokeCount": 7,
+    "sentenceJp": "この茶は砂糖を含みます。",
+    "sentenceKana": "このちゃはさとうをふくみます。",
+    "sentenceRu": "В этом чае есть сахар."
+  },
+  {
+    "rank": 467,
+    "character": "福",
+    "meaningsRu": [
+      "счастье",
+      "благо"
+    ],
+    "onReadings": [
+      "フク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "sentenceJp": "幸福を祈ります。",
+    "sentenceKana": "こうふくをいのります。",
+    "sentenceRu": "Я желаю счастья."
+  },
+  {
+    "rank": 468,
+    "character": "蔵",
+    "meaningsRu": [
+      "хранилище",
+      "хранить"
+    ],
+    "onReadings": [
+      "ゾウ",
+      "ソウ"
+    ],
+    "kunReadings": [
+      "くら",
+      "おさ.める",
+      "かく.れる"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "蔵に道具があります。",
+    "sentenceKana": "くらにどうぐがあります。",
+    "sentenceRu": "В кладовой лежат инструменты."
+  },
+  {
+    "rank": 469,
+    "character": "量",
+    "meaningsRu": [
+      "количество"
+    ],
+    "onReadings": [
+      "リョウ"
+    ],
+    "kunReadings": [
+      "はか.る"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "量を減らします。",
+    "sentenceKana": "りょうをへらします。",
+    "sentenceRu": "Я уменьшу количество."
+  },
+  {
+    "rank": 470,
+    "character": "望",
+    "meaningsRu": [
+      "надежда",
+      "желать"
+    ],
+    "onReadings": [
+      "ボウ",
+      "モウ"
+    ],
+    "kunReadings": [
+      "のぞ.む",
+      "もち"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "いい結果を望みます。",
+    "sentenceKana": "いいけっかをのぞみます。",
+    "sentenceRu": "Я надеюсь на хороший результат."
+  },
+  {
+    "rank": 471,
+    "character": "松",
+    "meaningsRu": [
+      "сосна"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "まつ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "松の木が好きです。",
+    "sentenceKana": "まつのきがすきです。",
+    "sentenceRu": "Мне нравится сосна."
+  },
+  {
+    "rank": 472,
+    "character": "非",
+    "meaningsRu": [
+      "не",
+      "ошибка"
+    ],
+    "onReadings": [
+      "ヒ"
+    ],
+    "kunReadings": [
+      "あら.ず"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "非常口はあちらです。",
+    "sentenceKana": "ひじょうぐちはあちらです。",
+    "sentenceRu": "Запасный выход там.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 473,
+    "character": "撃",
+    "meaningsRu": [
+      "ударять",
+      "атаковать"
+    ],
+    "onReadings": [
+      "ゲキ"
+    ],
+    "kunReadings": [
+      "う.つ"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "的を撃ちます。",
+    "sentenceKana": "まとをうちます。",
+    "sentenceRu": "Я стреляю в мишень."
+  },
+  {
+    "rank": 474,
+    "character": "佐",
+    "meaningsRu": [
+      "помощник"
+    ],
+    "onReadings": [
+      "サ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 7,
+    "sentenceJp": "補佐を頼みました。",
+    "sentenceKana": "ほさをたのみました。",
+    "sentenceRu": "Я попросил помочь.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 475,
+    "character": "核",
+    "meaningsRu": [
+      "ядро",
+      "косточка"
+    ],
+    "onReadings": [
+      "カク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "sentenceJp": "話の核は簡単です。",
+    "sentenceKana": "はなしのかくはかんたんです。",
+    "sentenceRu": "Суть разговора простая.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 476,
+    "character": "観",
+    "meaningsRu": [
+      "смотреть",
+      "взгляд"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "み.る",
+      "しめ.す"
+    ],
+    "strokeCount": 18,
+    "sentenceJp": "観客が多いです。",
+    "sentenceKana": "かんきゃくがおおいです。",
+    "sentenceRu": "Зрителей много."
+  },
+  {
+    "rank": 477,
+    "character": "察",
+    "meaningsRu": [
+      "понимать",
+      "догадываться"
+    ],
+    "onReadings": [
+      "サツ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 14,
+    "sentenceJp": "気持ちを察します。",
+    "sentenceKana": "きもちをさっします。",
+    "sentenceRu": "Я понимаю, что человек чувствует.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 478,
+    "character": "整",
+    "meaningsRu": [
+      "приводить в порядок"
+    ],
+    "onReadings": [
+      "セイ"
+    ],
+    "kunReadings": [
+      "ととの.える",
+      "ととの.う"
+    ],
+    "strokeCount": 16,
+    "sentenceJp": "部屋を整えます。",
+    "sentenceKana": "へやをととのえます。",
+    "sentenceRu": "Я приберу комнату."
+  },
+  {
+    "rank": 479,
+    "character": "段",
+    "meaningsRu": [
+      "ступень",
+      "уровень"
+    ],
+    "onReadings": [
+      "ダン",
+      "タン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "sentenceJp": "階段を上がります。",
+    "sentenceKana": "かいだんをあがります。",
+    "sentenceRu": "Я поднимусь по лестнице."
+  },
+  {
+    "rank": 480,
+    "character": "横",
+    "meaningsRu": [
+      "бок",
+      "горизонтальный"
+    ],
+    "onReadings": [
+      "オウ"
+    ],
+    "kunReadings": [
+      "よこ"
+    ],
+    "strokeCount": 15,
+    "sentenceJp": "横になって休みます。",
+    "sentenceKana": "よこになってやすみます。",
+    "sentenceRu": "Я лягу и отдохну."
+  },
+  {
+    "rank": 481,
+    "character": "融",
+    "meaningsRu": [
+      "таять",
+      "смешиваться"
+    ],
+    "onReadings": [
+      "ユウ"
+    ],
+    "kunReadings": [
+      "と.ける",
+      "と.かす"
+    ],
+    "strokeCount": 16,
+    "sentenceJp": "氷が融けました。",
+    "sentenceKana": "こおりがとけました。",
+    "sentenceRu": "Лёд растаял.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 482,
+    "character": "型",
+    "meaningsRu": [
+      "тип",
+      "форма"
+    ],
+    "onReadings": [
+      "ケイ"
+    ],
+    "kunReadings": [
+      "かた",
+      "-がた"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "新しい型です。",
+    "sentenceKana": "あたらしいかたです。",
+    "sentenceRu": "Это новая модель."
+  },
+  {
+    "rank": 483,
+    "character": "白",
+    "meaningsRu": [
+      "белый"
+    ],
+    "onReadings": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunReadings": [
+      "しろ",
+      "しら-",
+      "しろ.い"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "白い花が咲いています。",
+    "sentenceKana": "しろいはながさいています。",
+    "sentenceRu": "Цветёт белый цветок."
+  },
+  {
+    "rank": 484,
+    "character": "深",
+    "meaningsRu": [
+      "глубокий"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "ふか.い",
+      "-ぶか.い",
+      "ふか.まる",
+      "ふか.める",
+      "み-"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "この川は深いです。",
+    "sentenceKana": "このかわはふかいです。",
+    "sentenceRu": "Эта река глубокая."
+  },
+  {
+    "rank": 485,
+    "character": "字",
+    "meaningsRu": [
+      "знак",
+      "буква"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "あざ",
+      "あざな",
+      "-な"
+    ],
+    "strokeCount": 6,
+    "sentenceJp": "字を大きく書きます。",
+    "sentenceKana": "じをおおきくかきます。",
+    "sentenceRu": "Я пишу знаки крупно."
+  },
+  {
+    "rank": 486,
+    "character": "答",
+    "meaningsRu": [
+      "ответ"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "こた.える",
+      "こた.え"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "答えを書きます。",
+    "sentenceKana": "こたえをかきます。",
+    "sentenceRu": "Я запишу ответ."
+  },
+  {
+    "rank": 487,
+    "character": "夜",
+    "meaningsRu": [
+      "ночь"
+    ],
+    "onReadings": [
+      "ヤ"
+    ],
+    "kunReadings": [
+      "よ",
+      "よる"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "夜は静かです。",
+    "sentenceKana": "よるはしずかです。",
+    "sentenceRu": "Ночью тихо."
+  },
+  {
+    "rank": 488,
+    "character": "製",
+    "meaningsRu": [
+      "изготовление"
+    ],
+    "onReadings": [
+      "セイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 14,
+    "sentenceJp": "日本製です。",
+    "sentenceKana": "にほんせいです。",
+    "sentenceRu": "Это сделано в Японии."
+  },
+  {
+    "rank": 489,
+    "character": "票",
+    "meaningsRu": [
+      "бюллетень",
+      "билет"
+    ],
+    "onReadings": [
+      "ヒョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 11,
+    "sentenceJp": "票を入れます。",
+    "sentenceKana": "ひょうをいれます。",
+    "sentenceRu": "Я опущу бюллетень.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 490,
+    "character": "況",
+    "meaningsRu": [
+      "ситуация"
+    ],
+    "onReadings": [
+      "キョウ"
+    ],
+    "kunReadings": [
+      "まし.て",
+      "いわ.んや",
+      "おもむき"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "状況を話します。",
+    "sentenceKana": "じょうきょうをはなします。",
+    "sentenceRu": "Я расскажу, как обстоят дела.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 491,
+    "character": "音",
+    "meaningsRu": [
+      "звук"
+    ],
+    "onReadings": [
+      "オン",
+      "イン",
+      "-ノン"
+    ],
+    "kunReadings": [
+      "おと",
+      "ね"
+    ],
+    "strokeCount": 9,
+    "sentenceJp": "音が小さいです。",
+    "sentenceKana": "おとがちいさいです。",
+    "sentenceRu": "Звук тихий."
+  },
+  {
+    "rank": 492,
+    "character": "申",
+    "meaningsRu": [
+      "говорить почтительно"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "もう.す",
+      "もう.し-",
+      "さる"
+    ],
+    "strokeCount": 5,
+    "sentenceJp": "申し込みを出しました。",
+    "sentenceKana": "もうしこみをだしました。",
+    "sentenceRu": "Я подал заявку."
+  },
+  {
+    "rank": 493,
+    "character": "様",
+    "meaningsRu": [
+      "господин",
+      "образ"
+    ],
+    "onReadings": [
+      "ヨウ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "さま",
+      "さん"
+    ],
+    "strokeCount": 14,
+    "sentenceJp": "田中様は外出です。",
+    "sentenceKana": "たなかさまはがいしゅつです。",
+    "sentenceRu": "Господин Танака вышел."
+  },
+  {
+    "rank": 494,
+    "character": "財",
+    "meaningsRu": [
+      "имущество",
+      "богатство"
+    ],
+    "onReadings": [
+      "ザイ",
+      "サイ",
+      "ゾク"
+    ],
+    "kunReadings": [
+      "たから"
+    ],
+    "strokeCount": 10,
+    "sentenceJp": "財布を忘れました。",
+    "sentenceKana": "さいふをわすれました。",
+    "sentenceRu": "Я забыл кошелёк."
+  },
+  {
+    "rank": 495,
+    "character": "港",
+    "meaningsRu": [
+      "гавань"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "みなと"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "港に船が見えます。",
+    "sentenceKana": "みなとにふねがみえます。",
+    "sentenceRu": "В порту виден корабль."
+  },
+  {
+    "rank": 496,
+    "character": "識",
+    "meaningsRu": [
+      "знание",
+      "распознавать"
+    ],
+    "onReadings": [
+      "シキ"
+    ],
+    "kunReadings": [
+      "し.る",
+      "しる.す"
+    ],
+    "strokeCount": 19,
+    "sentenceJp": "知識が増えました。",
+    "sentenceKana": "ちしきがふえました。",
+    "sentenceRu": "Знаний стало больше."
+  },
+  {
+    "rank": 497,
+    "character": "注",
+    "meaningsRu": [
+      "наливать",
+      "внимание"
+    ],
+    "onReadings": [
+      "チュウ"
+    ],
+    "kunReadings": [
+      "そそ.ぐ",
+      "さ.す",
+      "つ.ぐ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "お茶を注ぎます。",
+    "sentenceKana": "おちゃをそそぎます。",
+    "sentenceRu": "Я налью чай."
+  },
+  {
+    "rank": 498,
+    "character": "呼",
+    "meaningsRu": [
+      "звать"
+    ],
+    "onReadings": [
+      "コ"
+    ],
+    "kunReadings": [
+      "よ.ぶ"
+    ],
+    "strokeCount": 8,
+    "sentenceJp": "名前を呼びます。",
+    "sentenceKana": "なまえをよびます。",
+    "sentenceRu": "Я позову по имени."
+  },
+  {
+    "rank": 499,
+    "character": "渉",
+    "meaningsRu": [
+      "переправляться",
+      "касаться"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "わた.る"
+    ],
+    "strokeCount": 11,
+    "sentenceJp": "交渉は明日です。",
+    "sentenceKana": "こうしょうはあしたです。",
+    "sentenceRu": "Переговоры завтра.",
+    "reviewNeeded": true
+  },
+  {
+    "rank": 500,
+    "character": "達",
+    "meaningsRu": [
+      "достигать",
+      "люди"
+    ],
+    "onReadings": [
+      "タツ",
+      "ダ"
+    ],
+    "kunReadings": [
+      "-たち"
+    ],
+    "strokeCount": 12,
+    "sentenceJp": "友達が来ます。",
+    "sentenceKana": "ともだちがきます。",
+    "sentenceRu": "Придут друзья."
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hitomoji</string>
+    <string name="widget_square_label">Hitomoji, квадрат</string>
+    <string name="widget_wide_label">Hitomoji, широкий</string>
+    <string name="widget_large_label">Hitomoji, большой</string>
+    <string name="widget_square_description">Крупный иероглиф дня</string>
+    <string name="widget_wide_description">Иероглиф и подпись: новый, повтор или на сегодня всё</string>
+    <string name="widget_large_description">Иероглиф и японское предложение, без перевода</string>
+</resources>
