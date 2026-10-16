@@ -22,6 +22,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
@@ -29,10 +30,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import app.hitomoji.HitomojiApp
+import app.hitomoji.R
+import app.hitomoji.ui.label
+import app.hitomoji.ui.rememberDictionaryLanguage
 import app.hitomoji.data.repo.CatalogRow
 import app.hitomoji.data.repo.HitomojiRepository
 import app.hitomoji.data.repo.KanjiDetail
-import app.hitomoji.ui.ruLabel
 import app.hitomoji.ui.study.ReadOnlyKanjiScreen
 import app.hitomoji.ui.theme.JapaneseText
 import kotlinx.coroutines.launch
@@ -78,15 +81,16 @@ class KanjiDetailViewModel(
 
 @Composable
 fun CatalogScreen(onBack: () -> Unit, onOpen: (Int) -> Unit) {
+    val language = rememberDictionaryLanguage()
     val app = LocalContext.current.applicationContext as HitomojiApp
     val viewModel: CatalogViewModel = viewModel(factory = CatalogViewModel.factory(app.container.repository))
     Scaffold { padding ->
         Column(Modifier.fillMaxSize().padding(padding)) {
             TextButton(onClick = onBack, modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp)) {
-                Text("Назад")
+                Text(stringResource(R.string.back))
             }
             Text(
-                text = "Каталог",
+                text = stringResource(R.string.catalog),
                 style = MaterialTheme.typography.headlineMedium,
                 modifier = Modifier.padding(horizontal = 24.dp, vertical = 8.dp),
             )
@@ -95,7 +99,7 @@ fun CatalogScreen(onBack: () -> Unit, onOpen: (Int) -> Unit) {
                 verticalArrangement = Arrangement.spacedBy(0.dp),
             ) {
                 items(viewModel.rows, key = { it.rank }) { row ->
-                    CatalogRowItem(row, onOpen)
+                    CatalogRowItem(row, language, onOpen)
                     HorizontalDivider()
                 }
             }
@@ -104,7 +108,7 @@ fun CatalogScreen(onBack: () -> Unit, onOpen: (Int) -> Unit) {
 }
 
 @Composable
-private fun CatalogRowItem(row: CatalogRow, onOpen: (Int) -> Unit) {
+private fun CatalogRowItem(row: CatalogRow, language: String, onOpen: (Int) -> Unit) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -115,9 +119,12 @@ private fun CatalogRowItem(row: CatalogRow, onOpen: (Int) -> Unit) {
     ) {
         JapaneseText(text = row.character, fontSize = 32.sp)
         Column(Modifier.weight(1f)) {
-            Text(row.meaning, style = MaterialTheme.typography.bodyLarge)
             Text(
-                row.state.ruLabel(),
+                if (language == "en") row.meaningEn else row.meaningRu,
+                style = MaterialTheme.typography.bodyLarge,
+            )
+            Text(
+                row.state.label(LocalContext.current),
                 style = MaterialTheme.typography.labelLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

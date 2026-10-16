@@ -17,6 +17,7 @@ import app.hitomoji.domain.chooseDailyNew
 import app.hitomoji.domain.widgetSelection
 import java.time.Instant
 import java.time.LocalDate
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 
@@ -32,7 +33,9 @@ data class StudyCard(
     val sentenceJp: String,
     val sentenceKana: String,
     val sentenceRu: String,
+    val sentenceEn: String,
     val meaningsRu: List<String>,
+    val meaningsEn: List<String>,
     val onReadings: List<String>,
     val kunReadings: List<String>,
 )
@@ -45,7 +48,8 @@ data class SessionSnapshot(
 data class CatalogRow(
     val rank: Int,
     val character: String,
-    val meaning: String,
+    val meaningRu: String,
+    val meaningEn: String,
     val state: CardState,
 )
 
@@ -71,9 +75,6 @@ class HitomojiRepository(
 
     suspend fun ensureSeeded() {
         gate.withLock {
-            if (database.kanjiDao().count() > 0 && database.progressDao().count() > 0) {
-                return
-            }
             val raw = context.assets.open("kanji.json").bufferedReader().use { it.readText() }
             seeder.seed(raw)
         }
@@ -128,7 +129,8 @@ class HitomojiRepository(
             CatalogRow(
                 rank = kanji.rank,
                 character = kanji.character,
-                meaning = kanji.meaningsRu.firstOrNull().orEmpty(),
+                meaningRu = kanji.meaningsRu.firstOrNull().orEmpty(),
+                meaningEn = kanji.meaningsEn.firstOrNull().orEmpty(),
                 state = state,
             )
         }
@@ -153,6 +155,12 @@ class HitomojiRepository(
 
     suspend fun setLastShown(rank: Int) {
         dailyStore.writeLastShown(rank)
+    }
+
+    fun dictionaryLanguage(fallback: String): Flow<String> = dailyStore.dictionaryLanguage(fallback)
+
+    suspend fun setDictionaryLanguage(language: String) {
+        dailyStore.writeDictionaryLanguage(language)
     }
 
     private suspend fun resolveToday(today: LocalDate): Int? {
@@ -214,7 +222,9 @@ private fun KanjiEntity.toStudyCard(): StudyCard = StudyCard(
     sentenceJp = sentenceJp,
     sentenceKana = sentenceKana,
     sentenceRu = sentenceRu,
+    sentenceEn = sentenceEn,
     meaningsRu = meaningsRu,
+    meaningsEn = meaningsEn,
     onReadings = onReadings,
     kunReadings = kunReadings,
 )

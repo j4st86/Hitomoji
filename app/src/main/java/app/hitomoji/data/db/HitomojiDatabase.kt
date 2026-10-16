@@ -5,10 +5,12 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
     entities = [KanjiEntity::class, ProgressEntity::class],
-    version = 1,
+    version = 2,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -23,7 +25,14 @@ abstract class HitomojiDatabase : RoomDatabase() {
                 context.applicationContext,
                 HitomojiDatabase::class.java,
                 "hitomoji.db",
-            ).build()
+            ).addMigrations(MIGRATION_1_2).build()
         }
+    }
+}
+
+private val MIGRATION_1_2 = object : Migration(1, 2) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL("ALTER TABLE kanji ADD COLUMN meaningsEn TEXT NOT NULL DEFAULT '[]'")
+        db.execSQL("ALTER TABLE kanji ADD COLUMN sentenceEn TEXT NOT NULL DEFAULT ''")
     }
 }

@@ -30,6 +30,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -38,9 +39,13 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import app.hitomoji.HitomojiApp
+import app.hitomoji.R
 import app.hitomoji.data.repo.HitomojiRepository
 import app.hitomoji.data.repo.StudyCard
 import app.hitomoji.domain.Grade
+import app.hitomoji.ui.meaningsFor
+import app.hitomoji.ui.rememberDictionaryLanguage
+import app.hitomoji.ui.sentenceFor
 import app.hitomoji.ui.theme.JapaneseText
 import androidx.compose.ui.platform.LocalContext
 import java.time.Instant
@@ -59,7 +64,9 @@ data class StudyUi(
     val sentenceJp: String = "",
     val sentenceKana: String = "",
     val sentenceRu: String = "",
-    val meanings: List<String> = emptyList(),
+    val sentenceEn: String = "",
+    val meaningsRu: List<String> = emptyList(),
+    val meaningsEn: List<String> = emptyList(),
     val onReadings: List<String> = emptyList(),
     val kunReadings: List<String> = emptyList(),
     val position: Int = 0,
@@ -120,7 +127,9 @@ class StudyViewModel(
             sentenceJp = card.sentenceJp,
             sentenceKana = card.sentenceKana,
             sentenceRu = card.sentenceRu,
-            meanings = card.meaningsRu,
+            sentenceEn = card.sentenceEn,
+            meaningsRu = card.meaningsRu,
+            meaningsEn = card.meaningsEn,
             onReadings = card.onReadings,
             kunReadings = card.kunReadings,
             position = index + 1,
@@ -159,7 +168,13 @@ fun StudyScreen(
             refreshWidgets = { app.hitomojiRefreshWidgets() },
         ),
     )
-    StudyContent(ui = viewModel.ui, onReveal = viewModel::reveal, onGrade = viewModel::grade, onHome = onFinishedHome)
+    StudyContent(
+        ui = viewModel.ui,
+        dictionaryLanguage = rememberDictionaryLanguage(),
+        onReveal = viewModel::reveal,
+        onGrade = viewModel::grade,
+        onHome = onFinishedHome,
+    )
 }
 
 internal suspend fun HitomojiApp.hitomojiRefreshWidgets() {
@@ -169,6 +184,7 @@ internal suspend fun HitomojiApp.hitomojiRefreshWidgets() {
 @Composable
 fun ReadOnlyKanjiScreen(card: StudyCard, onBack: () -> Unit) {
     StudyContent(
+        dictionaryLanguage = rememberDictionaryLanguage(),
         ui = StudyUi(
             loading = false,
             gradingAllowed = false,
@@ -177,7 +193,9 @@ fun ReadOnlyKanjiScreen(card: StudyCard, onBack: () -> Unit) {
             sentenceJp = card.sentenceJp,
             sentenceKana = card.sentenceKana,
             sentenceRu = card.sentenceRu,
-            meanings = card.meaningsRu,
+            sentenceEn = card.sentenceEn,
+            meaningsRu = card.meaningsRu,
+            meaningsEn = card.meaningsEn,
             onReadings = card.onReadings,
             kunReadings = card.kunReadings,
         ),
@@ -191,6 +209,7 @@ fun ReadOnlyKanjiScreen(card: StudyCard, onBack: () -> Unit) {
 @Composable
 private fun StudyContent(
     ui: StudyUi,
+    dictionaryLanguage: String,
     onReveal: () -> Unit,
     onGrade: (Grade) -> Unit,
     onHome: () -> Unit,
@@ -210,12 +229,12 @@ private fun StudyContent(
             ui.done -> Box(Modifier.fillMaxSize().padding(padding).padding(32.dp), contentAlignment = Alignment.Center) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text(
-                        text = "На сегодня всё",
+                        text = stringResource(R.string.done_for_today),
                         style = MaterialTheme.typography.headlineMedium,
                         textAlign = TextAlign.Center,
                     )
                     Spacer(Modifier.height(24.dp))
-                    Button(onClick = onHome) { Text("На главную") }
+                    Button(onClick = onHome) { Text(stringResource(R.string.home)) }
                 }
             }
             else -> Column(
@@ -228,7 +247,7 @@ private fun StudyContent(
             ) {
                 if (onBack != null) {
                     TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) {
-                        Text("Назад")
+                        Text(stringResource(R.string.back))
                     }
                 }
                 Spacer(Modifier.height(12.dp))
@@ -240,7 +259,7 @@ private fun StudyContent(
                     enter = fadeIn(tween(240)),
                     exit = fadeOut(tween(120)),
                 ) {
-                    RevealedBlock(ui)
+                    RevealedBlock(ui, dictionaryLanguage)
                 }
             }
         }
@@ -248,7 +267,7 @@ private fun StudyContent(
 }
 
 @Composable
-private fun RevealedBlock(ui: StudyUi) {
+private fun RevealedBlock(ui: StudyUi, dictionaryLanguage: String) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -260,18 +279,18 @@ private fun RevealedBlock(ui: StudyUi) {
             JapaneseText(text = ui.sentenceKana, fontSize = 16.sp)
         }
         Text(
-            text = ui.meanings.joinToString(", "),
+            text = meaningsFor(dictionaryLanguage, ui.meaningsRu, ui.meaningsEn).joinToString(", "),
             style = MaterialTheme.typography.titleMedium,
             textAlign = TextAlign.Center,
         )
         if (ui.onReadings.isNotEmpty()) {
-            ReadingLine("он", ui.onReadings.joinToString("、"))
+            ReadingLine(stringResource(R.string.reading_on), ui.onReadings.joinToString("、"))
         }
         if (ui.kunReadings.isNotEmpty()) {
-            ReadingLine("кун", ui.kunReadings.joinToString("、"))
+            ReadingLine(stringResource(R.string.reading_kun), ui.kunReadings.joinToString("、"))
         }
         Text(
-            text = ui.sentenceRu,
+            text = sentenceFor(dictionaryLanguage, ui.sentenceRu, ui.sentenceEn),
             style = MaterialTheme.typography.bodyLarge,
             textAlign = TextAlign.Center,
         )
@@ -299,7 +318,7 @@ private fun GradeBar(
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(
-            text = "${ui.position} из ${ui.total}",
+            text = stringResource(R.string.session_progress, ui.position, ui.total),
             style = MaterialTheme.typography.labelLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -316,16 +335,16 @@ private fun GradeBar(
                         modifier = Modifier.fillMaxWidth(),
                         enabled = !ui.saving,
                     ) {
-                        Text("Показать перевод")
+                        Text(stringResource(R.string.show_translation))
                     }
                 } else {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.spacedBy(8.dp),
                     ) {
-                        GradeButton("Снова", Modifier.weight(1f), ui.saving) { onGrade(Grade.AGAIN) }
-                        GradeButton("Сложно", Modifier.weight(1f), ui.saving) { onGrade(Grade.HARD) }
-                        GradeButton("Хорошо", Modifier.weight(1f), ui.saving) { onGrade(Grade.GOOD) }
+                        GradeButton(stringResource(R.string.grade_again), Modifier.weight(1f), ui.saving) { onGrade(Grade.AGAIN) }
+                        GradeButton(stringResource(R.string.grade_hard), Modifier.weight(1f), ui.saving) { onGrade(Grade.HARD) }
+                        GradeButton(stringResource(R.string.grade_good), Modifier.weight(1f), ui.saving) { onGrade(Grade.GOOD) }
                     }
                 }
             }

@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sentence_en import EN  # noqa: E402
 from sentences import SENTENCES  # noqa: E402
 
 KANA = set(
@@ -34,6 +35,7 @@ def load_kanjidic(path: Path):
         strokes = int(misc.findtext("stroke_count"))
         on_readings = []
         kun_readings = []
+        glosses = []
         group = character.find("./reading_meaning/rmgroup")
         if group is not None:
             for reading in group.findall("reading"):
@@ -42,9 +44,16 @@ def load_kanjidic(path: Path):
                     on_readings.append(reading.text)
                 elif kind == "ja_kun":
                     kun_readings.append(reading.text)
+            for meaning in group.findall("meaning"):
+                if meaning.get("m_lang") not in (None, "en"):
+                    continue
+                text = (meaning.text or "").strip()
+                if text:
+                    glosses.append(text)
         rows[literal] = {
             "rank": rank,
             "character": literal,
+            "meaningsEn": glosses[:3],
             "onReadings": on_readings,
             "kunReadings": kun_readings,
             "strokeCount": strokes,
@@ -54,7 +63,7 @@ def load_kanjidic(path: Path):
 
 def main():
     source = load_kanjidic(ROOT / "tools" / "kanjidic2.xml.gz")
-    missing = [char for char in source if char not in SENTENCES]
+    missing = [char for char in source if char not in SENTENCES or char not in EN]
     extra = [char for char in SENTENCES if char not in source]
     if missing or extra:
         raise SystemExit(f"missing={missing} extra={extra}")
@@ -62,13 +71,17 @@ def main():
     errors = []
     for char, fields in source.items():
         meanings, sentence_jp, sentence_kana, sentence_ru, review = SENTENCES[char]
+        sentence_en = EN[char]
+        meanings_en = fields["meaningsEn"]
         if not 1 <= len(meanings) <= 3:
             raise SystemExit(f"{char}: meanings {meanings}")
+        if not 1 <= len(meanings_en) <= 3 or any(not item.strip() for item in meanings_en):
+            errors.append(f"{char}: english meanings {meanings_en}")
         if any(not item.strip() for item in meanings):
             raise SystemExit(f"{char}: empty meaning")
         if char not in sentence_jp:
             errors.append(f"{char}: sentence does not contain the kanji: {sentence_jp}")
-        if not sentence_jp.strip() or not sentence_kana.strip() or not sentence_ru.strip():
+        if not sentence_jp.strip() or not sentence_kana.strip() or not sentence_ru.strip() or not sentence_en.strip():
             errors.append(f"{char}: empty sentence field")
         bad = [ch for ch in sentence_kana if ch not in KANA]
         if bad:
@@ -79,12 +92,14 @@ def main():
             "rank": fields["rank"],
             "character": char,
             "meaningsRu": meanings,
+            "meaningsEn": meanings_en,
             "onReadings": fields["onReadings"],
             "kunReadings": fields["kunReadings"],
             "strokeCount": fields["strokeCount"],
             "sentenceJp": sentence_jp,
             "sentenceKana": sentence_kana,
             "sentenceRu": sentence_ru,
+            "sentenceEn": sentence_en,
         }
         if review:
             record["reviewNeeded"] = True

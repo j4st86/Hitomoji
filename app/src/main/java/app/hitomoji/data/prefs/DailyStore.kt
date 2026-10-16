@@ -6,7 +6,9 @@ import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import java.time.LocalDate
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
 
 private val Context.hitomojiDataStore by preferencesDataStore(name = "hitomoji")
 
@@ -42,9 +44,25 @@ class DailyStore(context: Context) {
         dataStore.edit { prefs -> prefs[LAST_SHOWN] = rank }
     }
 
+    fun dictionaryLanguage(fallback: String): Flow<String> {
+        return dataStore.data.map { prefs ->
+            when (prefs[DICTIONARY_LANGUAGE]) {
+                "en" -> "en"
+                "ru" -> "ru"
+                else -> if (fallback == "en") "en" else "ru"
+            }
+        }
+    }
+
+    suspend fun writeDictionaryLanguage(language: String) {
+        val stored = if (language == "en") "en" else "ru"
+        dataStore.edit { prefs -> prefs[DICTIONARY_LANGUAGE] = stored }
+    }
+
     private companion object {
         val DATE = stringPreferencesKey("daily_date")
         val RANK = intPreferencesKey("daily_rank")
         val LAST_SHOWN = intPreferencesKey("last_shown_rank")
+        val DICTIONARY_LANGUAGE = stringPreferencesKey("dictionary_language")
     }
 }

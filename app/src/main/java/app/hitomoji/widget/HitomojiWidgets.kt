@@ -33,7 +33,7 @@ import app.hitomoji.HitomojiApp
 import app.hitomoji.MainActivity
 import app.hitomoji.data.repo.WidgetModel
 import app.hitomoji.domain.WidgetMode
-import app.hitomoji.ui.ruLabel
+import app.hitomoji.ui.label
 import java.time.LocalDate
 import kotlin.math.min
 
@@ -108,7 +108,7 @@ private fun WidgetFace(context: Context, shape: WidgetShape, model: WidgetModel)
     ) {
         when (shape) {
             WidgetShape.SQUARE -> Text(
-                text = model.character.ifBlank { model.mode.ruLabel() },
+                text = model.character.ifBlank { model.mode.label(context) },
                 modifier = GlanceModifier.padding(12.dp),
                 style = kanjiStyle(kanjiSize.sp, GlanceTheme.colors.onSurface),
                 maxLines = 2,
@@ -125,7 +125,7 @@ private fun WidgetFace(context: Context, shape: WidgetShape, model: WidgetModel)
                     maxLines = 1,
                 )
                 Text(
-                    text = model.mode.ruLabel(),
+                    text = model.mode.label(context),
                     modifier = GlanceModifier.defaultWeight(),
                     style = captionStyle(captionSize.sp),
                     maxLines = 2,
@@ -143,7 +143,7 @@ private fun WidgetFace(context: Context, shape: WidgetShape, model: WidgetModel)
                 )
                 if (model.mode == WidgetMode.DONE) {
                     Text(
-                        text = model.mode.ruLabel(),
+                        text = model.mode.label(context),
                         style = captionStyle(captionSize.sp),
                         maxLines = 2,
                     )

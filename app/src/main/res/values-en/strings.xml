@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hitomoji</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="catalog">Catalog</string>
+    <string name="about">About</string>
+    <string name="new_today">New today: %1$d</string>
+    <string name="reviews_today">Reviews: %1$d</string>
+    <string name="start_session">Start session</string>
+    <string name="done_for_today">All done for today</string>
+    <string name="show_translation">Show translation</string>
+    <string name="grade_again">Again</string>
+    <string name="grade_hard">Hard</string>
+    <string name="grade_good">Good</string>
+    <string name="session_progress">%1$d of %2$d</string>
+    <string name="reading_on">on</string>
+    <string name="reading_kun">kun</string>
+    <string name="state_new">new</string>
+    <string name="state_review">remembered</string>
+    <string name="state_relearn">relearning</string>
+    <string name="widget_mode_new">new</string>
+    <string name="widget_mode_review">review</string>
+    <string name="widget_mode_done">all done for today</string>
+    <string name="widget_square_label">Hitomoji, square</string>
+    <string name="widget_wide_label">Hitomoji, wide</string>
+    <string name="widget_large_label">Hitomoji, large</string>
+    <string name="widget_square_description">Large kanji of the day</string>
+    <string name="widget_wide_description">Kanji and a caption: new, review, or all done for today</string>
+    <string name="widget_large_description">Kanji and the Japanese sentence, with no translation</string>
+    <string name="language">Language</string>
+    <string name="dictionary_language">Dictionary language</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="check_updates">Check for updates</string>
+    <string name="update_checking">Checking…</string>
+    <string name="update_current">You have the latest version, %1$s</string>
+    <string name="update_available">Version %1$s is available</string>
+    <string name="update_failed">Couldn\'t check for updates</string>
+    <string name="open_release">Open the release page</string>
+    <string name="about_summary">Hitomoji is an offline trainer for Japanese kanji. Each calendar day introduces one new character from the five hundred most frequent. Reviews come separately, based on how well you remembered the character.</string>
+    <string name="about_sources">Characters, readings, and stroke counts come from KANJIDIC2. The Russian meanings are translations of the English KANJIDIC2 glosses. Those glosses come from JMdict, so the data includes material derived from JMdict. The example sentences were written for Hitomoji.</string>
+    <string name="about_license">KANJIDIC2 and JMdict, Electronic Dictionary Research and Development Group. License: CC BY-SA 4.0.</string>
+</resources>

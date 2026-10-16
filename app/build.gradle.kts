@@ -22,8 +22,8 @@ android {
         applicationId = "app.hitomoji"
         minSdk = 34
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.0.1"
+        versionCode = 2
+        versionName = "0.0.2"
     }
 
     signingConfigs {
@@ -77,7 +77,6 @@ dependencies {
     implementation(libs.serialization.json)
 
     implementation(libs.room.runtime)
-    implementation(libs.room.ktx)
     ksp(libs.room.compiler)
 
     implementation(libs.datastore.preferences)

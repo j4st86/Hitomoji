@@ -18,6 +18,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
@@ -28,6 +29,7 @@ import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import app.hitomoji.HitomojiApp
+import app.hitomoji.R
 import app.hitomoji.data.repo.HomeSnapshot
 import app.hitomoji.data.repo.HitomojiRepository
 import androidx.compose.ui.platform.LocalContext
@@ -90,13 +92,13 @@ fun HomeScreen(
             )
             Spacer(Modifier.height(36.dp))
             Text(
-                text = "Новых сегодня: ${snapshot.newCount}",
+                text = stringResource(R.string.new_today, snapshot.newCount),
                 style = MaterialTheme.typography.titleLarge,
                 textAlign = TextAlign.Center,
             )
             Spacer(Modifier.height(8.dp))
             Text(
-                text = "Повторов: ${snapshot.reviewCount}",
+                text = stringResource(R.string.reviews_today, snapshot.reviewCount),
                 style = MaterialTheme.typography.titleLarge,
                 textAlign = TextAlign.Center,
             )
@@ -104,19 +106,19 @@ fun HomeScreen(
             val startRank = snapshot.startRank
             if (startRank != null) {
                 Button(onClick = { onStart(startRank) }) {
-                    Text("Начать занятие")
+                    Text(stringResource(R.string.start_session))
                 }
             } else if (viewModel.ready) {
                 Text(
-                    text = "На сегодня всё",
+                    text = stringResource(R.string.done_for_today),
                     style = MaterialTheme.typography.headlineSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     textAlign = TextAlign.Center,
                 )
             }
             Spacer(Modifier.height(48.dp))
-            TextButton(onClick = onCatalog) { Text("Каталог") }
-            TextButton(onClick = onAbout) { Text("О приложении") }
+            TextButton(onClick = onCatalog) { Text(stringResource(R.string.catalog)) }
+            TextButton(onClick = onAbout) { Text(stringResource(R.string.about)) }
         }
     }
 }

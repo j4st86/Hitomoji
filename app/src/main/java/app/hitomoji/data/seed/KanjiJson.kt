@@ -10,12 +10,14 @@ data class KanjiJson(
     val rank: Int,
     val character: String,
     val meaningsRu: List<String>,
+    val meaningsEn: List<String> = emptyList(),
     val onReadings: List<String>,
     val kunReadings: List<String>,
     val strokeCount: Int,
     val sentenceJp: String,
     val sentenceKana: String,
     val sentenceRu: String,
+    val sentenceEn: String = "",
     val reviewNeeded: Boolean = false,
 )
 
@@ -29,12 +31,14 @@ fun KanjiJson.toEntity(): KanjiEntity = KanjiEntity(
     rank = rank,
     character = character,
     meaningsRu = meaningsRu,
+    meaningsEn = meaningsEn,
     onReadings = onReadings,
     kunReadings = kunReadings,
     strokeCount = strokeCount,
     sentenceJp = sentenceJp,
     sentenceKana = sentenceKana,
     sentenceRu = sentenceRu,
+    sentenceEn = sentenceEn,
     reviewNeeded = reviewNeeded,
 )
 

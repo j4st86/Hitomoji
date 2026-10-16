@@ -23,4 +23,10 @@ class HitomojiApp : Application() {
             WidgetRefresher(this@HitomojiApp).refresh()
         }
     }
+
+    fun refreshWidgets() {
+        scope.launch {
+            WidgetRefresher(this@HitomojiApp).refresh()
+        }
+    }
 }
