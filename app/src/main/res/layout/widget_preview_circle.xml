@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/widget_circle_label"
+        android:scaleType="fitCenter"
+        android:src="@drawable/widget_shape_circle"
+        android:tint="@android:color/system_accent1_300" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="日"
+        android:textColor="@android:color/system_neutral1_900"
+        android:textSize="42sp" />
+</FrameLayout>

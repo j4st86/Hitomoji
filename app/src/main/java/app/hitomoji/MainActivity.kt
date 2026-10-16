@@ -5,14 +5,18 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.produceState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import app.hitomoji.ui.HitomojiNav
 import app.hitomoji.ui.theme.HitomojiTheme
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -31,7 +35,13 @@ class MainActivity : ComponentActivity() {
                 }
                 if (!ready) {
                     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Text("Hitomoji", style = MaterialTheme.typography.headlineMedium)
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            verticalArrangement = Arrangement.spacedBy(16.dp),
+                        ) {
+                            Text("Hitomoji", style = MaterialTheme.typography.headlineMedium)
+                            CircularProgressIndicator()
+                        }
                     }
                 } else {
                     HitomojiNav(navSignals)

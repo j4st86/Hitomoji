@@ -15,4 +15,5 @@ fun WidgetMode.label(context: Context): String = when (this) {
     WidgetMode.NEW -> context.getString(R.string.widget_mode_new)
     WidgetMode.REVIEW -> context.getString(R.string.widget_mode_review)
     WidgetMode.DONE -> context.getString(R.string.widget_mode_done)
+    WidgetMode.WAITING -> context.getString(R.string.widget_mode_waiting)
 }

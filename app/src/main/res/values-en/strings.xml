@@ -5,8 +5,9 @@
     <string name="home">Home</string>
     <string name="catalog">Catalog</string>
     <string name="about">About</string>
-    <string name="new_today">New today: %1$d</string>
-    <string name="reviews_today">Reviews: %1$d</string>
+    <string name="tab_home">Home</string>
+    <string name="new_today">New today</string>
+    <string name="reviews_today">Reviews</string>
     <string name="start_session">Start session</string>
     <string name="done_for_today">All done for today</string>
     <string name="show_translation">Show translation</string>
@@ -22,12 +23,21 @@
     <string name="widget_mode_new">new</string>
     <string name="widget_mode_review">review</string>
     <string name="widget_mode_done">all done for today</string>
+    <string name="widget_mode_waiting">not yet</string>
     <string name="widget_square_label">Hitomoji, square</string>
     <string name="widget_wide_label">Hitomoji, wide</string>
     <string name="widget_large_label">Hitomoji, large</string>
-    <string name="widget_square_description">Large kanji of the day</string>
-    <string name="widget_wide_description">Kanji and a caption: new, review, or all done for today</string>
+    <string name="widget_square_description">A kanji you have already graded</string>
+    <string name="widget_wide_description">A graded kanji and a caption</string>
     <string name="widget_large_description">Kanji and the Japanese sentence, with no translation</string>
+    <string name="widget_circle_label">Hitomoji, circle</string>
+    <string name="widget_cookie_label">Hitomoji, soft square</string>
+    <string name="widget_arch_label">Hitomoji, arch</string>
+    <string name="widget_clover_label">Hitomoji, clover</string>
+    <string name="widget_circle_description">A graded kanji in a circle</string>
+    <string name="widget_cookie_description">A graded kanji in a soft square</string>
+    <string name="widget_arch_description">A graded kanji in an arch</string>
+    <string name="widget_clover_description">A graded kanji in a clover</string>
     <string name="language">Language</string>
     <string name="dictionary_language">Dictionary language</string>
     <string name="language_russian">Русский</string>
@@ -38,7 +48,7 @@
     <string name="update_available">Version %1$s is available</string>
     <string name="update_failed">Couldn\'t check for updates</string>
     <string name="open_release">Open the release page</string>
-    <string name="about_summary">Hitomoji is an offline trainer for Japanese kanji. Each calendar day introduces one new character from the five hundred most frequent. Reviews come separately, based on how well you remembered the character.</string>
+    <string name="about_summary">Hitomoji is an offline trainer for Japanese kanji. A calendar day can introduce up to five new characters from the five hundred most frequent. A missed day does not add another five. Reviews come separately, based on how well you remembered the character.</string>
     <string name="about_sources">Characters, readings, and stroke counts come from KANJIDIC2. The Russian meanings are translations of the English KANJIDIC2 glosses. Those glosses come from JMdict, so the data includes material derived from JMdict. The example sentences were written for Hitomoji.</string>
     <string name="about_license">KANJIDIC2 and JMdict, Electronic Dictionary Research and Development Group. License: CC BY-SA 4.0.</string>
 </resources>

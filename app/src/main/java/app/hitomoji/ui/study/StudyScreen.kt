@@ -19,11 +19,14 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilledTonalButton
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
+import app.hitomoji.ui.HitomojiTopBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -157,6 +160,7 @@ fun StudyScreen(
     startRank: Int,
     gradingAllowed: Boolean,
     onFinishedHome: () -> Unit,
+    onUp: () -> Unit,
 ) {
     val app = LocalContext.current.applicationContext as HitomojiApp
     val viewModel: StudyViewModel = viewModel(
@@ -174,6 +178,7 @@ fun StudyScreen(
         onReveal = viewModel::reveal,
         onGrade = viewModel::grade,
         onHome = onFinishedHome,
+        onUp = onUp,
     )
 }
 
@@ -202,7 +207,7 @@ fun ReadOnlyKanjiScreen(card: StudyCard, onBack: () -> Unit) {
         onReveal = {},
         onGrade = {},
         onHome = {},
-        onBack = onBack,
+        onUp = onBack,
     )
 }
 
@@ -213,9 +218,15 @@ private fun StudyContent(
     onReveal: () -> Unit,
     onGrade: (Grade) -> Unit,
     onHome: () -> Unit,
-    onBack: (() -> Unit)? = null,
+    onUp: (() -> Unit)? = null,
 ) {
+    val title = if (ui.gradingAllowed && ui.total > 0 && !ui.done && !ui.loading) {
+        stringResource(R.string.session_progress, ui.position, ui.total)
+    } else {
+        ""
+    }
     Scaffold(
+        topBar = { HitomojiTopBar(title = title, onUp = onUp) },
         bottomBar = {
             if (!ui.loading && !ui.done && ui.gradingAllowed) {
                 GradeBar(ui = ui, onReveal = onReveal, onGrade = onGrade)
@@ -224,7 +235,7 @@ private fun StudyContent(
     ) { padding ->
         when {
             ui.loading -> Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) {
-                Text("Hitomoji", style = MaterialTheme.typography.headlineMedium)
+                CircularProgressIndicator()
             }
             ui.done -> Box(Modifier.fillMaxSize().padding(padding).padding(32.dp), contentAlignment = Alignment.Center) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
@@ -242,17 +253,11 @@ private fun StudyContent(
                     .fillMaxSize()
                     .padding(padding)
                     .verticalScroll(rememberScrollState())
-                    .padding(horizontal = 28.dp, vertical = 32.dp),
+                    .padding(horizontal = 16.dp, vertical = 24.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
-                if (onBack != null) {
-                    TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) {
-                        Text(stringResource(R.string.back))
-                    }
-                }
-                Spacer(Modifier.height(12.dp))
-                JapaneseText(text = ui.character, fontSize = 112.sp)
-                Spacer(Modifier.height(28.dp))
+                JapaneseText(text = ui.character, fontSize = 96.sp)
+                Spacer(Modifier.height(24.dp))
                 JapaneseText(text = ui.sentenceJp, fontSize = 22.sp)
                 AnimatedVisibility(
                     visible = ui.revealed,
@@ -311,19 +316,21 @@ private fun GradeBar(
     onReveal: () -> Unit,
     onGrade: (Grade) -> Unit,
 ) {
+    Surface(color = MaterialTheme.colorScheme.surfaceContainer) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 12.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text(
-            text = stringResource(R.string.session_progress, ui.position, ui.total),
-            style = MaterialTheme.typography.labelLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-        Spacer(Modifier.height(8.dp))
-        Box(Modifier.fillMaxWidth().heightIn(min = 56.dp), contentAlignment = Alignment.Center) {
+        if (ui.total > 0) {
+            LinearProgressIndicator(
+                progress = { ui.position / ui.total.toFloat() },
+                modifier = Modifier.fillMaxWidth(),
+            )
+        }
+        Box(Modifier.fillMaxWidth().heightIn(min = 48.dp), contentAlignment = Alignment.Center) {
             AnimatedContent(
                 targetState = ui.revealed,
                 transitionSpec = { fadeIn(tween(180)) togetherWith fadeOut(tween(120)) },
@@ -342,13 +349,14 @@ private fun GradeBar(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.spacedBy(8.dp),
                     ) {
-                        GradeButton(stringResource(R.string.grade_again), Modifier.weight(1f), ui.saving) { onGrade(Grade.AGAIN) }
-                        GradeButton(stringResource(R.string.grade_hard), Modifier.weight(1f), ui.saving) { onGrade(Grade.HARD) }
-                        GradeButton(stringResource(R.string.grade_good), Modifier.weight(1f), ui.saving) { onGrade(Grade.GOOD) }
+                        GradeButton(stringResource(R.string.grade_again), Modifier.weight(1f), ui.saving, filled = false) { onGrade(Grade.AGAIN) }
+                        GradeButton(stringResource(R.string.grade_hard), Modifier.weight(1f), ui.saving, filled = false) { onGrade(Grade.HARD) }
+                        GradeButton(stringResource(R.string.grade_good), Modifier.weight(1f), ui.saving, filled = true) { onGrade(Grade.GOOD) }
                     }
                 }
             }
         }
+    }
     }
 }
 
@@ -357,13 +365,17 @@ private fun GradeButton(
     label: String,
     modifier: Modifier,
     saving: Boolean,
+    filled: Boolean,
     onClick: () -> Unit,
 ) {
-    FilledTonalButton(
-        onClick = onClick,
-        modifier = modifier.heightIn(min = 52.dp),
-        enabled = !saving,
-    ) {
-        Text(label, textAlign = TextAlign.Center)
+    val buttonModifier = modifier.heightIn(min = 48.dp)
+    if (filled) {
+        Button(onClick = onClick, modifier = buttonModifier, enabled = !saving) {
+            Text(label, textAlign = TextAlign.Center)
+        }
+    } else {
+        FilledTonalButton(onClick = onClick, modifier = buttonModifier, enabled = !saving) {
+            Text(label, textAlign = TextAlign.Center)
+        }
     }
 }

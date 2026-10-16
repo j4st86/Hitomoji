@@ -29,6 +29,7 @@ enum class WidgetMode {
     NEW,
     REVIEW,
     DONE,
+    WAITING,
 }
 
 data class WidgetSelection(

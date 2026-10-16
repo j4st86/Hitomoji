@@ -1,20 +1,15 @@
 package app.hitomoji.ui.catalog
 
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ListItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -23,8 +18,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import app.hitomoji.ui.AppTab
+import app.hitomoji.ui.HitomojiNavigationBar
+import app.hitomoji.ui.HitomojiTopBar
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -80,28 +77,17 @@ class KanjiDetailViewModel(
 }
 
 @Composable
-fun CatalogScreen(onBack: () -> Unit, onOpen: (Int) -> Unit) {
+fun CatalogScreen(onOpen: (Int) -> Unit, onSelectTab: (AppTab) -> Unit) {
     val language = rememberDictionaryLanguage()
     val app = LocalContext.current.applicationContext as HitomojiApp
     val viewModel: CatalogViewModel = viewModel(factory = CatalogViewModel.factory(app.container.repository))
-    Scaffold { padding ->
-        Column(Modifier.fillMaxSize().padding(padding)) {
-            TextButton(onClick = onBack, modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp)) {
-                Text(stringResource(R.string.back))
-            }
-            Text(
-                text = stringResource(R.string.catalog),
-                style = MaterialTheme.typography.headlineMedium,
-                modifier = Modifier.padding(horizontal = 24.dp, vertical = 8.dp),
-            )
-            LazyColumn(
-                contentPadding = PaddingValues(bottom = 24.dp),
-                verticalArrangement = Arrangement.spacedBy(0.dp),
-            ) {
-                items(viewModel.rows, key = { it.rank }) { row ->
-                    CatalogRowItem(row, language, onOpen)
-                    HorizontalDivider()
-                }
+    Scaffold(
+        topBar = { HitomojiTopBar(title = stringResource(R.string.catalog)) },
+        bottomBar = { HitomojiNavigationBar(AppTab.Catalog, onSelectTab) },
+    ) { padding ->
+        LazyColumn(modifier = Modifier.fillMaxSize(), contentPadding = padding) {
+            items(viewModel.rows, key = { it.rank }) { row ->
+                CatalogRowItem(row, language, onOpen)
             }
         }
     }
@@ -109,27 +95,16 @@ fun CatalogScreen(onBack: () -> Unit, onOpen: (Int) -> Unit) {
 
 @Composable
 private fun CatalogRowItem(row: CatalogRow, language: String, onOpen: (Int) -> Unit) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable { onOpen(row.rank) }
-            .padding(horizontal = 24.dp, vertical = 16.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-    ) {
-        JapaneseText(text = row.character, fontSize = 32.sp)
-        Column(Modifier.weight(1f)) {
-            Text(
-                if (language == "en") row.meaningEn else row.meaningRu,
-                style = MaterialTheme.typography.bodyLarge,
-            )
-            Text(
-                row.state.label(LocalContext.current),
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-    }
+    ListItem(
+        modifier = Modifier.clickable { onOpen(row.rank) },
+        leadingContent = { JapaneseText(text = row.character, fontSize = 32.sp) },
+        headlineContent = {
+            Text(if (language == "en") row.meaningEn else row.meaningRu)
+        },
+        supportingContent = {
+            Text(row.state.label(LocalContext.current))
+        },
+    )
 }
 
 @Composable
@@ -141,12 +116,12 @@ fun KanjiDetailScreen(rank: Int, onBack: () -> Unit) {
     )
     val detail = viewModel.detail
     if (detail == null) {
-        Scaffold { padding ->
-            Text(
-                "Hitomoji",
-                modifier = Modifier.padding(padding).padding(24.dp),
-                style = MaterialTheme.typography.headlineMedium,
-            )
+        Scaffold(
+            topBar = { HitomojiTopBar(title = "", onUp = onBack) },
+        ) { padding ->
+            Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator()
+            }
         }
     } else {
         ReadOnlyKanjiScreen(card = detail.card, onBack = onBack)

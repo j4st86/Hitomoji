@@ -5,8 +5,9 @@
     <string name="home">На главную</string>
     <string name="catalog">Каталог</string>
     <string name="about">О приложении</string>
-    <string name="new_today">Новых сегодня: %1$d</string>
-    <string name="reviews_today">Повторов: %1$d</string>
+    <string name="tab_home">Главная</string>
+    <string name="new_today">Новых сегодня</string>
+    <string name="reviews_today">Повторов</string>
     <string name="start_session">Начать занятие</string>
     <string name="done_for_today">На сегодня всё</string>
     <string name="show_translation">Показать перевод</string>
@@ -22,12 +23,21 @@
     <string name="widget_mode_new">новый</string>
     <string name="widget_mode_review">повтор</string>
     <string name="widget_mode_done">на сегодня всё</string>
+    <string name="widget_mode_waiting">ещё нет</string>
     <string name="widget_square_label">Hitomoji, квадрат</string>
     <string name="widget_wide_label">Hitomoji, широкий</string>
     <string name="widget_large_label">Hitomoji, большой</string>
-    <string name="widget_square_description">Крупный иероглиф дня</string>
-    <string name="widget_wide_description">Иероглиф и подпись: новый, повтор или на сегодня всё</string>
+    <string name="widget_square_description">Иероглиф, который вы уже оценивали</string>
+    <string name="widget_wide_description">Оценённый иероглиф и подпись</string>
     <string name="widget_large_description">Иероглиф и японское предложение, без перевода</string>
+    <string name="widget_circle_label">Hitomoji, круг</string>
+    <string name="widget_cookie_label">Hitomoji, мягкий квадрат</string>
+    <string name="widget_arch_label">Hitomoji, арка</string>
+    <string name="widget_clover_label">Hitomoji, клевер</string>
+    <string name="widget_circle_description">Оценённый иероглиф в круге</string>
+    <string name="widget_cookie_description">Оценённый иероглиф в мягком квадрате</string>
+    <string name="widget_arch_description">Оценённый иероглиф в арке</string>
+    <string name="widget_clover_description">Оценённый иероглиф в клевере</string>
     <string name="language">Язык</string>
     <string name="dictionary_language">Язык словаря</string>
     <string name="language_russian">Русский</string>
@@ -38,7 +48,7 @@
     <string name="update_available">Доступна версия %1$s</string>
     <string name="update_failed">Не удалось проверить обновления</string>
     <string name="open_release">Открыть страницу релиза</string>
-    <string name="about_summary">Hitomoji — офлайн-тренажёр японских кандзи. Каждый календарный день вводится один новый иероглиф из пятисот самых частых. Повторы приходят отдельно, по тому, как вы вспомнили знак.</string>
+    <string name="about_summary">Hitomoji — офлайн-тренажёр японских кандзи. В один календарный день можно выучить до пяти новых иероглифов из пятисот самых частых. Пропущенные дни не добавляют ещё одну пятёрку. Повторы приходят отдельно, по тому, как вы вспомнили знак.</string>
     <string name="about_sources">Иероглифы, чтения и число черт взяты из KANJIDIC2. Русские значения — перевод английских глосс KANJIDIC2. Эти глоссы восходят к JMdict, поэтому в данных есть производное от JMdict. Примеры предложений написаны для Hitomoji.</string>
     <string name="about_license">KANJIDIC2 и JMdict, Electronic Dictionary Research and Development Group. Лицензия CC BY-SA 4.0.</string>
 </resources>

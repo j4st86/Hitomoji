@@ -2,15 +2,18 @@ package app.hitomoji.ui.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
@@ -21,6 +24,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import app.hitomoji.ui.AppTab
+import app.hitomoji.ui.HitomojiNavigationBar
+import app.hitomoji.ui.HitomojiTopBar
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.ViewModel
@@ -62,8 +68,7 @@ class HomeViewModel(
 @Composable
 fun HomeScreen(
     onStart: (Int) -> Unit,
-    onCatalog: () -> Unit,
-    onAbout: () -> Unit,
+    onSelectTab: (AppTab) -> Unit,
 ) {
     val app = LocalContext.current.applicationContext as HitomojiApp
     val viewModel: HomeViewModel = viewModel(factory = HomeViewModel.factory(app.container.repository))
@@ -76,49 +81,76 @@ fun HomeScreen(
         onDispose { lifecycle.removeObserver(observer) }
     }
     val snapshot = viewModel.snapshot
-    Scaffold { padding ->
+    Scaffold(
+        topBar = { HitomojiTopBar(title = "Hitomoji") },
+        bottomBar = { HitomojiNavigationBar(AppTab.Home, onSelectTab) },
+    ) { padding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .padding(horizontal = 32.dp, vertical = 24.dp),
+                .padding(horizontal = 16.dp),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Text(
-                text = "Hitomoji",
-                style = MaterialTheme.typography.displayMedium,
-                textAlign = TextAlign.Center,
-            )
-            Spacer(Modifier.height(36.dp))
-            Text(
-                text = stringResource(R.string.new_today, snapshot.newCount),
-                style = MaterialTheme.typography.titleLarge,
-                textAlign = TextAlign.Center,
-            )
-            Spacer(Modifier.height(8.dp))
-            Text(
-                text = stringResource(R.string.reviews_today, snapshot.reviewCount),
-                style = MaterialTheme.typography.titleLarge,
-                textAlign = TextAlign.Center,
-            )
-            Spacer(Modifier.height(40.dp))
-            val startRank = snapshot.startRank
-            if (startRank != null) {
-                Button(onClick = { onStart(startRank) }) {
-                    Text(stringResource(R.string.start_session))
+            if (!viewModel.ready) {
+                CircularProgressIndicator()
+            } else {
+                Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    StatCard(
+                        value = snapshot.newCount,
+                        label = stringResource(R.string.new_today),
+                        modifier = Modifier.weight(1f),
+                    )
+                    StatCard(
+                        value = snapshot.reviewCount,
+                        label = stringResource(R.string.reviews_today),
+                        modifier = Modifier.weight(1f),
+                    )
                 }
-            } else if (viewModel.ready) {
-                Text(
-                    text = stringResource(R.string.done_for_today),
-                    style = MaterialTheme.typography.headlineSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    textAlign = TextAlign.Center,
-                )
+                Spacer(Modifier.height(24.dp))
+                val startRank = snapshot.startRank
+                if (startRank != null) {
+                    Button(
+                        onClick = { onStart(startRank) },
+                        modifier = Modifier.fillMaxWidth(),
+                    ) {
+                        Text(stringResource(R.string.start_session))
+                    }
+                } else {
+                    Text(
+                        text = stringResource(R.string.done_for_today),
+                        style = MaterialTheme.typography.headlineSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        textAlign = TextAlign.Center,
+                    )
+                }
             }
-            Spacer(Modifier.height(48.dp))
-            TextButton(onClick = onCatalog) { Text(stringResource(R.string.catalog)) }
-            TextButton(onClick = onAbout) { Text(stringResource(R.string.about)) }
+        }
+    }
+}
+
+@Composable
+private fun StatCard(value: Int, label: String, modifier: Modifier) {
+    Surface(
+        modifier = modifier,
+        shape = MaterialTheme.shapes.large,
+        color = MaterialTheme.colorScheme.surfaceContainerLow,
+    ) {
+        Column(
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Text(
+                text = value.toString(),
+                style = MaterialTheme.typography.displaySmall,
+            )
+            Text(
+                text = label,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
         }
     }
 }

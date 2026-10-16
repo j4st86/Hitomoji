@@ -18,6 +18,7 @@ import app.hitomoji.ui.catalog.CatalogScreen
 import app.hitomoji.ui.catalog.KanjiDetailScreen
 import app.hitomoji.ui.home.HomeScreen
 import app.hitomoji.ui.study.StudyScreen
+import androidx.navigation.NavHostController
 import kotlinx.coroutines.flow.StateFlow
 
 @Composable
@@ -43,8 +44,7 @@ fun HitomojiNav(navSignals: StateFlow<Int>) {
                 onStart = { rank ->
                     navController.navigate(StudyRoute(rank, gradingAllowed = true))
                 },
-                onCatalog = { navController.navigate(CatalogRoute) },
-                onAbout = { navController.navigate(AboutRoute) },
+                onSelectTab = { tab -> selectTab(navController, tab) },
             )
         }
         composable<StudyRoute> { entry ->
@@ -55,12 +55,13 @@ fun HitomojiNav(navSignals: StateFlow<Int>) {
                 onFinishedHome = {
                     navController.popBackStack(HomeRoute, inclusive = false)
                 },
+                onUp = { navController.popBackStack() },
             )
         }
         composable<CatalogRoute> {
             CatalogScreen(
-                onBack = { navController.popBackStack() },
                 onOpen = { rank -> navController.navigate(KanjiViewRoute(rank)) },
+                onSelectTab = { tab -> selectTab(navController, tab) },
             )
         }
         composable<KanjiViewRoute> { entry ->
@@ -68,8 +69,21 @@ fun HitomojiNav(navSignals: StateFlow<Int>) {
             KanjiDetailScreen(rank = route.rank, onBack = { navController.popBackStack() })
         }
         composable<AboutRoute> {
-            AboutScreen(onBack = { navController.popBackStack() })
+            AboutScreen(onSelectTab = { tab -> selectTab(navController, tab) })
         }
+    }
+}
+
+private fun selectTab(navController: NavHostController, tab: AppTab) {
+    val route = when (tab) {
+        AppTab.Home -> HomeRoute
+        AppTab.Catalog -> CatalogRoute
+        AppTab.About -> AboutRoute
+    }
+    navController.navigate(route) {
+        popUpTo(HomeRoute) { saveState = true }
+        launchSingleTop = true
+        restoreState = true
     }
 }
 

@@ -69,6 +69,54 @@
         </receiver>
 
         <receiver
+            android:name=".widget.CircleWidgetReceiver"
+            android:exported="true"
+            android:label="@string/widget_circle_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_circle" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.CookieWidgetReceiver"
+            android:exported="true"
+            android:label="@string/widget_cookie_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_cookie" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.ArchWidgetReceiver"
+            android:exported="true"
+            android:label="@string/widget_arch_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_arch" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.CloverWidgetReceiver"
+            android:exported="true"
+            android:label="@string/widget_clover_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_clover" />
+        </receiver>
+
+        <receiver
             android:name=".widget.DayChangeReceiver"
             android:exported="true">
             <intent-filter>

@@ -14,7 +14,7 @@ import app.hitomoji.domain.WidgetSelection
 import app.hitomoji.domain.applyGrade
 import app.hitomoji.domain.buildSession
 import app.hitomoji.domain.chooseDailyNew
-import app.hitomoji.domain.widgetSelection
+import app.hitomoji.domain.pickGradedWidget
 import java.time.Instant
 import java.time.LocalDate
 import kotlinx.coroutines.flow.Flow
@@ -82,26 +82,33 @@ class HitomojiRepository(
 
     suspend fun homeSnapshot(today: LocalDate): HomeSnapshot {
         ensureSeeded()
-        val newRank = resolveToday(today)
-        val queue = queue(today, newRank)
-        val fresh = queue.firstOrNull()?.let { it.state == CardState.NEW && it.dueDate == null } == true
+        resolveToday(today)
+        val queue = queue(today)
+        val freshCount = queue.count { it.state == CardState.NEW && it.dueDate == null }
         return HomeSnapshot(
-            newCount = if (fresh) 1 else 0,
-            reviewCount = queue.count { !(it.state == CardState.NEW && it.dueDate == null) },
+            newCount = freshCount,
+            reviewCount = queue.size - freshCount,
             startRank = queue.firstOrNull()?.rank,
         )
     }
 
     suspend fun session(today: LocalDate, startRank: Int): SessionSnapshot {
         ensureSeeded()
-        val newRank = resolveToday(today)
-        val queue = queue(today, newRank)
-        val cards = queue.mapNotNull { progress ->
+        resolveToday(today)
+        val cards = database.progressDao().all().map { it.toCard() }
+        val queue = buildSession(today, cards)
+        val ordered = if (queue.any { it.rank == startRank }) {
+            queue
+        } else {
+            val extra = cards.firstOrNull { it.rank == startRank }
+            if (extra == null) queue else listOf(extra) + queue
+        }
+        val studyCards = ordered.mapNotNull { progress ->
             val kanji = database.kanjiDao().get(progress.rank) ?: return@mapNotNull null
             kanji.toStudyCard()
         }
-        val index = cards.indexOfFirst { it.rank == startRank }.let { if (it >= 0) it else 0 }
-        return SessionSnapshot(cards = cards, startIndex = index)
+        val index = studyCards.indexOfFirst { it.rank == startRank }.let { if (it >= 0) it else 0 }
+        return SessionSnapshot(cards = studyCards, startIndex = index)
     }
 
     suspend fun grade(rank: Int, grade: Grade, today: LocalDate, reviewedAt: Instant) {
@@ -146,15 +153,8 @@ class HitomojiRepository(
 
     suspend fun widgetModel(today: LocalDate): WidgetModel {
         ensureSeeded()
-        val newRank = resolveToday(today)
-        val queue = queue(today, newRank)
-        val stored = dailyStore.read()
-        val selection = widgetSelection(queue, stored.lastShownRank)
-        return selection.toModel()
-    }
-
-    suspend fun setLastShown(rank: Int) {
-        dailyStore.writeLastShown(rank)
+        val cards = database.progressDao().all().map { it.toCard() }
+        return pickGradedWidget(cards, today).toModel()
     }
 
     fun dictionaryLanguage(fallback: String): Flow<String> = dailyStore.dictionaryLanguage(fallback)
@@ -163,35 +163,35 @@ class HitomojiRepository(
         dailyStore.writeDictionaryLanguage(language)
     }
 
-    private suspend fun resolveToday(today: LocalDate): Int? {
-        return gate.withLock {
-            val stored = dailyStore.read()
+    private suspend fun resolveToday(today: LocalDate) {
+        gate.withLock {
             val progress = database.progressDao().all()
             val introduced = progress.mapNotNull { row ->
                 row.introducedOn?.let { date -> row.kanjiRank to LocalDate.parse(date) }
             }.toMap()
+            val waiting = progress
+                .filter { row ->
+                    row.introducedOn != null &&
+                        row.dueDate == null &&
+                        row.state == CardState.NEW.name
+                }
+                .map { it.kanjiRank }
+                .toSet()
             val decision = chooseDailyNew(
                 today = today,
-                storedDate = stored.date,
-                storedRank = stored.rank,
                 introducedOn = introduced,
+                waitingRanks = waiting,
                 catalogRanks = progress.map { it.kanjiRank }.toSet(),
             )
-            if (decision.markIntroduced && decision.rank != null) {
-                database.progressDao().markIntroducedIfEmpty(decision.rank, today.toString())
-            } else if (decision.rank != null) {
-                database.progressDao().markIntroducedIfEmpty(decision.rank, today.toString())
+            for (rank in decision.introduce) {
+                database.progressDao().markIntroducedIfEmpty(rank, today.toString())
             }
-            if (stored.date != decision.persistDate || stored.rank != decision.persistRank) {
-                dailyStore.writeDaily(decision.persistDate, decision.persistRank)
-            }
-            decision.rank
         }
     }
 
-    private suspend fun queue(today: LocalDate, newRank: Int?): List<SrsCard> {
+    private suspend fun queue(today: LocalDate): List<SrsCard> {
         val cards = database.progressDao().all().map { it.toCard() }
-        return buildSession(today, cards, newRank)
+        return buildSession(today, cards)
     }
 
     private suspend fun WidgetSelection.toModel(): WidgetModel {

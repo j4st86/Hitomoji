@@ -141,7 +141,7 @@ private fun WidgetFace(context: Context, shape: WidgetShape, model: WidgetModel)
                     style = kanjiStyle(kanjiSize.sp, GlanceTheme.colors.onSurface),
                     maxLines = 1,
                 )
-                if (model.mode == WidgetMode.DONE) {
+                if (model.mode == WidgetMode.DONE || model.mode == WidgetMode.WAITING) {
                     Text(
                         text = model.mode.label(context),
                         style = captionStyle(captionSize.sp),
@@ -159,7 +159,7 @@ private fun WidgetFace(context: Context, shape: WidgetShape, model: WidgetModel)
     }
 }
 
-private fun kanjiStyle(size: androidx.compose.ui.unit.TextUnit, color: ColorProvider) = TextStyle(
+internal fun kanjiStyle(size: androidx.compose.ui.unit.TextUnit, color: ColorProvider) = TextStyle(
     color = color,
     fontSize = size,
     textAlign = TextAlign.Center,
@@ -172,8 +172,10 @@ private fun captionStyle(size: androidx.compose.ui.unit.TextUnit) = TextStyle(
     textAlign = TextAlign.Center,
 )
 
-private fun widgetIntent(context: Context, model: WidgetModel): Intent {
-    val openStudy = model.mode != WidgetMode.DONE && model.rank != null
+internal fun widgetIntent(context: Context, model: WidgetModel): Intent {
+    val openStudy = model.rank != null &&
+        model.mode != WidgetMode.DONE &&
+        model.mode != WidgetMode.WAITING
     val path = if (openStudy) "study/${model.rank}" else "home"
     return Intent(context, MainActivity::class.java).apply {
         flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP
