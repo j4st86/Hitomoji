@@ -3,21 +3,27 @@ package app.hitomoji.ui.catalog
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import app.hitomoji.ui.AppTab
 import app.hitomoji.ui.HitomojiNavigationBar
@@ -42,12 +48,26 @@ class CatalogViewModel(
 ) : ViewModel() {
     var rows by mutableStateOf<List<CatalogRow>>(emptyList())
         private set
+    var loading by mutableStateOf(false)
+        private set
 
-    init {
-        viewModelScope.launch { rows = repository.catalog() }
+    private var finished = false
+
+    fun loadNext() {
+        if (loading || finished) return
+        loading = true
+        val offset = rows.size
+        viewModelScope.launch {
+            val page = repository.catalogPage(offset, PAGE_SIZE)
+            if (page.isEmpty() || page.size < PAGE_SIZE) finished = true
+            if (page.isNotEmpty()) rows = rows + page
+            loading = false
+        }
     }
 
     companion object {
+        private const val PAGE_SIZE = 40
+
         fun factory(repository: HitomojiRepository) = object : ViewModelProvider.Factory {
             @Suppress("UNCHECKED_CAST")
             override fun <T : ViewModel> create(modelClass: Class<T>): T = CatalogViewModel(repository) as T
@@ -81,13 +101,46 @@ fun CatalogScreen(onOpen: (Int) -> Unit, onSelectTab: (AppTab) -> Unit) {
     val language = rememberDictionaryLanguage()
     val app = LocalContext.current.applicationContext as HitomojiApp
     val viewModel: CatalogViewModel = viewModel(factory = CatalogViewModel.factory(app.container.repository))
+    val listState = rememberLazyListState()
+    val rows = viewModel.rows
+    val nearEnd by remember {
+        derivedStateOf {
+            val loaded = viewModel.rows
+            if (loaded.isEmpty()) return@derivedStateOf true
+            val last = listState.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: return@derivedStateOf false
+            last >= loaded.lastIndex - 12
+        }
+    }
+    LaunchedEffect(nearEnd, rows.size) {
+        if (nearEnd) viewModel.loadNext()
+    }
     Scaffold(
         topBar = { HitomojiTopBar(title = stringResource(R.string.catalog)) },
         bottomBar = { HitomojiNavigationBar(AppTab.Catalog, onSelectTab) },
     ) { padding ->
-        LazyColumn(modifier = Modifier.fillMaxSize(), contentPadding = padding) {
-            items(viewModel.rows, key = { it.rank }) { row ->
-                CatalogRowItem(row, language, onOpen)
+        if (rows.isEmpty()) {
+            Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator()
+            }
+        } else {
+            LazyColumn(
+                modifier = Modifier.fillMaxSize(),
+                state = listState,
+                contentPadding = padding,
+            ) {
+                items(rows, key = { it.rank }) { row ->
+                    CatalogRowItem(row, language, onOpen)
+                }
+                if (viewModel.loading) {
+                    item(key = "loading") {
+                        Box(
+                            Modifier.fillMaxWidth().padding(16.dp),
+                            contentAlignment = Alignment.Center,
+                        ) {
+                            CircularProgressIndicator()
+                        }
+                    }
+                }
             }
         }
     }

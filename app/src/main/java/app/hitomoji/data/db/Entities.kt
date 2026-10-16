@@ -19,6 +19,12 @@ data class KanjiEntity(
     val reviewNeeded: Boolean,
 )
 
+@Entity(tableName = "dictionary_meta")
+data class DictionaryMetaEntity(
+    @PrimaryKey val id: Int = 1,
+    val contentHash: String,
+)
+
 @Entity(tableName = "progress")
 data class ProgressEntity(
     @PrimaryKey val kanjiRank: Int,

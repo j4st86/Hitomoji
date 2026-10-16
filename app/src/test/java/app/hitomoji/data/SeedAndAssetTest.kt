@@ -61,6 +61,41 @@ class SeedAndAssetTest {
     }
 
     @Test
+    fun secondEnsureSeededKeepsDatabaseEdits() = runBlocking {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        val db = Room.inMemoryDatabaseBuilder(context, HitomojiDatabase::class.java)
+            .allowMainThreadQueries()
+            .build()
+        val repository = HitomojiRepository(
+            context = context,
+            database = db,
+            dailyStore = DailyStore(context),
+            seeder = DictionarySeeder(db),
+        )
+        repository.ensureSeeded()
+        val edited = db.kanjiDao().get(1)!!.copy(sentenceRu = "правка в базе")
+        db.kanjiDao().upsertAll(listOf(edited))
+        db.progressDao().saveReview(
+            rank = 1,
+            state = "RELEARNING",
+            ease = 1.4,
+            intervalDays = 1,
+            repetitions = 0,
+            lapses = 2,
+            dueDate = "2026-10-16",
+            lastReviewedAt = 99L,
+        )
+        repository.ensureSeeded()
+        assertEquals("правка в базе", db.kanjiDao().get(1)!!.sentenceRu)
+        val progress = db.progressDao().get(1)!!
+        assertEquals("RELEARNING", progress.state)
+        assertEquals(1.4, progress.ease, 0.001)
+        assertEquals(99L, progress.lastReviewedAt)
+        assertTrue(db.dictionaryMetaDao().contentHash() != null)
+        db.close()
+    }
+
+    @Test
     fun openingFromCatalogDoesNotWriteProgress() = runBlocking {
         val context = ApplicationProvider.getApplicationContext<Context>()
         val db = Room.inMemoryDatabaseBuilder(context, HitomojiDatabase::class.java)
@@ -78,7 +113,14 @@ class SeedAndAssetTest {
         val introducedBefore = before.getValue(target).introducedOn
         val dueBefore = before.getValue(target).dueDate
         repository.detail(target)
-        repository.catalog()
+        var loaded = 0
+        while (loaded < 500) {
+            val page = repository.catalogPage(loaded, 40)
+            assertTrue(page.isNotEmpty())
+            loaded += page.size
+        }
+        assertEquals(500, loaded)
+        assertTrue(repository.catalogPage(loaded, 40).isEmpty())
         val after = db.progressDao().get(target)!!
         assertEquals(introducedBefore, after.introducedOn)
         assertEquals(dueBefore, after.dueDate)
