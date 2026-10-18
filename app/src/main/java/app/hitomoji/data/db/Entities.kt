@@ -36,4 +36,6 @@ data class ProgressEntity(
     val dueDate: String?,
     val introducedOn: String?,
     val lastReviewedAt: Long?,
+    val stability: Double = 0.0,
+    val difficulty: Double = 0.0,
 )

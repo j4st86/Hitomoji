@@ -4,108 +4,63 @@ import java.time.LocalDate
 import java.time.temporal.ChronoUnit
 
 /**
- * Schedules the next review.
+ * Schedules the next review with FSRS-6.
  *
- * When the base interval is at least 7 days, it is shifted by about ±5 percent.
- * The shift is a deterministic function of [SrsCard.rank] and the pre-shift due
- * date: three buckets, minus, none, or plus. The same input always yields the
- * same due date. The due date is never earlier than tomorrow.
+ * A card graded before this scheduler is converted from its ease and interval
+ * on the next grade. When the base interval is at least 7 days, it is shifted
+ * by about ±5 percent. The shift is a deterministic function of [SrsCard.rank]
+ * and the pre-shift due date. The due date is never earlier than tomorrow.
  */
 fun applyGrade(card: SrsCard, grade: Grade, today: LocalDate): SrsCard {
-    val mature = card.repetitions > 0 && card.intervalDays > 0
-    val ease = adjustEase(card.ease, 0)
-    val scheduled = if (!mature) {
-        scheduleLearning(card, grade, today, ease)
+    val prepared = card.withFsrsMemory()
+    val rating = grade.fsrsRating()
+    val elapsed = elapsedDays(prepared, today)
+    val stability: Double
+    val difficulty: Double
+    if (prepared.stability <= 0.0) {
+        stability = Fsrs.initialStability(rating)
+        difficulty = Fsrs.initialDifficulty(rating)
+    } else if (elapsed < 1) {
+        stability = Fsrs.shortTermStability(prepared.stability, rating)
+        difficulty = Fsrs.nextDifficulty(prepared.difficulty, rating)
     } else {
-        scheduleMature(card, grade, today, ease)
+        val recall = Fsrs.retrievability(elapsed, prepared.stability)
+        stability = Fsrs.nextStability(prepared.difficulty, prepared.stability, recall, rating)
+        difficulty = Fsrs.nextDifficulty(prepared.difficulty, rating)
     }
+    val baseInterval = Fsrs.scheduledInterval(stability)
+    val anchor = today.plusDays(baseInterval.toLong())
+    val fuzzed = fuzzedInterval(baseInterval, prepared.rank, anchor).coerceAtLeast(1)
     val earliest = today.plusDays(1)
-    val due = if (scheduled.dueDate != null && scheduled.dueDate.isBefore(earliest)) {
-        earliest
-    } else {
-        scheduled.dueDate
+    val due = today.plusDays(fuzzed.toLong()).let { candidate ->
+        if (candidate.isBefore(earliest)) earliest else candidate
     }
-    val interval = if (due == null) {
-        scheduled.intervalDays
-    } else {
-        ChronoUnit.DAYS.between(today, due).toInt()
-    }
-    return scheduled.copy(dueDate = due, intervalDays = interval.coerceAtLeast(1))
-}
-
-private fun scheduleLearning(
-    card: SrsCard,
-    grade: Grade,
-    today: LocalDate,
-    ease: Double,
-): SrsCard {
-    return when (grade) {
-        Grade.AGAIN -> card.copy(
-            state = CardState.RELEARNING,
-            ease = adjustEase(ease, -20),
-            intervalDays = 1,
-            repetitions = 0,
-            lapses = card.lapses + 1,
-            dueDate = today.plusDays(1),
-        )
-        Grade.HARD -> card.copy(
-            state = CardState.REVIEW,
-            ease = adjustEase(ease, -15),
-            intervalDays = 2,
-            repetitions = 0,
-            dueDate = today.plusDays(2),
-        )
-        Grade.GOOD -> card.copy(
-            state = CardState.REVIEW,
-            ease = ease,
-            intervalDays = 4,
-            repetitions = 1,
-            dueDate = today.plusDays(4),
-        )
-    }
-}
-
-private fun scheduleMature(
-    card: SrsCard,
-    grade: Grade,
-    today: LocalDate,
-    ease: Double,
-): SrsCard {
-    return when (grade) {
-        Grade.AGAIN -> scheduleLearning(card, Grade.AGAIN, today, ease)
-        Grade.HARD -> {
-            val grown = maxOf(card.intervalDays + 1, roundMulDiv(card.intervalDays, 6, 5))
-            finishMature(card, today, baseInterval = grown, ease = adjustEase(ease, -15), repetitions = card.repetitions)
-        }
-        Grade.GOOD -> {
-            val grown = roundIntervalTimesEase(card.intervalDays, ease).coerceAtLeast(1)
-            finishMature(card, today, baseInterval = grown, ease = ease, repetitions = card.repetitions + 1)
-        }
-    }
-}
-
-private fun finishMature(
-    card: SrsCard,
-    today: LocalDate,
-    baseInterval: Int,
-    ease: Double,
-    repetitions: Int,
-): SrsCard {
-    val safeBase = baseInterval.coerceAtLeast(1)
-    val anchor = today.plusDays(safeBase.toLong())
-    val interval = fuzzedInterval(safeBase, card.rank, anchor)
-    return card.copy(
-        state = CardState.REVIEW,
-        ease = ease,
+    val interval = ChronoUnit.DAYS.between(today, due).toInt().coerceAtLeast(1)
+    val failed = grade == Grade.AGAIN
+    return prepared.copy(
+        state = if (failed) CardState.RELEARNING else CardState.REVIEW,
         intervalDays = interval,
-        repetitions = repetitions,
-        dueDate = today.plusDays(interval.toLong()),
+        repetitions = if (failed) prepared.repetitions else prepared.repetitions + 1,
+        lapses = prepared.lapses + if (failed) 1 else 0,
+        dueDate = due,
+        stability = stability,
+        difficulty = difficulty,
     )
 }
 
-internal fun roundIntervalTimesEase(interval: Int, ease: Double): Int {
-    val cents = easeToCents(ease)
-    return ((interval.toLong() * cents + 50) / 100).toInt()
+/** Fills stability and difficulty for a card that was scheduled by the old ease multiplier. */
+fun SrsCard.withFsrsMemory(): SrsCard {
+    if (stability > 0.0) return this
+    if (!wasGraded() || intervalDays <= 0) return this
+    val (stability, difficulty) = Fsrs.memoryFromSm2(ease, intervalDays.toDouble())
+    return copy(stability = stability, difficulty = difficulty)
+}
+
+private fun elapsedDays(card: SrsCard, today: LocalDate): Int {
+    val due = card.dueDate ?: return 0
+    if (card.intervalDays <= 0) return 0
+    val lastReview = due.minusDays(card.intervalDays.toLong())
+    return ChronoUnit.DAYS.between(lastReview, today).toInt().coerceAtLeast(0)
 }
 
 /**

@@ -5,7 +5,8 @@ import java.time.LocalDate
 /**
  * Today's session: introduced kanji that have not been graded yet, in rank order,
  * then reviews due today or earlier.
- * Reviews are ordered by relearning, earlier due date, lower ease, then lower rank.
+ * Reviews are ordered by relearning, earlier due date, higher difficulty, then lower rank.
+ * Cards that still only have the old ease multiplier sort by that ease instead.
  */
 fun buildSession(
     today: LocalDate,
@@ -27,6 +28,6 @@ fun buildSession(
 private val reviewOrder = compareBy<SrsCard>(
     { if (it.state == CardState.RELEARNING) 0 else 1 },
     { it.dueDate },
-    { it.ease },
+    { if (it.stability > 0.0) -it.difficulty else it.ease },
     { it.rank },
 )

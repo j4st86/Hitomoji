@@ -10,10 +10,15 @@ fun SrsCard.wasGraded(): Boolean {
 
 /**
  * Higher weight means the kanji is shown more often.
- * Weak ease, lapses, relearning, a short interval, and an overdue date all add weight.
+ * High difficulty, lapses, relearning, a short interval, and an overdue date all add weight.
+ * A card that has not been converted to FSRS still uses its old ease multiplier.
  */
 fun recallWeight(card: SrsCard, today: LocalDate): Int {
-    val easePenalty = (EASE_CEILING_CENTS - easeToCents(card.ease)).coerceAtLeast(0)
+    val memoryPenalty = if (card.stability > 0.0) {
+        ((card.difficulty - 1.0) * 16.0).toInt().coerceIn(0, 144)
+    } else {
+        (EASE_CEILING_CENTS - easeToCents(card.ease)).coerceAtLeast(0)
+    }
     val lapsePenalty = card.lapses.coerceAtMost(8) * 20
     val statePenalty = if (card.state == CardState.RELEARNING) 80 else 0
     val intervalPenalty = when {
@@ -26,7 +31,7 @@ fun recallWeight(card: SrsCard, today: LocalDate): Int {
         if (due.isAfter(today)) 0
         else ChronoUnit.DAYS.between(due, today).toInt().coerceIn(0, 30) * 4
     } ?: 0
-    return easePenalty + lapsePenalty + statePenalty + intervalPenalty + overdue + 10
+    return memoryPenalty + lapsePenalty + statePenalty + intervalPenalty + overdue + 10
 }
 
 /**

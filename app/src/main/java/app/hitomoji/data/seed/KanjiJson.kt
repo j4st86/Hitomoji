@@ -52,4 +52,6 @@ fun KanjiJson.toFreshProgress(): ProgressEntity = ProgressEntity(
     dueDate = null,
     introducedOn = null,
     lastReviewedAt = null,
+    stability = 0.0,
+    difficulty = 0.0,
 )

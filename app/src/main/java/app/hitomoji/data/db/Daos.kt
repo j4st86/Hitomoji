@@ -73,7 +73,9 @@ interface ProgressDao {
             repetitions = :repetitions,
             lapses = :lapses,
             dueDate = :dueDate,
-            lastReviewedAt = :lastReviewedAt
+            lastReviewedAt = :lastReviewedAt,
+            stability = :stability,
+            difficulty = :difficulty
         WHERE kanjiRank = :rank
         """,
     )
@@ -86,6 +88,8 @@ interface ProgressDao {
         lapses: Int,
         dueDate: String?,
         lastReviewedAt: Long?,
+        stability: Double,
+        difficulty: Double,
     )
 
     @Query(

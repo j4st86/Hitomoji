@@ -15,6 +15,7 @@ import app.hitomoji.domain.applyGrade
 import app.hitomoji.domain.buildSession
 import app.hitomoji.domain.chooseDailyNew
 import app.hitomoji.domain.pickGradedWidget
+import app.hitomoji.domain.withFsrsMemory
 import java.time.Instant
 import java.time.LocalDate
 import app.hitomoji.data.db.CatalogSlice
@@ -147,6 +148,8 @@ class HitomojiRepository(
                 lapses = updated.lapses,
                 dueDate = updated.dueDate?.toString(),
                 lastReviewedAt = reviewedAt.toEpochMilli(),
+                stability = updated.stability,
+                difficulty = updated.difficulty,
             )
             cachedWidget = null
         }
@@ -247,7 +250,9 @@ private fun ProgressEntity.toCard(): SrsCard = SrsCard(
     lapses = lapses,
     dueDate = dueDate?.let { LocalDate.parse(it) },
     introducedOn = introducedOn?.let { LocalDate.parse(it) },
-)
+    stability = stability,
+    difficulty = difficulty,
+).withFsrsMemory()
 
 private fun CatalogSlice.toCatalogRow(): CatalogRow = CatalogRow(
     rank = rank,

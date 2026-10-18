@@ -23,6 +23,8 @@ data class SrsCard(
     val lapses: Int,
     val dueDate: LocalDate?,
     val introducedOn: LocalDate?,
+    val stability: Double = 0.0,
+    val difficulty: Double = 0.0,
 )
 
 enum class WidgetMode {

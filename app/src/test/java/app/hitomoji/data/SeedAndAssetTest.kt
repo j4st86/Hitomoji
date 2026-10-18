@@ -38,6 +38,8 @@ class SeedAndAssetTest {
             lapses = 3,
             dueDate = "2026-10-16",
             lastReviewedAt = 123L,
+            stability = 0.0,
+            difficulty = 0.0,
         )
         db.progressDao().markIntroducedIfEmpty(1, "2026-10-15")
 
@@ -84,6 +86,8 @@ class SeedAndAssetTest {
             lapses = 2,
             dueDate = "2026-10-16",
             lastReviewedAt = 99L,
+            stability = 0.0,
+            difficulty = 0.0,
         )
         repository.ensureSeeded()
         assertEquals("правка в базе", db.kanjiDao().get(1)!!.sentenceRu)

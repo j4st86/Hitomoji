@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
     entities = [KanjiEntity::class, ProgressEntity::class, DictionaryMetaEntity::class],
-    version = 3,
+    version = 4,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -27,7 +27,7 @@ abstract class HitomojiDatabase : RoomDatabase() {
                 context.applicationContext,
                 HitomojiDatabase::class.java,
                 "hitomoji.db",
-            ).addMigrations(MIGRATION_1_2, MIGRATION_2_3).build()
+            ).addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4).build()
         }
     }
 }
@@ -36,6 +36,13 @@ private val MIGRATION_1_2 = object : Migration(1, 2) {
     override fun migrate(db: SupportSQLiteDatabase) {
         db.execSQL("ALTER TABLE kanji ADD COLUMN meaningsEn TEXT NOT NULL DEFAULT '[]'")
         db.execSQL("ALTER TABLE kanji ADD COLUMN sentenceEn TEXT NOT NULL DEFAULT ''")
+    }
+}
+
+private val MIGRATION_3_4 = object : Migration(3, 4) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL("ALTER TABLE progress ADD COLUMN stability REAL NOT NULL DEFAULT 0")
+        db.execSQL("ALTER TABLE progress ADD COLUMN difficulty REAL NOT NULL DEFAULT 0")
     }
 }
 
